@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,135 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.nav-dropdown-open{
+  transform:translateY(0%)
+}
+
+.nav-area a:not(.button){
+  transition:.4s ease-out
+}
+
+.nav-area a:not(.button):hover{
+  color:#eb1a59
+}
+
+.nav-area .hamburger{
+  display:none
+}
+
+@media(max-width: 1024px){
+  .nav-area ul{
+    position:fixed;
+    top:40px;
+    bottom:0;
+    width:100%;
+    height:100vh;
+    overflow:auto;
+    width:360px;
+    right:0;
+    background-color:#fff;
+    padding:40px 0 30px;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    transform:translateX(100%);
+    transition:.4s ease-out
+  }
+
+  .nav-area ul li{
+    margin:0;
+    width:100%
+  }
+
+  .nav-area ul li a:not(.button){
+    font-size:16px;
+    display:block;
+    padding:12px 16px;
+    border-bottom:1px solid #f7f7f2
+  }
+
+  .nav-area ul li.button-wrapper{
+    flex:1;
+    display:flex;
+    align-items:flex-end;
+    padding:0 20px 90px
+  }
+
+  .nav-area ul li.button-wrapper a{
+    width:100%
+  }
+
+  .nav-area .hamburger{
+    display:flex;
+    flex-direction:column;
+    gap:3px;
+    width:32px;
+    height:32px;
+    padding:7px;
+    margin-left:auto
+  }
+
+  .nav-area .hamburger span{
+    width:100%;
+    height:3px;
+    border-radius:30px;
+    background-color:#fff;
+    transition:.3s ease-out
+  }
+
+  .nav-area .hamburger.active span:nth-child(1){
+    transform:rotate(45deg) translate(6px, 1px)
+  }
+
+  .nav-area .hamburger.active span:nth-child(2){
+    transform:scale(0)
+  }
+
+  .nav-area .hamburger.active span:nth-child(3){
+    transform:rotate(-45deg) translate(7px, -3px);
+    width:100%
+  }
+
+  .nav-area.nav-open ul{
+    transform:translateX(0);
+    background-color:#0c084a
+  }
+}
+
+@media(max-width: 520px){
+  .nav-area ul{
+    width:100%
+  }
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition:.4s ease-out;
+}
+
+.button div .button-content-hover{
+  position:absolute;
+  inset:0;
+  transform:translateY(100%) skewY(18deg);
+  transform-origin:left center;
+  transition:.4s ease-out
+}
+
+.button div .button-content{
+  transform:translateY(0) skew(0);
+  transition:.4s ease-out;
+  display:inline-block
+}
+
+.button:hover div .button-content-hover{
+  transform:translateY(0%) skewY(0)
+}
+
+.button:hover div .button-content{
+  opacity:0;
+  transform:translateY(-100%) skew(-18deg);
+  transition:.4s ease-out
 }
