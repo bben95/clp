@@ -146,3 +146,6 @@ code {
   transform:translateY(-100%) skew(-18deg);
   transition:.4s ease-out
 }
+.App{
+  display: block;
+}
