@@ -689,6 +689,14 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(235 26 89 / var(--tw-bg-opacity));
 }
+.bg-primary2 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 20 65 / var(--tw-bg-opacity));
+}
+.bg-primary3 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(10 94 73 / var(--tw-bg-opacity));
+}
 
 .bg-secondary {
   --tw-bg-opacity: 1;
