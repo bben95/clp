@@ -14,6 +14,7 @@ import Hero8 from './sectionComponents/hero/hero8';
 import Hero9 from './sectionComponents/hero/hero9';
 import Hero10 from './sectionComponents/hero/hero10';
 import Hero11 from './sectionComponents/hero/hero11';
+import Hero12 from './sectionComponents/hero/hero12';
 function App() {
   return (
     <div className="App">
@@ -31,6 +32,7 @@ function App() {
       <Hero9/>
       <Hero10/>
       <Hero11/>
+      <Hero12/>
     </div>
   );
 }

@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
-
-
+import av1 from '../../asset/avatar-1.webp';
+import av2 from '../../asset/avatar-2.webp';
+import av3 from '../../asset/avatar-3.webp';
+import av4 from '../../asset/avatar-4.webp';
+import heroB2 from '../../asset/4star-rating.svg';
+import stars from '../../asset/stars-icon.svg';
+import hero from '../../asset/hero-img.webp';
 function Hero5() {
     const [open,setOpen]=useState(false)
 
@@ -16,16 +21,16 @@ function Hero5() {
         <div class="grid md:grid-cols-2 gap-4 items-start">
           <div class="hero-content relative z-30 text-center md:text-left">
             <div class="light-tag mb-4">
-              <img src="img/stars-icon.svg" alt="" />
+              <img src={stars} alt="" />
               Improve your online presence
             </div>
 
             <h1
-              class="text-[36px] lg:text-[64px] font-semibold leading-[110%] tracking-[-1px] text-white mb-3"
-            >
-              Drive Business Excellence with a
-              <span class="text-lightyellow">Skilled Coach</span>
-            </h1>
+                class="text-[36px] lg:text-[60px] font-semibold leading-[110%] tracking-[-1px] text-white mb-3"
+              >
+               Drive Business Excellence with a
+                <span class="text-lightyellow">Skilled Coach</span>
+              </h1>
             <p class="text-white mb-5">
               Discover the power of expert guidance and strategic insights as
               our online business coach empowers you to elevate your
@@ -37,9 +42,9 @@ function Hero5() {
               Explore courses
             </a>
 
-            <div class="pt-4 flex gap-3 justify-center md:justify-normal">
-              <div class="flex flex-col items-center">
-                <div class="flex gap-1">
+            <div class="pt-4 flex gap-3 md:justify-normal">
+              <div class="flex flex-col items-left">
+                <div class="flex">
                   <h4 class="text-white text-[26px] font-semibold">15k</h4>
 
                   <div class="flex stacked-avatars">
@@ -47,7 +52,7 @@ function Hero5() {
                       class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
                     >
                       <img
-                        src="img/avatar-1.webp"
+                        src={av1}
                         class="w-full h-full object-cover"
                         alt=""
                       />
@@ -56,7 +61,7 @@ function Hero5() {
                       class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
                     >
                       <img
-                        src="img/avatar-2.webp"
+                        src={av2}
                         class="w-full h-full object-cover"
                         alt=""
                       />
@@ -65,7 +70,7 @@ function Hero5() {
                       class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
                     >
                       <img
-                        src="img/avatar-3.webp"
+                        src={av3}
                         class="w-full h-full object-cover"
                         alt=""
                       />
@@ -74,7 +79,7 @@ function Hero5() {
                       class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
                     >
                       <img
-                        src="img/avatar-4.webp"
+                        src={av4}
                         class="w-full h-full object-cover"
                         alt=""
                       />
@@ -95,20 +100,9 @@ function Hero5() {
                 <div class="flex gap-1 items-center">
                   <h4 class="text-white text-[26px] font-semibold">4.3</h4>
 
-                  <div class="flex gap-[4px]">
-                    <div class="">
-                      <img src="img/star.svg" alt="" />
-                    </div>
-                    <div class="">
-                      <img src="img/star.svg" alt="" />
-                    </div>
-                    <div class="">
-                      <img src="img/star.svg" alt="" />
-                    </div>
-                    <div class="">
-                      <img src="img/star.svg" alt="" />
-                    </div>
-                  </div>
+                  <div class="flex gap-[2px]">
+                  <img src={heroB2} alt="" />
+                </div>
                 </div>
 
                 <p class="opacity-80 text-white mb-0 mt-1">Average ratings</p>
@@ -126,7 +120,7 @@ function Hero5() {
               <img src="img/puzzle-piece-green.svg" alt="" />
             </div>
             <div class="relative z-10">
-              <img src="img/hero-img.webp" class="rounded-xl w-full" alt="" />
+              <img src={hero} class="rounded-xl w-full" alt="" />
             </div>
           </div>
         </div>

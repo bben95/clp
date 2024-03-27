@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
-
+import heroBg from '../../asset/group.png';
+import heroB2 from '../../asset/4star-rating.svg';
+import heroB3 from '../../asset/hero-influencer-mweb.webp';
+import heroB4 from '../../asset/hero-influencer.webp';
 
 function Hero1() {
     const [open,setOpen]=useState(false)
@@ -48,12 +51,11 @@ function Hero1() {
                     15k
                   </div>
                   <img
-                    src="img/rigi/group.png"
+                    src={heroBg}
                     alt="group"
                     width="90"
                     height="26"
                     loading="lazy"
-                    class="hidden md:block"
                   />
                 </div>
                 <p
@@ -62,12 +64,12 @@ function Hero1() {
                   Satisfied learners
                 </p>
                 <img
-                  src="img/rigi/group.png"
+                  src={heroBg}
                   alt="group"
                   width="90"
                   height="26"
                   loading="lazy"
-                  class="md:hidden block mx-auto"
+                  class="hidden md:block"
                 />
               </div>
               <div class="pl-[26px]">
@@ -78,7 +80,7 @@ function Hero1() {
                     4.3
                   </div>
                   <img
-                    src="img/rigi/4star-rating.svg"
+                    src={heroB2}
                     alt="4star-rating"
                     width="90"
                     height="26"
@@ -92,12 +94,11 @@ function Hero1() {
                   Average ratings
                 </p>
                 <img
-                  src="img/rigi/4star-rating.svg"
+                  src={heroB2}
                   alt="4star-rating"
                   width="90"
                   height="26"
                   loading="lazy"
-                  class="md:hidden block mx-auto"
                 />
               </div>
             </div>
@@ -105,12 +106,12 @@ function Hero1() {
               <picture>
                 <source
                   media="(min-width:768px)"
-                  srcset="img/rigi/hero-influencer.webp"
+                  srcset={heroB3}
                   width="1030"
                   height="526"
                 />
                 <img
-                  src="img/rigi/hero-influencer-mweb.webp"
+                  src={heroB4}
                   width="343"
                   height="255"
                   class="mx-auto"

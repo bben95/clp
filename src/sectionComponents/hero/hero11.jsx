@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import heroBg from '../../asset/hero-bg.webp';
 
 function Hero11() {
     const [open,setOpen]=useState(false)
@@ -11,7 +11,7 @@ function Hero11() {
     <main>
     <section class="hero-section pt-[150px] pb-5 lg:pb-[200px] lg:pt-[160px] overflow-hidden relative z-[2]">
       <div class="absolute top-0 left-0 bottom-0 h-full w-full">
-        <img class="h-full" src="asset/11/hero-bg.webp" alt="" />
+      <img className="h-full" src={heroBg} alt="" />
       </div>
       <div class="container relative">
         <div class="flex lg:flex-row flex-col items-center">

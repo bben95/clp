@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
-
-
+import heroBg from '../../asset/group.png';
+import heroB2 from '../../asset/4star-rating.svg';
+import heroB3 from '../../asset/arrow-right.svg';
+import heroB4 from '../../asset/hero-banner.jpg';
 function Hero4() {
     const [open,setOpen]=useState(false)
 
@@ -12,7 +14,7 @@ function Hero4() {
      <section class="bg-primary2 lg:pt-[80px] lg:pb-[128px] pt-4 pb-5 hero-section">
       <div class="container flex sm:flex-row flex-col sm:gap-[30px] lg:gap-0">
         <div class="lg:w-[60%] w-full lg:pr-[135px]">
-          <h1 class="px-[12px] lg:px-0">
+          <h1 class="text-[40px] md:text-60 font-semibold px-[12px] lg:px-0">
             Masterclass for Ambitious Individuals to Excel in Networking
           </h1>
           <h6 class="lg:mt-4 lg:mb-5 mt-2 mb-3 text-white/50 text-center sm:text-start lg:text-18 text-16 font-supreme">
@@ -23,11 +25,11 @@ function Hero4() {
             class="bg-purple whitespace-nowrap lg:w-fit  justify-center w-full font-supreme font-bold flex gap-1 items-center text-white lg:mb-6 mb-4 lg:py-[20px] py-2 lg:px-[130px]  rounded-[60px] uppercase"
           >
             Join Waitlist
-            <img src="img/arrow-right.svg" alt=""/>
+            <img src={heroB3} alt=""/>
           </button>
           <div class="flex  items-start">
             <div class="flex lg:flex-row flex-col">
-              <img src="img/learners.png" alt="" class="mr-[12px]" />
+              <img src={heroBg} alt="" class="mr-[12px]" />
               <div class="mt-1 lg:mt-0">
                 <h6 class="text-white font-bold text-start text-18">45,000+</h6>
                 <span class="text-white/30 font-supreme font-medium text-14 ">Students Worldwide</span>
@@ -39,18 +41,14 @@ function Hero4() {
                 4.6+ <span class="text-white/30 font-supreme font-medium text-14 ml-[5px]">(12,421 ratings)</span>
               </h6>
               <div class="flex gap-[2px]">
-                <img src="img/star.svg" alt="" />
-                <img src="img/star.svg" alt="" />
-                <img src="img/star.svg" alt="" />
-                <img src="img/star.svg" alt="" />
-                <img src="img/half-star.svg" alt="" />
+                <img src={heroB2} alt="" />
               </div>
             </div>
           </div>
         </div>
         <div class="lg:w-[40%] w-full z-10 mt-[40px] sm:mt-0 h-full">
           <img
-            src="img/hero-banner.jpg"
+            src={heroB4}
             alt=""
             class="rounded-[24px] sm:h-full object-cover h-[293px] w-full"
           />
