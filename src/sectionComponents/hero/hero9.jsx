@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
-
-
+import vid from '../../asset/hero-video.mp4';
+import stack1 from '../../asset/stack1-img.png';
+import stack2 from '../../asset/stack2-img.png';
+import stack3 from '../../asset/stack3-img.png';
+import stack4 from '../../asset/stack4-img.png';
+import heroB2 from '../../asset/4star-rating.svg';
 function Hero9() {
     const [open,setOpen]=useState(false)
 
@@ -13,9 +17,9 @@ function Hero9() {
         class="hero-section pt-[220px] pb-5 lg:pb-[200px] lg:pt-[250px] overflow-hidden relative z-[2]"
       >
         <div class="absolute top-0 left-0 bottom-0 h-full w-full">
-          <video autoplay muted loop playsinline class="w-full">
-            <source src="img/premium/hero-video.mp4" type="video/mp4" />
-          </video>
+        <video autoplay muted loop playsinline>
+        <source src={vid} type="video/mp4" />
+        </video>
           <div class="absolute inset-0 bg-[#000000]/50"></div>
         </div>
         <div class="container relative">
@@ -68,32 +72,40 @@ function Hero9() {
                   >
                     Satisfied learners
                   </div>
-                  <div class="stacked-avatars lg:ml-[10px]">
-                    <div>
+                  <div class="flex stacked-avatars">
+                    <div
+                      class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
+                    >
                       <img
-                        class="w-[28px] h-[28px]"
-                        src="img/premium/stack1-img.png"
+                        src={stack1}
+                        class="w-full h-full object-cover"
                         alt=""
                       />
                     </div>
-                    <div>
+                    <div
+                      class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
+                    >
                       <img
-                        class="w-[28px] h-[28px]"
-                        src="img/premium/stack2-img.png"
+                        src={stack2}
+                        class="w-full h-full object-cover"
                         alt=""
                       />
                     </div>
-                    <div>
+                    <div
+                      class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
+                    >
                       <img
-                        class="w-[28px] h-[28px]"
-                        src="img/premium/stack3-img.png"
+                        src={stack3}
+                        class="w-full h-full object-cover"
                         alt=""
                       />
                     </div>
-                    <div>
+                    <div
+                      class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
+                    >
                       <img
-                        class="w-[28px] h-[28px]"
-                        src="img/premium/stack4-img.png"
+                        src={stack4}
+                        class="w-full h-full object-cover"
                         alt=""
                       />
                     </div>
@@ -121,7 +133,7 @@ function Hero9() {
                     Average ratings
                   </div>
                   <div class="lg:ml-[10px]">
-                    <img src="img/premium/4stars.svg" alt="" />
+                    <img src={heroB2} alt="" />
                   </div>
                 </div>
                 <div

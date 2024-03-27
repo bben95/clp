@@ -1,6 +1,15 @@
 import React, { useState } from 'react';
-
-
+import heroBg from '../../asset/group.png';
+import hl from '../../asset/hero-left-image.png';
+import hlm from '../../asset/hero-img-left-mobile.png';
+import hr from '../../asset/hero-right-img.png';
+import hrm from '../../asset/hero-img-right-mobile.png';
+import ar from '../../asset/arrow-right.svg';
+import travel from '../../asset/travel.jpg';
+import vid from '../../asset/video-icon.svg';
+import youtube from '../../asset/youtube.svg';
+import instagram from '../../asset/instagram.svg';
+import twitter from '../../asset/twitter.svg';
 function Hero8() {
     const [open,setOpen]=useState(false)
 
@@ -12,11 +21,11 @@ function Hero8() {
       <section class="lg:py-[100px] py-[47px] overflow-hidden hero-section">
         <div class="container relative">
           <img
-              src="img/hero-left-image.png"
+              src={hl}
               alt=""
-              class="absolute top-[-3%] left-[4%] hidden md:block z-10"
+              class="absolute top-[-3%] left-[4%]  md:block z-10"
             />
-          <img src="img/hero-img-left-mobile.png" class="absolute left-[-12%] top-[-5%] sm:left-[-4%] sm:top-[-12%] block md:hidden z-10"/>
+          <img src={hlm} class="absolute left-[-12%] top-[-5%] sm:left-[-4%] sm:top-[-12%] block md:hidden z-10"/>
           <div class="flex flex-col justify-center items-center">
             <h1 class="font-newSpirit lg:max-w-[809px] sm:max-w-[550px] text-center font-normal md:text-[64px] text-[36px]">
               Your Passport to
@@ -31,11 +40,11 @@ function Hero8() {
             <button
               class="bg-secondary lg:py-2 py-[12px] px-[37px] rounded-full text-white font-ibmPlexSans md:text-18 lg:mt-[46px] mt-[40px] flex">
               Lets get started
-              <img src="img/arrow-right.svg" alt="" class="ml-[10px]" />
+              <img src={ar} alt="" class="ml-[10px]" />
             </button>
             <div class="flex flex-col lg:flex-row gap-[25px] lg:gap-0 items-center mt-4">
               <div class="flex gap-[2px]">
-                <img src="img/learners.png" alt="" />
+                <img src={heroBg} alt="" />
                 <div class="ml-[12px]">
                   <h6 class="text-18 font-bold">5M+</h6>
                   <span class="text-14 mt-1 whitespace-nowrap">Satisfied Customers
@@ -58,14 +67,14 @@ function Hero8() {
             </div>
           </div>
           <img
-              src="img/hero-right-img.png"
+              src={hr}
               alt=""
-              class="absolute top-[-11%] right-[-4%] hidden lg:block"
+              class="absolute top-[-11%] right-[-4%] lg:block"
             />
-          <img src="img/hero-img-right-mobile.png" alt="" class="absolute top-[-4%] sm:top-[-10%] right-[-10%] sm:right-[-2%] block lg:hidden"/>
+          <img src={hrm} alt="" class="absolute top-[-4%] sm:top-[-10%] right-[-10%] sm:right-[-2%] block lg:hidden"/>
           <div class="relative lg:mt-[80px] mt-[40px]">
-            <img src="img/travel.jpg" alt="" class="rounded-3xl h-[520px] lg:h-auto" />
-            <img src="img/video-icon.svg" class="absolute lg:top-[50%] lg:right-[25%] right-[50%] top-[20%] translate-x-[50%] transform lg:translate-y-[-50%] lg:w-[72px] lg:h-[72px] h-[40px] w-[40px]"/>
+            <img src={travel} alt="" class="rounded-3xl h-[520px] lg:h-auto" />
+            <img src={vid} class="absolute lg:top-[50%] lg:right-[25%] right-[50%] top-[20%] translate-x-[50%] transform lg:translate-y-[-50%] lg:w-[72px] lg:h-[72px] h-[40px] w-[40px]"/>
           </div>
           <div class="">
             <div
@@ -86,7 +95,7 @@ function Hero8() {
                       2.01M
                     </h4>
                     <div class="flex gap-1">
-                      <img src="img/youtube.svg" alt="" />
+                      <img src={youtube} alt="" />
                       <span class="lg:text-14 text-12 font-ibmPlexSans leading-[21px]">Subscribers</span>
                     </div>
                   </div>
@@ -98,7 +107,7 @@ function Hero8() {
                       3.01M
                     </h4>
                     <div class="flex gap-1">
-                      <img src="img/instagram.svg" alt="" />
+                      <img src={instagram} alt="" />
                       <span class="lg:text-14 text-12 font-ibmPlexSans leading-[21px]">Followers
                       </span>
                     </div>
@@ -111,7 +120,7 @@ function Hero8() {
                       433K
                     </h4>
                     <div class="flex gap-1">
-                      <img src="img/twitter.svg" alt="" />
+                      <img src={twitter} alt="" />
                       <span class="lg:text-14 text-12 font-ibmPlexSans leading-[21px]">Followers
                       </span>
                     </div>

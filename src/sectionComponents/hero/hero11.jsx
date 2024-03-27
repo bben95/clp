@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import heroBg from '../../asset/hero-bg.webp';
-
+import stack1 from '../../asset/stack1-img.png';
+import stack2 from '../../asset/stack2-img.png';
+import stack3 from '../../asset/stack3-img.png';
+import stack4 from '../../asset/stack4-img.png';
+import h2 from '../../asset/hero-2.webp';
 function Hero11() {
     const [open,setOpen]=useState(false)
 
@@ -43,36 +47,44 @@ function Hero11() {
 
             <div class="flex items-center text-white">
               <div class="flex items-center">
-                <div class="stacked-avatars mr-1 lg:mr-[12px]">
-                  <div>
-                    <img
-                      class="w-[24px] h-[24px] lg:w-5 lg:h-5"
-                      src="img/exhibitionist/stack1-img.png"
-                      alt=""
-                    />
+                <div class="flex stacked-avatars mr-1 lg:mr-[12px]">
+                    <div
+                      class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
+                    >
+                      <img
+                        src={stack1}
+                        class="w-full h-full object-cover"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
+                    >
+                      <img
+                        src={stack2}
+                        class="w-full h-full object-cover"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
+                    >
+                      <img
+                        src={stack3}
+                        class="w-full h-full object-cover"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
+                    >
+                      <img
+                        src={stack4}
+                        class="w-full h-full object-cover"
+                        alt=""
+                      />
+                    </div>
                   </div>
-                  <div>
-                    <img
-                      class="w-[24px] h-[24px] lg:w-5 lg:h-5"
-                      src="img/exhibitionist/stack2-img.png"
-                      alt=""
-                    />
-                  </div>
-                  <div>
-                    <img
-                      class="w-[24px] h-[24px] lg:w-5 lg:h-5"
-                      src="img/exhibitionist/stack3-img.png"
-                      alt=""
-                    />
-                  </div>
-                  <div>
-                    <img
-                      class="w-[24px] h-[24px] lg:w-5 lg:h-5"
-                      src="img/exhibitionist/stack4-img.png"
-                      alt=""
-                    />
-                  </div>
-                </div>
                 <div class="flex flex-col">
                   <div class="text-14 lg:text-18 font-bold font-manrope">
                     45,000+
@@ -108,7 +120,7 @@ function Hero11() {
             <div class="md:max-w-[520px] lg:ml-auto">
               <img
                 class="w-full"
-                src="img/exhibitionist/hero-img.webp"
+                src={h2}
                 alt=""
               />
             </div>

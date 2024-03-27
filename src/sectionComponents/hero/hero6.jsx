@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
-
-
+import hero from '../../asset/hero-6.webp';
+import av1 from '../../asset/avatar-1.webp';
+import av2 from '../../asset/avatar-2.webp';
+import av3 from '../../asset/avatar-3.webp';
+import av4 from '../../asset/avatar-4.webp';
+import star from '../../asset/star-4-6.svg';
 function Hero6() {
     const [open,setOpen]=useState(false)
 
@@ -16,7 +20,7 @@ function Hero6() {
         <div class="flex md:flex-row flex-col gap-5 lg:gap-2 items-center">
           <div class="w-full lg:w-[55%] hero-content relative z-30 text-left">
             <h1
-              class="text-[40px] lg:text-[72px] md:max-w-[670px] font-melodrama font-semibold leading-[110%] tracking-[-1px] text-white md:mb-3 mb-2"
+              class="text-[40px] lg:text-[64px] md:max-w-[670px] font-melodrama font-semibold leading-[110%] tracking-[-1px] text-white md:mb-3 mb-2"
             >
               Turn Your Knowledge Into A Super-
               <span class="text-primary">Profitable Business</span>
@@ -50,7 +54,7 @@ function Hero6() {
             </div>
             <div class="relative z-10">
               <img
-                src="img/premium/hero-img.webp"
+                src={hero}
                 class="rounded-xl w-full"
                 alt=""
               />
@@ -60,39 +64,39 @@ function Hero6() {
             >
               <div class="flex gap-[12px] items-center">
                 <div class="flex gap-1">
-                  <div class="flex stacked-avatars">
+                <div class="flex stacked-avatars">
                     <div
-                      class="border-2 border-primary rounded-full w-[40px] lg:w-[48px] h-[40px] lg:h-[48px] overflow-hidden"
+                      class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
                     >
                       <img
-                        src="img/premium/avatar-1.webp"
+                        src={av1}
                         class="w-full h-full object-cover"
                         alt=""
                       />
                     </div>
                     <div
-                      class="border-2 border-primary rounded-full w-[40px] lg:w-[48px] h-[40px] lg:h-[48px] overflow-hidden"
+                      class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
                     >
                       <img
-                        src="img/premium/avatar-2.webp"
+                        src={av2}
                         class="w-full h-full object-cover"
                         alt=""
                       />
                     </div>
                     <div
-                      class="border-2 border-primary rounded-full w-[40px] lg:w-[48px] h-[40px] lg:h-[48px] overflow-hidden"
+                      class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
                     >
                       <img
-                        src="img/premium/avatar-3.webp"
+                        src={av3}
                         class="w-full h-full object-cover"
                         alt=""
                       />
                     </div>
                     <div
-                      class="border-2 border-primary rounded-full w-[40px] lg:w-[48px] h-[40px] lg:h-[48px] overflow-hidden"
+                      class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
                     >
                       <img
-                        src="img/premium/avatar-4.webp"
+                        src={av4}
                         class="w-full h-full object-cover"
                         alt=""
                       />
@@ -121,7 +125,7 @@ function Hero6() {
                   <p class="text-white/50 mb-0 text-12 lg:text-14">Reviews</p>
                 </div>
                 <div class="w-[76px] lg:w-fit">
-                  <img src="img/premium/star-4-6.svg" alt="4.6 Ratings" />
+                  <img src={star} alt="4.6 Ratings" />
                 </div>
               </div>
             </div>

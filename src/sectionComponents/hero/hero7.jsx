@@ -1,6 +1,12 @@
 import React, { useState } from 'react';
-
-
+import vid from '../../asset/hero-video.mp4';
+import round from '../../asset/round-text.png';
+import play from '../../asset/hero-play.svg';
+import stack1 from '../../asset/stack1-img.png';
+import stack2 from '../../asset/stack2-img.png';
+import stack3 from '../../asset/stack3-img.png';
+import stack4 from '../../asset/stack4-img.png';
+import heroB2 from '../../asset/4star-rating.svg';
 function Hero7() {
     const [open,setOpen]=useState(false)
 
@@ -14,7 +20,7 @@ function Hero7() {
 >
   <div class="absolute top-0 left-0 bottom-0 h-full">
     <video autoplay muted loop playsinline>
-      <source src="img/feminine/hero-video.mp4" type="video/mp4" />
+      <source src={vid} type="video/mp4" />
     </video>
     <div class="absolute inset-0 bg-[#000000]/50"></div>
   </div>
@@ -77,7 +83,7 @@ function Hero7() {
           </a>
         </div>
         <div
-          class="flex items-center text-white mb-3 lg:justify-normal justify-center"
+          class="flex items-center text-white mb-3 lg:justify-normal "
         >
           <div class="flex flex-col">
             <div class="flex items-center lg:flex-row flex-col">
@@ -91,36 +97,44 @@ function Hero7() {
               >
                 Satisfied learners
               </div>
-              <div class="stacked-avatars lg:ml-[10px]">
-                <div>
-                  <img
-                    class="w-[28px] h-[28px]"
-                    src="img/feminine/stack1-img.png"
-                    alt=""
-                  />
-                </div>
-                <div>
-                  <img
-                    class="w-[28px] h-[28px]"
-                    src="img/feminine/stack2-img.png"
-                    alt=""
-                  />
-                </div>
-                <div>
-                  <img
-                    class="w-[28px] h-[28px]"
-                    src="img/feminine/stack3-img.png"
-                    alt=""
-                  />
-                </div>
-                <div>
-                  <img
-                    class="w-[28px] h-[28px]"
-                    src="img/feminine/stack4-img.png"
-                    alt=""
-                  />
-                </div>
-              </div>
+              <div class="flex stacked-avatars">
+                    <div
+                      class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
+                    >
+                      <img
+                        src={stack1}
+                        class="w-full h-full object-cover"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
+                    >
+                      <img
+                        src={stack2}
+                        class="w-full h-full object-cover"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
+                    >
+                      <img
+                        src={stack3}
+                        class="w-full h-full object-cover"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
+                    >
+                      <img
+                        src={stack4}
+                        class="w-full h-full object-cover"
+                        alt=""
+                      />
+                    </div>
+                  </div>
             </div>
             <div
               class="text-16 leading-[1.37] opacity-80 mt-[10px] hidden lg:block"
@@ -144,7 +158,7 @@ function Hero7() {
                 Average ratings
               </div>
               <div class="lg:ml-[10px]">
-                <img src="img/feminine/4stars.svg" alt="" />
+                <img src={heroB2} alt="" />
               </div>
             </div>
             <div
@@ -159,14 +173,14 @@ function Hero7() {
         <div class="relative flex items-center justify-center">
           <img
             class="w-full rounded-text"
-            src="img/feminine/round-text.png"
+            src={round}
             alt=""
           />
           <a href="#!" class="absolute">
             <div class="relative ripple-effect">
               <img
                 class="relative z-[2]"
-                src="img/feminine/hero-play.svg"
+                src={play}
                 alt=""
               />
             </div>

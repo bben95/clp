@@ -1,5 +1,11 @@
 import React, { useState } from 'react';
 import heroBg from '../../asset/homepage-hero-bg.webp';
+import stack1 from '../../asset/stack1-img.png';
+import stack2 from '../../asset/stack2-img.png';
+import stack3 from '../../asset/stack3-img.png';
+import stack4 from '../../asset/stack4-img.png';
+import heroB2 from '../../asset/4star-rating.svg';
+import hs from '../../asset/hero-section.webp';
 
 function Hero12() {
     const [open,setOpen]=useState(false)
@@ -44,7 +50,7 @@ function Hero12() {
                       class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
                     >
                       <img
-                        src="img/avatar-1.webp"
+                        src={stack1}
                         class="w-full h-full object-cover"
                         alt=""
                       />
@@ -53,7 +59,7 @@ function Hero12() {
                       class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
                     >
                       <img
-                        src="img/avatar-2.webp"
+                        src={stack2}
                         class="w-full h-full object-cover"
                         alt=""
                       />
@@ -62,7 +68,7 @@ function Hero12() {
                       class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
                     >
                       <img
-                        src="img/avatar-3.webp"
+                        src={stack3}
                         class="w-full h-full object-cover"
                         alt=""
                       />
@@ -71,7 +77,7 @@ function Hero12() {
                       class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
                     >
                       <img
-                        src="img/avatar-4.webp"
+                        src={stack4}
                         class="w-full h-full object-cover"
                         alt=""
                       />
@@ -92,19 +98,8 @@ function Hero12() {
                 <div class="flex gap-1 items-center flex-wrap justify-center">
                   <h4 class="text-white text-[36px] font-semibold">4.3</h4>
 
-                  <div class="flex gap-[4px]">
-                    <div class="">
-                      <img src="img/star.svg" alt="" />
-                    </div>
-                    <div class="">
-                      <img src="img/star.svg" alt="" />
-                    </div>
-                    <div class="">
-                      <img src="img/star.svg" alt="" />
-                    </div>
-                    <div class="">
-                      <img src="img/star.svg" alt="" />
-                    </div>
+                  <div class="lg:ml-[10px]">
+                    <img src={heroB2} alt="" />
                   </div>
                 </div>
 
@@ -115,7 +110,7 @@ function Hero12() {
 
           <div>
             <div class="lg:w-[700px] lg:-translate-x-7">
-              <img src="img/hero-section.webp" class="w-full" alt="" />
+              <img src={hs} class="w-full" alt="" />
             </div>
           </div>
         </div>

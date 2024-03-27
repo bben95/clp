@@ -673,7 +673,51 @@ video {
 .justify-between {
   justify-content: space-between;
 }
+.ripple-effect{
+  display:flex;
+  align-items:center;
+  justify-content:center
+}
 
+.ripple-effect::before{
+  content:" ";
+  position:absolute;
+  z-index:1;
+  width:10px;
+  height:10px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(200 162 107 / var(--tw-bg-opacity));
+  border-radius:50%;
+  opacity:.75;
+  box-shadow:0 0 10px rgba(0,0,0,.3) inset;
+  transform-origin:top left;
+  animation:ripple 1s ease infinite normal;
+  transform-origin:center
+}
+
+@keyframes ripple{
+  0%{
+    opacity:.75;
+    transform:scale(0)
+  }
+
+  100%{
+    opacity:0;
+    transform:scale(15)
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:h-auto {
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:bottom-2 {
+    bottom: 16px;
+  }
+}
 .overflow-hidden {
   overflow: hidden;
 }
