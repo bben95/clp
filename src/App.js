@@ -1,4 +1,3 @@
-
 import './App.css';
 import NavBar1 from './sectionComponents/navBar/navBar1';
 import NavBar2 from './sectionComponents/navBar/navBar2';
@@ -15,6 +14,9 @@ import Hero9 from './sectionComponents/hero/hero9';
 import Hero10 from './sectionComponents/hero/hero10';
 import Hero11 from './sectionComponents/hero/hero11';
 import Hero12 from './sectionComponents/hero/hero12';
+import About1 from './sectionComponents/about/about1';
+import About2 from './sectionComponents/about/about2';
+import About3 from './sectionComponents/about/about3';
 function App() {
   return (
     <div className="App">
@@ -33,6 +35,9 @@ function App() {
       <Hero10/>
       <Hero11/>
       <Hero12/>
+      <About1/>
+      <About2/>
+      <About3/> 
     </div>
   );
 }
