@@ -1,4 +1,3 @@
-
 import './App.css';
 import FinalPage from './components/filnalPage';
 

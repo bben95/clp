@@ -534,7 +534,23 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
-
+.bg-beige {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 243 238 / var(--tw-bg-opacity));
+}
+.bg-olive\/20 {
+  background-color: rgb(84 128 136 / 0.2);
+}
+.text-olive {
+  --tw-text-opacity: 1;
+  color: rgb(84 128 136 / var(--tw-text-opacity));
+}
+.financial-future{
+  background-image:url(asset/finance-influencer-pattern.svg);
+  background-position:62% -5%;
+  background-repeat:no-repeat;
+  position:relative
+}
 .container {
   width: 100%;
   margin-right: auto;
