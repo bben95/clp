@@ -5,13 +5,9 @@ import youtube from '../../asset/youtube.svg';
 import twitter from '../../asset/twitter.svg';
 import instagram from '../../asset/instagram.svg';
 function About2() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
-    <main>
+   
     <section class="lg:py-[150px] py-[60px]" id="about">
       <div class="container">
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -61,7 +57,7 @@ function About2() {
 
       </div>
     </section>
-    </main>
+   
   );
 }
 
