@@ -8,9 +8,13 @@ import youtube from '../../asset/youtube.svg';
 import twitter from '../../asset/twitter.svg';
 import instagram from '../../asset/instagram.svg';
 function About1() {
+    const [open,setOpen]=useState(false)
 
+    const handleClick=()=>{
+    setOpen(!open);
+    }
   return (
-    
+    <main>
     <section class="pt-5 md:pt-[140px] pb-6 md:pb-[100px] scrollspy-section" id="about">
         <div class="container">
           <div class="flex justify-between md:flex-row flex-col-reverse">
@@ -207,7 +211,7 @@ function About1() {
           </div>
         </div>
       </section>
-    
+    </main>
   );
 }
 
