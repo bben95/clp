@@ -1,12 +1,19 @@
 import './App.css';
-import FinalPage from './components/filnalPage';
+import { Navbar } from './components/navbar';
+import { Sidenavbar } from './components/sidenavbar';
+
 
 
 
 function App() {
   return (
     <div className="App">
-    <FinalPage/>
+      <Navbar/>
+      <div className='flex'>
+     <Sidenavbar/>
+     
+     </div>
+
     </div>
   );
 }
