@@ -1,16 +1,4 @@
 import React from 'react'
-import Course1 from '../sectionComponents/course/course1'
-import Course2 from '../sectionComponents/course/course2'
-import Course3 from '../sectionComponents/course/course3'
-import Course4 from '../sectionComponents/course/course4'
-import Course6 from '../sectionComponents/course/course6'
-import Course5 from '../sectionComponents/course/course5'
-import Course7 from '../sectionComponents/course/course7'
-import Course8 from '../sectionComponents/course/course8'
-import Course9 from '../sectionComponents/course/course9'
-import Course10 from '../sectionComponents/course/course10'
-import Course11 from '../sectionComponents/course/course11'
-import Course12 from '../sectionComponents/course/course12'
 import More1 from '../sectionComponents/morecourse/more1'
 import More2 from '../sectionComponents/morecourse/more2'
 import More3 from '../sectionComponents/morecourse/more3'
@@ -20,9 +8,9 @@ import More6 from '../sectionComponents/morecourse/more6'
 import More7 from '../sectionComponents/morecourse/more7'
 import More8 from '../sectionComponents/morecourse/more8'
 
-export function Course(props) {
-    const components=[<Course1/>,<Course2/>,<Course3/>,<Course4/>,<Course5/>,<Course6/>,<Course7/>,<Course8/>,<Course9/>,<Course10/>,<Course11/>,<Course12/>]
+export function More(props) {
     
+   const components=[<More1/>,<More2/>,<More3/>,<More4/>,<More5/>,<More6/>,<More7/>,<More8/>]
 
     return (
         <>
