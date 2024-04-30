@@ -1,9 +1,16 @@
 import './App.css';
 import React from 'react';
-import { Navbar } from './components/navbar';
+import { NavBar } from './components/navbar';
 import { Sidenavbar } from './components/sidenavbar';
-import { BrowserRouter as Router, Route,} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import { About } from './pages/about';
+import { Hero } from './pages/hero';
+import { Course } from './pages/course';
+import { Navbar } from './pages/navbar';
+import { More } from './pages/more';
+import { Table } from './pages/table';
+import { Testimonial } from './pages/testimonial';
+import FinalPage from './pages/filnalPage';
 
 
 
@@ -11,10 +18,22 @@ import { About } from './pages/about';
 function App() {
   return (
     <div className="App" >
-      <Navbar/>
-      <div className='flex overflow-x-scroll h-[100vh]'>
+      <NavBar/>
+      <div className='flex'>
+
      <Sidenavbar/>
-      <About/>
+     
+     <Routes>
+     <Route   path="/" element={<Hero/>} />
+    <Route path="/about" element={<About/>} />
+    <Route path="/course" element={<Course/>} />
+    <Route path="/navbar" element={<Navbar/>} />
+    <Route path="/more" element={<More/>} />
+    <Route path="/table" element={<Table/>} />
+    <Route path="/testimonial" element={<Testimonial/>} />
+    <Route path="/final" element={<FinalPage/>} />
+     </Routes>
+     
      </div>
 
     </div>

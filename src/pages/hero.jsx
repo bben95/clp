@@ -20,7 +20,7 @@ export function Hero(props) {
         <>
         <fieldset>
 
-        <div className="space-y-2 flex flex-col mx-2 my-2">
+        <div className="space-y-2 flex flex-col mx-2 my-2 h-[100vh] overflow-scroll">
       
       {components.map((component) =><label
             htmlFor="Option1"

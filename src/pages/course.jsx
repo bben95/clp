@@ -11,14 +11,7 @@ import Course9 from '../sectionComponents/course/course9'
 import Course10 from '../sectionComponents/course/course10'
 import Course11 from '../sectionComponents/course/course11'
 import Course12 from '../sectionComponents/course/course12'
-import More1 from '../sectionComponents/morecourse/more1'
-import More2 from '../sectionComponents/morecourse/more2'
-import More3 from '../sectionComponents/morecourse/more3'
-import More4 from '../sectionComponents/morecourse/more4'
-import More5 from '../sectionComponents/morecourse/more5'
-import More6 from '../sectionComponents/morecourse/more6'
-import More7 from '../sectionComponents/morecourse/more7'
-import More8 from '../sectionComponents/morecourse/more8'
+
 
 export function Course(props) {
     const components=[<Course1/>,<Course2/>,<Course3/>,<Course4/>,<Course5/>,<Course6/>,<Course7/>,<Course8/>,<Course9/>,<Course10/>,<Course11/>,<Course12/>]
@@ -29,7 +22,7 @@ export function Course(props) {
 
         <fieldset>
         
-          <div className="space-y-2 flex flex-col mx-2 my-2">
+          <div className="space-y-2 flex flex-col mx-2 my-2 h-[100vh] overflow-scroll">
         
         {components.map((component) =><label
               htmlFor="Option1"
