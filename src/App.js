@@ -1,22 +1,20 @@
 import './App.css';
+import React from 'react';
 import { Navbar } from './components/navbar';
 import { Sidenavbar } from './components/sidenavbar';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route,} from 'react-router-dom';
+import { About } from './pages/about';
 
 
 
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" >
       <Navbar/>
-      <div className='flex'>
+      <div className='flex overflow-x-scroll h-[100vh]'>
      <Sidenavbar/>
-     {/* <Switch>
-    <Route exact path="/" component={Home} />
-    <Route path="/about" component={About} />
-    <Route path="/contact" component={Contact} />
-   </Switch> */}
+      <About/>
      </div>
 
     </div>
