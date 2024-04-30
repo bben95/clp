@@ -9,11 +9,11 @@ function More1() {
     }
   return (
     <main>
-      <section class="md:py-[60px] py-4">
-        <div class="container">
-          <div class="flex md:flex-row flex-col gap-3 md:gap-[56px]">
-            <div class="w-full md:w-1/2">
-              <h2 class="mb-3 text-base3 text-secondary md:hidden">
+      <section className="md:py-[60px] py-4">
+        <div className="container">
+          <div className="flex md:flex-row flex-col gap-3 md:gap-[56px]">
+            <div className="w-full md:w-1/2">
+              <h2 className="mb-3 text-base3 text-secondary md:hidden">
                 Why you should join this course
               </h2>
               <img
@@ -22,22 +22,22 @@ function More1() {
                 height="370"
                 loading="lazy"
                 alt="course1"
-                class="w-full"
+                className="w-full"
               />
             </div>
-            <div class="w-full md:w-1/2">
+            <div className="w-full md:w-1/2">
               <h2
-                class="mb-5 text-xl tracking-[-0.5px] text-secondary hidden md:block"
+                className="mb-5 text-xl tracking-[-0.5px] text-secondary hidden md:block"
               >
                 Why you should join this course
               </h2>
-              <div class="accordion">
-                <div class="accordion-item flex flex-col">
+              <div className="accordion">
+                <div className="accordion-item flex flex-col">
                   <div
-                    class="accordion-headers flex justify-between items-center"
+                    className="accordion-headers flex justify-between items-center"
                   >
                     <div
-                      class="text-base2.5 md:text-base3 text-secondary max-w-[310px] md:max-w-full"
+                      className="text-base2.5 md:text-base3 text-secondary max-w-[310px] md:max-w-full"
                     >
                       Get mentored by TOP industry folks
                     </div>
@@ -47,11 +47,11 @@ function More1() {
                       loading="lazy"
                       width="14"
                       height="8"
-                      class="arrow rotate-180"
+                      className="arrow rotate-180"
                     />
                   </div>
                   <p
-                    class="text-sm22 md:text-base text-secondary/80 dropdown-accordion"
+                    className="text-sm22 md:text-base text-secondary/80 dropdown-accordion"
                   >
                     Begin by understanding the fundamental principles of User
                     Interface (UI) and User Experience (UX) design. Learn about
@@ -60,13 +60,13 @@ function More1() {
                   </p>
                 </div>
                 <div
-                  class="accordion-item flex flex-col pt-3 md:pt-[28px] border-t border-b border-primary/[0.30]"
+                  className="accordion-item flex flex-col pt-3 md:pt-[28px] border-t border-b border-primary/[0.30]"
                 >
                   <div
-                    class="accordion-headers flex justify-between items-center"
+                    className="accordion-headers flex justify-between items-center"
                   >
                     <div
-                      class="text-base2.5 md:text-base3 text-secondary max-w-[310px] md:max-w-full"
+                      className="text-base2.5 md:text-base3 text-secondary max-w-[310px] md:max-w-full"
                     >
                       Life time access to premium community
                     </div>
@@ -76,22 +76,22 @@ function More1() {
                       loading="lazy"
                       width="14"
                       height="8"
-                      class="arrow"
+                      className="arrow"
                     />
                   </div>
-                  <p class="text-sm22 md:text-base text-secondary/80">
+                  <p className="text-sm22 md:text-base text-secondary/80">
                     Begin by understanding the fundamental principles of User
                     Interface (UI) and User Experience (UX) design. Learn about
                     user-centric design, visual hierarchy, color theory,
                     typography, and layout principles.
                   </p>
                 </div>
-                <div class="accordion-item flex flex-col pt-3 md:pt-[28px]">
+                <div className="accordion-item flex flex-col pt-3 md:pt-[28px]">
                   <div
-                    class="accordion-headers !pb-0 flex justify-between items-center"
+                    className="accordion-headers !pb-0 flex justify-between items-center"
                   >
                     <div
-                      class="text-base2.5 md:text-base3 text-secondary max-w-[310px] md:max-w-full"
+                      className="text-base2.5 md:text-base3 text-secondary max-w-[310px] md:max-w-full"
                     >
                       Find better opportunities for freelance and Jobs
                     </div>
@@ -101,10 +101,10 @@ function More1() {
                       loading="lazy"
                       width="14"
                       height="8"
-                      class="arrow"
+                      className="arrow"
                     />
                   </div>
-                  <p class="!mb-0 text-sm22 md:text-base text-secondary/80">
+                  <p className="!mb-0 text-sm22 md:text-base text-secondary/80">
                     Begin by understanding the fundamental principles of User
                     Interface (UI) and User Experience (UX) design. Learn about
                     user-centric design, visual hierarchy, color theory,

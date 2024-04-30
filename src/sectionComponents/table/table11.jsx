@@ -10,16 +10,16 @@ function Table8() {
     }
   return (
     <main>
-      <section class="py-5 lg:py-[80px] bg-white">
-        <div class="container text-black">
-          <div class="text-center">
+      <section className="py-5 lg:py-[80px] bg-white">
+        <div className="container text-black">
+          <div className="text-center">
             <div
-              class="text-heading-small lg:text-heading max-w-[505px] mx-auto"
+              className="text-heading-small lg:text-heading max-w-[505px] mx-auto"
             >
               Our Exclusive Learning Experience
             </div>
             <div
-              class="text-small lg:text-xl text-[#888888] max-w-[721px] mx-auto mt-2 lg:mt-3 mb-[40px] lg:mb-6"
+              className="text-small lg:text-xl text-[#888888] max-w-[721px] mx-auto mt-2 lg:mt-3 mb-[40px] lg:mb-6"
             >
               Embark on a transformative learning adventure. Discover new
               horizons, expand your skills, and shape your future with our
@@ -38,21 +38,21 @@ function Table8() {
                 <td>Instructor Quality</td>
                 <td>
                   <img
-                    class="mx-auto"
+                    className="mx-auto"
                     src={vp}
                     alt=""
                   />
                 </td>
                 <td>
                   <img
-                    class="mx-auto"
+                    className="mx-auto"
                     src={vf}
                     alt=""
                   />
                 </td>
                 <td>
                   <img
-                    class="mx-auto"
+                    className="mx-auto"
                     src={vp}
                     alt=""
                   />
@@ -62,21 +62,21 @@ function Table8() {
                 <td>Interactive Learning</td>
                 <td>
                   <img
-                    class="mx-auto"
+                    className="mx-auto"
                     src={vf}
                     alt=""
                   />
                 </td>
                 <td>
                   <img
-                    class="mx-auto"
+                    className="mx-auto"
                     src={vf}
                     alt=""
                   />
                 </td>
                 <td>
                   <img
-                    class="mx-auto"
+                    className="mx-auto"
                     src={vp}
                     alt=""
                   />
@@ -86,21 +86,21 @@ function Table8() {
                 <td>Accredited Certificates</td>
                 <td>
                   <img
-                    class="mx-auto"
+                    className="mx-auto"
                     src={vf}
                     alt=""
                   />
                 </td>
                 <td>
                   <img
-                    class="mx-auto"
+                    className="mx-auto"
                     src={vp}
                     alt=""
                   />
                 </td>
                 <td>
                   <img
-                    class="mx-auto"
+                    className="mx-auto"
                     src={vp}
                     alt=""
                   />
@@ -110,21 +110,21 @@ function Table8() {
                 <td>Competitive Pricing (INR)</td>
                 <td>
                   <img
-                    class="mx-auto"
+                    className="mx-auto"
                     src={vf}
                     alt=""
                   />
                 </td>
                 <td>
                   <img
-                    class="mx-auto"
+                    className="mx-auto"
                     src={vp}
                     alt=""
                   />
                 </td>
                 <td>
                   <img
-                    class="mx-auto"
+                    className="mx-auto"
                     src={vp}
                     alt=""
                   />
@@ -134,21 +134,21 @@ function Table8() {
                 <td>Money-Back Guarantee</td>
                 <td>
                   <img
-                    class="mx-auto"
+                    className="mx-auto"
                     src={vp}
                     alt=""
                   />
                 </td>
                 <td>
                   <img
-                    class="mx-auto"
+                    className="mx-auto"
                     src={vf}
                     alt=""
                   />
                 </td>
-                <td class="last-cell">
+                <td className="last-cell">
                   <img
-                    class="mx-auto"
+                    className="mx-auto"
                     src={vp}
                     alt=""
                   />

@@ -15,26 +15,26 @@ function More3() {
   return (
     <main>
     <section
-        class="bg-secondary py-5 md:py-[120px] scrollspy-section"
-        id="masterclass"
+        className="bg-secondary py-5 md:py-[120px] scrollspy-section"
+        id="masterclassName"
       >
-        <div class="container text-white">
+        <div className="container text-white">
           <h2
-            class="text-xl font-bold md:text-4.8xl text-center text-white mb-2"
+            className="text-xl font-bold md:text-4.8xl text-center text-white mb-2"
           >
             I can help you with
           </h2>
           <div
-            class="text-base2.5 text-center text-white/60 max-w-[610px] mx-auto"
+            className="text-base2.5 text-center text-white/60 max-w-[610px] mx-auto"
           >
-            Join our Masterclass Courses for Finance and Stocks and take a
+            Join our MasterclassName Courses for Finance and Stocks and take a
             decisive step towards achieving your financial goals.
           </div>
           <div
-            class="grid mt-4 md:mt-6 grid-cols-2 md:grid-cols-3 gap-2 md:gap-[20px]"
+            className="grid mt-4 md:mt-6 grid-cols-2 md:grid-cols-3 gap-2 md:gap-[20px]"
           >
             <div
-              class="py-3 md:py-[40px] bg-[#B0ABF9]/10 text-center rounded-2xl"
+              className="py-3 md:py-[40px] bg-[#B0ABF9]/10 text-center rounded-2xl"
             >
               <img
                 src={mf}
@@ -42,16 +42,16 @@ function More3() {
                 loading="lazy"
                 width="88"
                 height="88"
-                class="md:w-[88px] w-6 h-6 md:h-[88px] mb-[12px] md:mb-3 mx-auto"
+                className="md:w-[88px] w-6 h-6 md:h-[88px] mb-[12px] md:mb-3 mx-auto"
               />
               <p
-                class="text-14 md:text-24 leading-none mb-0 font-medium tracking-[-0.5px] text-white"
+                className="text-14 md:text-24 leading-none mb-0 font-medium tracking-[-0.5px] text-white"
               >
                 Managing Finance
               </p>
             </div>
             <div
-              class="py-3 md:py-[40px] bg-[#B0ABF9]/10 text-center rounded-2xl"
+              className="py-3 md:py-[40px] bg-[#B0ABF9]/10 text-center rounded-2xl"
             >
               <img
                 src={investments}
@@ -59,16 +59,16 @@ function More3() {
                 loading="lazy"
                 width="96"
                 height="88"
-                class="md:w-[88px] w-6 h-6 md:h-[88px] mb-[12px] md:mb-3 mx-auto"
+                className="md:w-[88px] w-6 h-6 md:h-[88px] mb-[12px] md:mb-3 mx-auto"
               />
               <p
-                class="text-14 md:text-24 leading-none mb-0 font-medium tracking-[-0.5px] text-white"
+                className="text-14 md:text-24 leading-none mb-0 font-medium tracking-[-0.5px] text-white"
               >
                 Investments
               </p>
             </div>
             <div
-              class="py-3 md:py-[40px] bg-[#B0ABF9]/10 text-center rounded-2xl"
+              className="py-3 md:py-[40px] bg-[#B0ABF9]/10 text-center rounded-2xl"
             >
               <img
                 src={et}
@@ -76,16 +76,16 @@ function More3() {
                 loading="lazy"
                 width="96"
                 height="88"
-                class="md:w-[88px] w-6 h-6 md:h-[88px] mb-[12px] md:mb-3 mx-auto"
+                className="md:w-[88px] w-6 h-6 md:h-[88px] mb-[12px] md:mb-3 mx-auto"
               />
               <p
-                class="text-14 md:text-24 leading-none mb-0 font-medium tracking-[-0.5px] text-white"
+                className="text-14 md:text-24 leading-none mb-0 font-medium tracking-[-0.5px] text-white"
               >
                 Effective Tools
               </p>
             </div>
             <div
-              class="py-3 md:py-[40px] bg-[#B0ABF9]/10 text-center rounded-2xl"
+              className="py-3 md:py-[40px] bg-[#B0ABF9]/10 text-center rounded-2xl"
             >
               <img
                 src={aa}
@@ -93,16 +93,16 @@ function More3() {
                 loading="lazy"
                 width="96"
                 height="88"
-                class="md:w-[88px] w-6 h-6 md:h-[88px] mb-[12px] md:mb-3 mx-auto"
+                className="md:w-[88px] w-6 h-6 md:h-[88px] mb-[12px] md:mb-3 mx-auto"
               />
               <p
-                class="text-14 md:text-24 leading-none mb-0 font-medium tracking-[-0.5px] text-white"
+                className="text-14 md:text-24 leading-none mb-0 font-medium tracking-[-0.5px] text-white"
               >
                 Asset Allocation
               </p>
             </div>
             <div
-              class="py-3 md:py-[40px] bg-[#B0ABF9]/10 text-center rounded-2xl"
+              className="py-3 md:py-[40px] bg-[#B0ABF9]/10 text-center rounded-2xl"
             >
               <img
                 src={di}
@@ -110,16 +110,16 @@ function More3() {
                 loading="lazy"
                 width="96"
                 height="88"
-                class="md:w-[88px] w-6 h-6 md:h-[88px] mb-[12px] md:mb-3 mx-auto"
+                className="md:w-[88px] w-6 h-6 md:h-[88px] mb-[12px] md:mb-3 mx-auto"
               />
               <p
-                class="text-14 md:text-24 leading-none mb-0 font-medium tracking-[-0.5px] text-white"
+                className="text-14 md:text-24 leading-none mb-0 font-medium tracking-[-0.5px] text-white"
               >
                 Investing in Debt
               </p>
             </div>
             <div
-              class="py-3 md:py-[40px] bg-[#B0ABF9]/10 text-center rounded-2xl"
+              className="py-3 md:py-[40px] bg-[#B0ABF9]/10 text-center rounded-2xl"
             >
               <img
                 src={tpt}
@@ -127,10 +127,10 @@ function More3() {
                 loading="lazy"
                 width="96"
                 height="88"
-                class="md:w-[88px] w-6 h-6 md:h-[88px] mb-[12px] md:mb-3 mx-auto"
+                className="md:w-[88px] w-6 h-6 md:h-[88px] mb-[12px] md:mb-3 mx-auto"
               />
               <p
-                class="text-14 md:text-24 leading-none mb-0 font-medium tracking-[-0.5px] text-white"
+                className="text-14 md:text-24 leading-none mb-0 font-medium tracking-[-0.5px] text-white"
               >
                 Tax Planning Tool
               </p>

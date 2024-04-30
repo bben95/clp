@@ -15,102 +15,102 @@ function Hero12() {
     }
   return (
     <main>
-    <section style={{ backgroundImage: `url(${heroBg})` }} className="bg-cover bg-center pt-150px lg:pt-200px overflow-hidden">
-      <div class="container">
-        <div class="grid lg:grid-cols-2">
-          <div class="pb-4">
+    <section style={{ backgroundImage: `url(${heroBg})` }} classNameName="bg-cover bg-center pt-150px lg:pt-200px overflow-hidden">
+      <div className="container">
+        <div className="grid lg:grid-cols-2">
+          <div className="pb-4">
             <div
-              class="hero-content pl-3 border-l-4 border-l-lightyellow mb-7"
+              className="hero-content pl-3 border-l-4 border-l-lightyellow mb-7"
             >
               <p
-                class="flex opacity-50 items-center gap-2 uppercase text-white"
+                className="flex opacity-50 items-center gap-2 uppercase text-white"
               >
                 Fantasy league
 
-                <span class="flex-1 bg-white h-[1px]"></span>
+                <span className="flex-1 bg-white h-[1px]"></span>
               </p>
 
-              <h1 class="text-48 md:text-72 text-lightyellow">
-                Become a <span class="text-lightred">Sport analyst</span> and
+              <h1 className="text-48 md:text-72 text-lightyellow">
+                Become a <span className="text-lightred">Sport analyst</span> and
                 Fantasy Cricket expert
               </h1>
             </div>
 
-            <a href="#!" class="button chevron">GET STARTED </a>
+            <a href="#!" className="button chevron">GET STARTED </a>
 
-            <div class="pt-6 flex gap-3">
-              <div class="flex flex-col items-center">
-                <div class="flex gap-1 items-center flex-wrap justify-center">
-                  <h4 class="text-lightyellow text-[36px] font-semibold">
+            <div className="pt-6 flex gap-3">
+              <div className="flex flex-col items-center">
+                <div className="flex gap-1 items-center flex-wrap justify-center">
+                  <h4 className="text-lightyellow text-[36px] font-semibold">
                     15k
                   </h4>
 
-                  <div class="flex stacked-avatars">
+                  <div className="flex stacked-avatars">
                     <div
-                      class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
+                      className="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
                     >
                       <img
                         src={stack1}
-                        class="w-full h-full object-cover"
+                        className="w-full h-full object-cover"
                         alt=""
                       />
                     </div>
                     <div
-                      class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
+                      className="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
                     >
                       <img
                         src={stack2}
-                        class="w-full h-full object-cover"
+                        className="w-full h-full object-cover"
                         alt=""
                       />
                     </div>
                     <div
-                      class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
+                      className="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
                     >
                       <img
                         src={stack3}
-                        class="w-full h-full object-cover"
+                        className="w-full h-full object-cover"
                         alt=""
                       />
                     </div>
                     <div
-                      class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
+                      className="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
                     >
                       <img
                         src={stack4}
-                        class="w-full h-full object-cover"
+                        className="w-full h-full object-cover"
                         alt=""
                       />
                     </div>
                   </div>
                 </div>
 
-                <p class="opacity-80 text-lightyellow mb-0 mt-1">
+                <p className="opacity-80 text-lightyellow mb-0 mt-1">
                   Satisfied learners
                 </p>
               </div>
 
-              <div class="my-1">
-                <div class="h-full w-[1px] bg-white/20"></div>
+              <div className="my-1">
+                <div className="h-full w-[1px] bg-white/20"></div>
               </div>
 
-              <div class="flex flex-col items-center">
-                <div class="flex gap-1 items-center flex-wrap justify-center">
-                  <h4 class="text-white text-[36px] font-semibold">4.3</h4>
+              <div className="flex flex-col items-center">
+                <div className="flex gap-1 items-center flex-wrap justify-center">
+                  <h4 className="text-white text-[36px] font-semibold">4.3</h4>
 
-                  <div class="lg:ml-[10px]">
+                  <div className="lg:ml-[10px]">
                     <img src={heroB2} alt="" />
                   </div>
                 </div>
 
-                <p class="opacity-80 text-white mb-0 mt-1">Average ratings</p>
+                <p className="opacity-80 text-white mb-0 mt-1">Average ratings</p>
               </div>
             </div>
           </div>
 
           <div>
-            <div class="lg:w-[700px] lg:-translate-x-7">
-              <img src={hs} class="w-full" alt="" />
+            <div className="lg:w-[700px] lg:-translate-x-7">
+              <img src={hs} className="w-full" alt="" />
             </div>
           </div>
         </div>

@@ -10,40 +10,40 @@ function Hero3() {
   return (
     <main>
     <section
-      class="py-[60px] md:py-[64px] rigi-hero relative overflow-hidden"
+      className="py-[60px] md:py-[64px] rigi-hero relative overflow-hidden"
     >
-      <div class="container">
-        <div class="w-full text-center">
+      <div className="container">
+        <div className="w-full text-center">
           <h1
-            class="text-secondary text-[40px] md:text-64 leading-[1.1] tracking-[-2px] font-semibold max-w-[720px] mx-auto"
+            className="text-secondary text-[40px] md:text-64 leading-[1.1] tracking-[-2px] font-semibold max-w-[720px] mx-auto"
           >
             Tech Dreams Come True: Your Job Awaits
           </h1>
           <p
-            class="max-w-[641px] mx-auto text-sm22 md:text-16 md:leading-[1.5] text-secondary/80 mt-2 mb-4"
+            className="max-w-[641px] mx-auto text-sm22 md:text-16 md:leading-[1.5] text-secondary/80 mt-2 mb-4"
           >
             Job seekers can create compelling profiles, showcasing their
             skills, experience, and aspirations, while exploring an extensive
             database of tech job openings from top-tier tech companies to
             exciting startups.
           </p>
-          <div class="max-w-[404px] mx-auto">
+          <div className="max-w-[404px] mx-auto">
             <button
               type="button"
-              class="button py-[16px] md:py-[20px] px-[10px] bg-primary w-full inline-block text-white text-16 leading-none"
+              className="button py-[16px] md:py-[20px] px-[10px] bg-primary w-full inline-block text-white text-16 leading-none"
             >
-              <div class="relative overflow-hidden">
-                <span class="button-content">Book your seat</span>
-                <span class="button-content-hover">Book your seat</span>
+              <div className="relative overflow-hidden">
+                <span className="button-content">Book your seat</span>
+                <span className="button-content-hover">Book your seat</span>
               </div>
             </button>
           </div>
-          <div class="flex md:flex-col flex-col-reverse">
-            <div class="flex justify-center mt-4">
-              <div class="pr-[26px] md:border-r md:border-secondary/[0.12]">
-                <div class="text-center block md:flex">
+          <div className="flex md:flex-col flex-col-reverse">
+            <div className="flex justify-center mt-4">
+              <div className="pr-[26px] md:border-r md:border-secondary/[0.12]">
+                <div className="text-center block md:flex">
                   <div
-                    class="mr-[10px] text-secondary text-32 md:text-[24px] leading-[1.25] md:leading-none font-bold md:font-semibold"
+                    className="mr-[10px] text-secondary text-32 md:text-[24px] leading-[1.25] md:leading-none font-bold md:font-semibold"
                   >
                     15k
                   </div>
@@ -53,11 +53,11 @@ function Hero3() {
                     width="90"
                     height="26"
                     loading="lazy"
-                    class="hidden md:block"
+                    className="hidden md:block"
                   />
                 </div>
                 <p
-                  class="mb-[7px] md:mb-0 mt-[12px] md:mt-[10px] text-base2 text-secondary/80"
+                  className="mb-[7px] md:mb-0 mt-[12px] md:mt-[10px] text-base2 text-secondary/80"
                 >
                   Satisfied learners
                 </p>
@@ -67,13 +67,13 @@ function Hero3() {
                   width="90"
                   height="26"
                   loading="lazy"
-                  class="md:hidden block mx-auto"
+                  className="md:hidden block mx-auto"
                 />
               </div>
-              <div class="pl-[26px]">
-                <div class="text-center block md:flex">
+              <div className="pl-[26px]">
+                <div className="text-center block md:flex">
                   <div
-                    class="mr-[10px] text-secondary text-32 md:text-[24px] leading-[1.25] md:leading-none font-bold md:font-semibold"
+                    className="mr-[10px] text-secondary text-32 md:text-[24px] leading-[1.25] md:leading-none font-bold md:font-semibold"
                   >
                     4.3
                   </div>
@@ -83,11 +83,11 @@ function Hero3() {
                     width="90"
                     height="26"
                     loading="lazy"
-                    class="hidden md:block"
+                    className="hidden md:block"
                   />
                 </div>
                 <p
-                  class="mb-[7px] md:mb-0 mt-[12px] md:mt-[10px] text-base2 text-secondary/80"
+                  className="mb-[7px] md:mb-0 mt-[12px] md:mt-[10px] text-base2 text-secondary/80"
                 >
                   Average ratings
                 </p>
@@ -97,11 +97,11 @@ function Hero3() {
                   width="90"
                   height="26"
                   loading="lazy"
-                  class="md:hidden block mx-auto"
+                  className="md:hidden block mx-auto"
                 />
               </div>
             </div>
-            <div class="mt-3 md:mt-[100px] max-w-[1030px] mx-auto">
+            <div className="mt-3 md:mt-[100px] max-w-[1030px] mx-auto">
               <picture>
                 <source
                   media="(min-width:768px)"
@@ -113,7 +113,7 @@ function Hero3() {
                   src="img/rigi/hero-influencer-mweb.webp"
                   width="343"
                   height="255"
-                  class="mx-auto"
+                  className="mx-auto"
                   alt="hero-influencer"
                   loading="lazy"
                 />

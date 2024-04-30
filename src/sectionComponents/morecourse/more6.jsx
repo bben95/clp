@@ -7,31 +7,31 @@ function More6() {
     }
   return (
     <main>
-   <section class="bg-cultured section-pad">
-        <div class="container">
+   <section className="bg-cultured section-pad">
+        <div className="container">
           <div
-            class="text-secondary text-center font-semibold font-melodrama text-32 lg:text-[56px] leading-[1.1]"
+            className="text-secondary text-center font-semibold font-melodrama text-32 lg:text-[56px] leading-[1.1]"
           >
             I can help you
-            <span class="text-primary6">with</span>
+            <span className="text-primary6">with</span>
           </div>
           <div
-            class="text-secondary/70 md:max-w-[563px] text-center mx-auto mt-2 text-16 leading-[1.6]"
+            className="text-secondary/70 md:max-w-[563px] text-center mx-auto mt-2 text-16 leading-[1.6]"
           >
-            Join our Masterclass Courses for Finance and Stocks and take a
+            Join our MasterclassName Courses for Finance and Stocks and take a
             decisive step towards achieving your financial goals.
           </div>
           <div
-            class="grid md:grid-cols-4 grid-cols-1 gap-[4px] mt-5 lg:mt-6 bg-secondary rounded-3xl px-1 lg:px-3 py-1 lg:py-3"
+            className="grid md:grid-cols-4 grid-cols-1 gap-[4px] mt-5 lg:mt-6 bg-secondary rounded-3xl px-1 lg:px-3 py-1 lg:py-3"
           >
             <div
-              class="px-3 lg:pt-[132px] py-[27px] lg:pb-4 text-white rounded-[20px] help-cards"
+              className="px-3 lg:pt-[132px] py-[27px] lg:pb-4 text-white rounded-[20px] help-cards"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="48"
                 height="48"
-                class="w-[40px] lg:w-5 h-[40px] lg:h-5 duration-500"
+                className="w-[40px] lg:w-5 h-[40px] lg:h-5 duration-500"
                 viewBox="0 0 48 48"
                 fill="none"
               >
@@ -72,23 +72,23 @@ function More6() {
                 />
               </svg>
               <div
-                class="text-20 lg:text-24 leading-[1.3] font-bold tracking-[-0.09] mt-3 lg:mt-4 mb-1"
+                className="text-20 lg:text-24 leading-[1.3] font-bold tracking-[-0.09] mt-3 lg:mt-4 mb-1"
               >
                 Managing Finance
               </div>
-              <div class="opacity-70 text-14 lg:text-16 leading-[1.5]">
+              <div className="opacity-70 text-14 lg:text-16 leading-[1.5]">
                 Increased conversion and expension on new markets Dynamic
                 business devolopment.
               </div>
             </div>
             <div
-              class="px-3 lg:pt-[132px] py-[27px] lg:pb-4 text-white rounded-[20px] help-cards"
+              className="px-3 lg:pt-[132px] py-[27px] lg:pb-4 text-white rounded-[20px] help-cards"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="48"
                 height="48"
-                class="w-[40px] lg:w-5 h-[40px] lg:h-5 duration-500"
+                className="w-[40px] lg:w-5 h-[40px] lg:h-5 duration-500"
                 viewBox="0 0 48 48"
                 fill="none"
               >
@@ -107,20 +107,20 @@ function More6() {
                 />
               </svg>
               <div
-                class="text-20 lg:text-24 leading-[1.3] font-bold tracking-[-0.09] mt-3 lg:mt-4 mb-1"
+                className="text-20 lg:text-24 leading-[1.3] font-bold tracking-[-0.09] mt-3 lg:mt-4 mb-1"
               >
                 Leadership
               </div>
-              <div class="opacity-70 text-14 lg:text-16 leading-[1.5]">
+              <div className="opacity-70 text-14 lg:text-16 leading-[1.5]">
                 Increased conversion and expension on new markets Dynamic
                 business devolopment.
               </div>
             </div>
             <div
-              class="px-3 lg:pt-[132px] py-[27px] lg:pb-4 text-white rounded-[20px] help-cards"
+              className="px-3 lg:pt-[132px] py-[27px] lg:pb-4 text-white rounded-[20px] help-cards"
             >
               <svg
-                class="w-[40px] lg:w-5 h-[40px] lg:h-5 duration-500"
+                className="w-[40px] lg:w-5 h-[40px] lg:h-5 duration-500"
                 xmlns="http://www.w3.org/2000/svg"
                 width="48"
                 height="48"
@@ -161,20 +161,20 @@ function More6() {
                 />
               </svg>
               <div
-                class="text-20 lg:text-24 leading-[1.3] font-bold tracking-[-0.09] mt-3 lg:mt-4 mb-1"
+                className="text-20 lg:text-24 leading-[1.3] font-bold tracking-[-0.09] mt-3 lg:mt-4 mb-1"
               >
                 Job Hunting
               </div>
-              <div class="opacity-70 text-14 lg:text-16 leading-[1.5]">
+              <div className="opacity-70 text-14 lg:text-16 leading-[1.5]">
                 Increased conversion and expension on new markets Dynamic
                 business devolopment.
               </div>
             </div>
             <div
-              class="px-3 lg:pt-[132px] py-[27px] lg:pb-4 text-white rounded-[20px] help-cards"
+              className="px-3 lg:pt-[132px] py-[27px] lg:pb-4 text-white rounded-[20px] help-cards"
             >
               <svg
-                class="w-[40px] lg:w-5 h-[40px] lg:h-5 duration-500"
+                className="w-[40px] lg:w-5 h-[40px] lg:h-5 duration-500"
                 xmlns="http://www.w3.org/2000/svg"
                 width="48"
                 height="48"
@@ -197,11 +197,11 @@ function More6() {
                 />
               </svg>
               <div
-                class="text-20 lg:text-24 leading-[1.3] font-bold tracking-[-0.09] mt-3 lg:mt-4 mb-1"
+                className="text-20 lg:text-24 leading-[1.3] font-bold tracking-[-0.09] mt-3 lg:mt-4 mb-1"
               >
                 Business
               </div>
-              <div class="opacity-70 text-14 lg:text-16 leading-[1.5]">
+              <div className="opacity-70 text-14 lg:text-16 leading-[1.5]">
                 Increased conversion and expension on new markets Dynamic
                 business devolopment.
               </div>

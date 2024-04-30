@@ -10,13 +10,13 @@ function Table12() {
     }
   return (
     <main>
-     <section class="section-pad">
-        <div class="container">
-          <div class="flex -mx-2 flex-wrap">
-            <div class="w-full lg:w-1/3 px-2">
-              <div class="font-heading stroke-text opacity-20">USP</div>
+     <section className="section-pad">
+        <div className="container">
+          <div className="flex -mx-2 flex-wrap">
+            <div className="w-full lg:w-1/3 px-2">
+              <div className="font-heading stroke-text opacity-20">USP</div>
 
-              <h2 class="heading-medium bg-white relative mb-4 max-w-[540px]">
+              <h2 className="heading-medium bg-white relative mb-4 max-w-[540px]">
                 What makes us different from others
               </h2>
 
@@ -28,28 +28,28 @@ function Table12() {
               </p>
             </div>
 
-            <div class="w-full lg:w-2/3 px-2">
-              <div class="py-5 lg:py-0 lg:pl-8">
-                <div class="overflow-auto">
+            <div className="w-full lg:w-2/3 px-2">
+              <div className="py-5 lg:py-0 lg:pl-8">
+                <div className="overflow-auto">
                     
-                  <table class="w-full bg-lightyellow " style={{ width: '100%' }}>
+                  <table className="w-full bg-lightyellow " style={{ width: '100%' }}>
                     <thead>
                       <tr>
                         <th
-                          class="p-2 md:p-3 text-14 md:text-20 font-medium border-b border-b-white border-r border-r-white"
+                          className="p-2 md:p-3 text-14 md:text-20 font-medium border-b border-b-white border-r border-r-white"
                         ></th>
                         <th
-                          class="p-2 md:p-3 text-14 md:text-20 font-medium border-b border-b-white border-r border-r-white"
+                          className="p-2 md:p-3 text-14 md:text-20 font-medium border-b border-b-white border-r border-r-white"
                         >
                           Graphy
                         </th>
                         <th
-                          class="p-2 md:p-3 text-14 md:text-20 font-medium border-b border-b-white border-r border-r-white"
+                          className="p-2 md:p-3 text-14 md:text-20 font-medium border-b border-b-white border-r border-r-white"
                         >
                           Udemy
                         </th>
                         <th
-                          class="bg-primary p-2 md:p-3 text-14 md:text-20 font-medium text-white border-b border-b-white border-r border-r-white"
+                          className="bg-primary p-2 md:p-3 text-14 md:text-20 font-medium text-white border-b border-b-white border-r border-r-white"
                         >
                           RIGI
                         </th>
@@ -58,136 +58,136 @@ function Table12() {
                     <tbody>
                       <tr>
                         <td
-                          class="p-2 md:p-4 text-14 md:text-20 font-medium border-r border-r-white"
+                          className="p-2 md:p-4 text-14 md:text-20 font-medium border-r border-r-white"
                         >
                           Video Lessons
                         </td>
                         <td
-                          class="p-2 md:p-4 text-14 md:text-20 font-medium border-r border-r-white text-center"
+                          className="p-2 md:p-4 text-14 md:text-20 font-medium border-r border-r-white text-center"
                         >
                           <img
                             src={cg}
-                            class="inline-block w-[20px] md:w-auto"
+                            className="inline-block w-[20px] md:w-auto"
                             alt=""
                           />
                         </td>
                         <td
-                          class="p-2 md:p-4 text-14 md:text-20 font-medium border-r border-r-white text-center"
+                          className="p-2 md:p-4 text-14 md:text-20 font-medium border-r border-r-white text-center"
                         >
                           <img
                             src={cg}
-                            class="inline-block w-[20px] md:w-auto"
+                            className="inline-block w-[20px] md:w-auto"
                             alt=""
                           />
                         </td>
                         <td
-                          class="p-2 md:p-4 text-14 md:text-20 font-medium border-r border-r-white text-center"
+                          className="p-2 md:p-4 text-14 md:text-20 font-medium border-r border-r-white text-center"
                         >
                           <img
                             src={cg}
-                            class="inline-block w-[20px] md:w-auto"
+                            className="inline-block w-[20px] md:w-auto"
                             alt=""
                           />
                         </td>
                       </tr>
                       <tr>
                         <td
-                          class="p-2 md:p-4 text-14 md:text-20 font-medium border-r border-r-white"
+                          className="p-2 md:p-4 text-14 md:text-20 font-medium border-r border-r-white"
                         >
                           PDF Resources
                         </td>
                         <td
-                          class="p-2 md:p-4 text-14 md:text-20 font-medium border-r border-r-white text-center"
+                          className="p-2 md:p-4 text-14 md:text-20 font-medium border-r border-r-white text-center"
                         >
                           <img
                             src={cg}
-                            class="inline-block w-[20px] md:w-auto"
+                            className="inline-block w-[20px] md:w-auto"
                             alt=""
                           />
                         </td>
                         <td
-                          class="p-2 md:p-4 text-14 md:text-20 font-medium border-r border-r-white text-center"
+                          className="p-2 md:p-4 text-14 md:text-20 font-medium border-r border-r-white text-center"
                         >
                           <img
                             src={cross}
-                            class="inline-block w-[20px] md:w-auto"
+                            className="inline-block w-[20px] md:w-auto"
                             alt=""
                           />
                         </td>
                         <td
-                          class="p-2 md:p-4 text-14 md:text-20 font-medium border-r border-r-white text-center"
+                          className="p-2 md:p-4 text-14 md:text-20 font-medium border-r border-r-white text-center"
                         >
                           <img
                             src={cg}
-                            class="inline-block w-[20px] md:w-auto"
+                            className="inline-block w-[20px] md:w-auto"
                             alt=""
                           />
                         </td>
                       </tr>
                       <tr>
                         <td
-                          class="p-2 md:p-4 text-14 md:text-20 font-medium border-r border-r-white"
+                          className="p-2 md:p-4 text-14 md:text-20 font-medium border-r border-r-white"
                         >
                           Lifetime Validity
                         </td>
                         <td
-                          class="p-2 md:p-4 text-14 md:text-20 font-medium border-r border-r-white text-center"
+                          className="p-2 md:p-4 text-14 md:text-20 font-medium border-r border-r-white text-center"
                         >
                           <img
                             src={cross}
-                            class="inline-block w-[20px] md:w-auto"
+                            className="inline-block w-[20px] md:w-auto"
                             alt=""
                           />
                         </td>
                         <td
-                          class="p-2 md:p-4 text-14 md:text-20 font-medium border-r border-r-white text-center"
+                          className="p-2 md:p-4 text-14 md:text-20 font-medium border-r border-r-white text-center"
                         >
                           <img
                             src={cross}
-                            class="inline-block w-[20px] md:w-auto"
+                            className="inline-block w-[20px] md:w-auto"
                             alt=""
                           />
                         </td>
                         <td
-                          class="p-2 md:p-4 text-14 md:text-20 font-medium border-r border-r-white text-center"
+                          className="p-2 md:p-4 text-14 md:text-20 font-medium border-r border-r-white text-center"
                         >
                           <img
                             src={cg}
-                            class="inline-block w-[20px] md:w-auto"
+                            className="inline-block w-[20px] md:w-auto"
                             alt=""
                           />
                         </td>
                       </tr>
                       <tr>
                         <td
-                          class="p-2 md:p-4 text-14 md:text-20 font-medium border-r border-r-white"
+                          className="p-2 md:p-4 text-14 md:text-20 font-medium border-r border-r-white"
                         >
-                          Live Zoom Classes
+                          Live Zoom classNamees
                         </td>
                         <td
-                          class="p-2 md:p-4 text-14 md:text-20 font-medium border-r border-r-white text-center"
+                          className="p-2 md:p-4 text-14 md:text-20 font-medium border-r border-r-white text-center"
                         >
                           <img
                             src={cg}
-                            class="inline-block w-[20px] md:w-auto"
+                            className="inline-block w-[20px] md:w-auto"
                             alt=""
                           />
                         </td>
                         <td
-                          class="p-2 md:p-4 text-14 md:text-20 font-medium border-r border-r-white text-center"
+                          className="p-2 md:p-4 text-14 md:text-20 font-medium border-r border-r-white text-center"
                         >
                           <img
                             src={cross}
-                            class="inline-block w-[20px] md:w-auto"
+                            className="inline-block w-[20px] md:w-auto"
                             alt=""
                           />
                         </td>
                         <td
-                          class="p-2 md:p-4 text-14 md:text-20 font-medium border-r border-r-white text-center"
+                          className="p-2 md:p-4 text-14 md:text-20 font-medium border-r border-r-white text-center"
                         >
                           <img
                             src={cg}
-                            class="inline-block w-[20px] md:w-auto"
+                            className="inline-block w-[20px] md:w-auto"
                             alt=""
                           />
                         </td>

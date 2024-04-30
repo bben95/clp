@@ -68,13 +68,13 @@ const FinalPage = () => {
   };
 
   return (
-    <div ref={htmlRef}>
+    <div  ref={htmlRef}>
            <NavBar1/>
       <NavBar2/>
       <NavBar3/>
  
       {/* Add more components as needed */}
-      <button onClick={downloadFiles}>Download Files</button>
+      <button className="inline-block rounded border border-indigo-600 bg-indigo-600 px-2 py-1 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 fixed bottom-2 right-2"  onClick={downloadFiles} >Download Files</button>
     </div>
   );
 };

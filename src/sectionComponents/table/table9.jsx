@@ -10,8 +10,8 @@ function Table9() {
     }
   return (
     <main>
-     <section class="py-5 lg:pb-[100px] lg:pt-[20px] bg-white">
-        <div class="container9 text-secondary">
+     <section className="py-5 lg:pb-[100px] lg:pt-[20px] bg-white">
+        <div className="container9 text-secondary">
         <table style={{ width: '100%' }}>
             <tbody>
               <tr>
@@ -24,21 +24,21 @@ function Table9() {
                 <td>Video Lessons</td>
                 <td>
                   <img
-                    class="mx-auto"
+                    className="mx-auto"
                     src={vp}
                     alt=""
                   />
                 </td>
                 <td>
                   <img
-                    class="mx-auto"
+                    className="mx-auto"
                     src={vf}
                     alt=""
                   />
                 </td>
                 <td>
                   <img
-                    class="mx-auto"
+                    className="mx-auto"
                     src={vp}
                     alt=""
                   />
@@ -48,21 +48,21 @@ function Table9() {
                 <td>PDF Resources</td>
                 <td>
                   <img
-                    class="mx-auto"
+                    className="mx-auto"
                     src={vp}
                     alt=""
                   />
                 </td>
                 <td>
                   <img
-                    class="mx-auto"
+                    className="mx-auto"
                     src={vp}
                     alt=""
                   />
                 </td>
                 <td>
                   <img
-                    class="mx-auto"
+                    className="mx-auto"
                     src={vp}
                     alt=""
                   />
@@ -72,45 +72,45 @@ function Table9() {
                 <td>Lifetime Validity</td>
                 <td>
                   <img
-                    class="mx-auto"
+                    className="mx-auto"
                     src={vf}
                     alt=""
                   />
                 </td>
                 <td>
                   <img
-                    class="mx-auto"
+                    className="mx-auto"
                     src={vf}
                     alt=""
                   />
                 </td>
                 <td>
                   <img
-                    class="mx-auto"
+                    className="mx-auto"
                     src={vp}
                     alt=""
                   />
                 </td>
               </tr>
               <tr>
-                <td>Live Zoom Classes</td>
+                <td>Live Zoom classNamees</td>
                 <td>
                   <img
-                    class="mx-auto"
+                    className="mx-auto"
                     src={vf}
                     alt=""
                   />
                 </td>
                 <td>
                   <img
-                    class="mx-auto"
+                    className="mx-auto"
                     src={vf}
                     alt=""
                   />
                 </td>
                 <td>
                   <img
-                    class="mx-auto"
+                    className="mx-auto"
                     src={vp}
                     alt=""
                   />

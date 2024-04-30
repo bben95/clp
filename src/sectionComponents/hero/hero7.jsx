@@ -16,19 +16,19 @@ function Hero7() {
   return (
     <main>
 <section
-  class="hero-section pt-[142px] pb-[100px] lg:pb-[200px] lg:pt-[160px] overflow-hidden relative z-[2]"
+  className="hero-section pt-[142px] pb-[100px] lg:pb-[200px] lg:pt-[160px] overflow-hidden relative z-[2]"
 >
-  <div class="absolute top-0 left-0 bottom-0 h-full">
+  <div className="absolute top-0 left-0 bottom-0 h-full">
     <video autoplay muted loop playsinline>
       <source src={vid} type="video/mp4" />
     </video>
-    <div class="absolute inset-0 bg-[#000000]/50"></div>
+    <div className="absolute inset-0 bg-[#000000]/50"></div>
   </div>
-  <div class="container relative">
-    <div class="flex lg:flex-row flex-col">
-      <div class="w-full lg:w-3/5 text-center lg:text-left">
+  <div className="container relative">
+    <div className="flex lg:flex-row flex-col">
+      <div className="w-full lg:w-3/5 text-center lg:text-left">
         <div
-          class="py-1 px-[20px] rounded-[27px] border border-white/20 flex items-center max-w-fit mx-auto lg:mx-0"
+          className="py-1 px-[20px] rounded-[27px] border border-white/20 flex items-center max-w-fit mx-auto lg:mx-0"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -50,136 +50,136 @@ function Hero7() {
             </defs>
           </svg>
           <div
-            class="ml-[10px] text-14 leading-[1.5] font-semibold text-white"
+            className="ml-[10px] text-14 leading-[1.5] font-semibold text-white"
           >
             Yoga lifestyle
           </div>
         </div>
         <h1
-          class="text-[36px] tracking-[-1px] lg:tracking-normal lg:text-[72px] lg:max-w-[713px] font-bodoni font-normal leading-[1.16] lg:leading-none text-white mt-4 lg:mt-[36px] mb-3"
+          className="text-[36px] tracking-[-1px] lg:tracking-normal lg:text-[72px] lg:max-w-[713px] font-bodoni font-normal leading-[1.16] lg:leading-none text-white mt-4 lg:mt-[36px] mb-3"
         >
           Learn Yoga at the comfort of your home and find peace within you
         </h1>
         <p
-          class="text-white/70 lg:max-w-[600px] text-small lg:text-basenormal lg:leading-[1.6]"
+          className="text-white/70 lg:max-w-[600px] text-small lg:text-basenormal lg:leading-[1.6]"
         >
           Philosophy revolves around the belief that yoga is not just a
           physical practice but a holistic journey towards self-discovery
           and well-being.
         </p>
         <div
-          class="mt-[40px] lg:mt-6 mb-[40px] lg:mb-4 max-w-[295px] mx-auto lg:mx-0"
+          className="mt-[40px] lg:mt-6 mb-[40px] lg:mb-4 max-w-[295px] mx-auto lg:mx-0"
         >
           <a
             href="#!"
-            class="button py-[12px] px-[20px] rounded-[50px] w-full bg-primary min-w-[160px] inline-block text-white text-16 leading-[1.5]"
+            className="button py-[12px] px-[20px] rounded-[50px] w-full bg-primary min-w-[160px] inline-block text-white text-16 leading-[1.5]"
           >
-            <div class="relative overflow-hidden">
-              <span class="button-content">Start the Yoga Journey</span>
-              <span class="button-content-hover"
+            <div className="relative overflow-hidden">
+              <span className="button-content">Start the Yoga Journey</span>
+              <span className="button-content-hover"
                 >Start the Yoga Journey</span
               >
             </div>
           </a>
         </div>
         <div
-          class="flex items-center text-white mb-3 lg:justify-normal "
+          className="flex items-center text-white mb-3 lg:justify-normal "
         >
-          <div class="flex flex-col">
-            <div class="flex items-center lg:flex-row flex-col">
+          <div className="flex flex-col">
+            <div className="flex items-center lg:flex-row flex-col">
               <div
-                class="text-32 leading-[1.25] font-bold lg:text-24 lg:leading-none lg:font-medium"
+                className="text-32 leading-[1.25] font-bold lg:text-24 lg:leading-none lg:font-medium"
               >
                 15k
               </div>
               <div
-                class="text-16 leading-[1.37] opacity-80 block lg:hidden mt-[12px] mb-[7px]"
+                className="text-16 leading-[1.37] opacity-80 block lg:hidden mt-[12px] mb-[7px]"
               >
                 Satisfied learners
               </div>
-              <div class="flex stacked-avatars">
+              <div className="flex stacked-avatars">
                     <div
-                      class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
+                      className="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
                     >
                       <img
                         src={stack1}
-                        class="w-full h-full object-cover"
+                        className="w-full h-full object-cover"
                         alt=""
                       />
                     </div>
                     <div
-                      class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
+                      className="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
                     >
                       <img
                         src={stack2}
-                        class="w-full h-full object-cover"
+                        className="w-full h-full object-cover"
                         alt=""
                       />
                     </div>
                     <div
-                      class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
+                      className="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
                     >
                       <img
                         src={stack3}
-                        class="w-full h-full object-cover"
+                        className="w-full h-full object-cover"
                         alt=""
                       />
                     </div>
                     <div
-                      class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
+                      className="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
                     >
                       <img
                         src={stack4}
-                        class="w-full h-full object-cover"
+                        className="w-full h-full object-cover"
                         alt=""
                       />
                     </div>
                   </div>
             </div>
             <div
-              class="text-16 leading-[1.37] opacity-80 mt-[10px] hidden lg:block"
+              className="text-16 leading-[1.37] opacity-80 mt-[10px] hidden lg:block"
             >
               Satisfied learners
             </div>
           </div>
           <div
-            class="h-[109px] lg:h-5 w-[1px] bg-white/[0.12] mx-[22px] lg:mx-[26px]"
+            className="h-[109px] lg:h-5 w-[1px] bg-white/[0.12] mx-[22px] lg:mx-[26px]"
           ></div>
-          <div class="flex flex-col">
-            <div class="flex lg:flex-row flex-col">
+          <div className="flex flex-col">
+            <div className="flex lg:flex-row flex-col">
               <div
-                class="text-32 leading-[1.25] font-bold lg:text-24 lg:leading-none lg:font-medium"
+                className="text-32 leading-[1.25] font-bold lg:text-24 lg:leading-none lg:font-medium"
               >
                 4.3
               </div>
               <div
-                class="text-16 leading-[1.37] opacity-80 mt-[12px] mb-[7px] block lg:hidden"
+                className="text-16 leading-[1.37] opacity-80 mt-[12px] mb-[7px] block lg:hidden"
               >
                 Average ratings
               </div>
-              <div class="lg:ml-[10px]">
+              <div className="lg:ml-[10px]">
                 <img src={heroB2} alt="" />
               </div>
             </div>
             <div
-              class="text-16 leading-[1.37] opacity-80 mt-[10px] hidden lg:block"
+              className="text-16 leading-[1.37] opacity-80 mt-[10px] hidden lg:block"
             >
               Average ratings
             </div>
           </div>
         </div>
       </div>
-      <div class="w-full lg:w-2/5">
-        <div class="relative flex items-center justify-center">
+      <div className="w-full lg:w-2/5">
+        <div className="relative flex items-center justify-center">
           <img
-            class="w-full rounded-text"
+            className="w-full rounded-text"
             src={round}
             alt=""
           />
-          <a href="#!" class="absolute">
-            <div class="relative ripple-effect">
+          <a href="#!" className="absolute">
+            <div className="relative ripple-effect">
               <img
-                class="relative z-[2]"
+                className="relative z-[2]"
                 src={play}
                 alt=""
               />
@@ -189,9 +189,9 @@ function Hero7() {
       </div>
     </div>
   </div>
-  <div class="relative bottom-[-101px] lg:bottom-[-201px] z-[2] w-full">
+  <div className="relative bottom-[-101px] lg:bottom-[-201px] z-[2] w-full">
     <svg
-      class="w-full h-auto"
+      className="w-full h-auto"
       width="1440"
       height="143"
       viewBox="0 0 1440 143"

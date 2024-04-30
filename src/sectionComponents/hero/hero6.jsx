@@ -14,117 +14,117 @@ function Hero6() {
   return (
     <main>
     <section
-      class="hero-section bg-secondary pb-4 pt-[132px] lg:pb-[86px] lg:pt-[120px] overflow-hidden"
+      className="hero-section bg-secondary pb-4 pt-[132px] lg:pb-[86px] lg:pt-[120px] overflow-hidden"
     >
-      <div class="container">
-        <div class="flex md:flex-row flex-col gap-5 lg:gap-2 items-center">
-          <div class="w-full lg:w-[55%] hero-content relative z-30 text-left">
+      <div className="container">
+        <div className="flex md:flex-row flex-col gap-5 lg:gap-2 items-center">
+          <div className="w-full lg:w-[55%] hero-content relative z-30 text-left">
             <h1
-              class="text-[40px] lg:text-[64px] md:max-w-[670px] font-melodrama font-semibold leading-[110%] tracking-[-1px] text-white md:mb-3 mb-2"
+              className="text-[40px] lg:text-[64px] md:max-w-[670px] font-melodrama font-semibold leading-[110%] tracking-[-1px] text-white md:mb-3 mb-2"
             >
               Turn Your Knowledge Into A Super-
-              <span class="text-primary">Profitable Business</span>
+              <span className="text-primary">Profitable Business</span>
             </h1>
             <p
-              class="text-white/70 mb-[40px] lg:max-w-[600px] text-16 leading-[1.6]"
+              className="text-white/70 mb-[40px] lg:max-w-[600px] text-16 leading-[1.6]"
             >
               Join the community that has already created more than 200+
               six-figure earners in a knowledge business. Get started today!
             </p>
 
-            <div class="flex gap-2 md:flex-row flex-col">
+            <div className="flex gap-2 md:flex-row flex-col">
               <a
                 href="#!"
-                class="button chevron button-green md:max-w-[210px] w-full"
+                className="button chevron button-green md:max-w-[210px] w-full"
               >
                 Buy Course
               </a>
               <a
                 href="#!"
-                class="button chevron-light !bg-white/[0.18] md:max-w-[210px] w-full"
+                className="button chevron-light !bg-white/[0.18] md:max-w-[210px] w-full"
               >
                 Book a Call
               </a>
             </div>
           </div>
 
-          <div class="w-full lg:w-[45%] hero-image-area relative">
-            <div class="absolute top-[20%] right-[40px] z-0">
+          <div className="w-full lg:w-[45%] hero-image-area relative">
+            <div className="absolute top-[20%] right-[40px] z-0">
               <img src="img/premium/herobg-pattern.svg" alt="" />
             </div>
-            <div class="relative z-10">
+            <div className="relative z-10">
               <img
                 src={hero}
-                class="rounded-xl w-full"
+                className="rounded-xl w-full"
                 alt=""
               />
             </div>
             <div
-              class="flex absolute bottom-0 z-10 bg-gradient-to-b from-[#B9DC2F] to-[#577D09] rounded-[200px] py-[20px] px-[19px] lg:px-[40px] max-w-fit mx-auto"
+              className="flex absolute bottom-0 z-10 bg-gradient-to-b from-[#B9DC2F] to-[#577D09] rounded-[200px] py-[20px] px-[19px] lg:px-[40px] max-w-fit mx-auto"
             >
-              <div class="flex gap-[12px] items-center">
-                <div class="flex gap-1">
-                <div class="flex stacked-avatars">
+              <div className="flex gap-[12px] items-center">
+                <div className="flex gap-1">
+                <div className="flex stacked-avatars">
                     <div
-                      class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
+                      className="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
                     >
                       <img
                         src={av1}
-                        class="w-full h-full object-cover"
+                        className="w-full h-full object-cover"
                         alt=""
                       />
                     </div>
                     <div
-                      class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
+                      className="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
                     >
                       <img
                         src={av2}
-                        class="w-full h-full object-cover"
+                        className="w-full h-full object-cover"
                         alt=""
                       />
                     </div>
                     <div
-                      class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
+                      className="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
                     >
                       <img
                         src={av3}
-                        class="w-full h-full object-cover"
+                        className="w-full h-full object-cover"
                         alt=""
                       />
                     </div>
                     <div
-                      class="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
+                      className="border-2 border-primary rounded-full w-[28px] h-[28px] overflow-hidden"
                     >
                       <img
                         src={av4}
-                        class="w-full h-full object-cover"
+                        className="w-full h-full object-cover"
                         alt=""
                       />
                     </div>
                   </div>
                 </div>
-                <div class="flex flex-col items-center justify-center">
-                  <h4 class="text-white text-14 lg:text-[18px] font-bold">
+                <div className="flex flex-col items-center justify-center">
+                  <h4 className="text-white text-14 lg:text-[18px] font-bold">
                     45,000+
                   </h4>
-                  <p class="text-white/50 mb-0 text-12 lg:text-14">
+                  <p className="text-white/50 mb-0 text-12 lg:text-14">
                     Happy&nbsp;Students
                   </p>
                 </div>
               </div>
 
-              <div class="my-1 mx-[15px]">
-                <div class="h-full w-[1px] bg-white/20"></div>
+              <div className="my-1 mx-[15px]">
+                <div className="h-full w-[1px] bg-white/20"></div>
               </div>
 
-              <div class="flex flex-col items-center">
-                <div class="flex gap-[6px] items-center">
-                  <h4 class="text-white text-14 lg:text-[18px] font-bold">
+              <div className="flex flex-col items-center">
+                <div className="flex gap-[6px] items-center">
+                  <h4 className="text-white text-14 lg:text-[18px] font-bold">
                     4.6+
                   </h4>
-                  <p class="text-white/50 mb-0 text-12 lg:text-14">Reviews</p>
+                  <p className="text-white/50 mb-0 text-12 lg:text-14">Reviews</p>
                 </div>
-                <div class="w-[76px] lg:w-fit">
+                <div className="w-[76px] lg:w-fit">
                   <img src={star} alt="4.6 Ratings" />
                 </div>
               </div>

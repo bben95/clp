@@ -9,38 +9,38 @@ function Test11() {
     }
   return (
     <main>
-     <section class="section-pad overflow-hidden" id="testimonials">
-        <div class="container">
-          <div class="text-center mb-7">
-            <div class="font-heading stroke-text opacity-20">Testimonials</div>
+     <section className="section-pad overflow-hidden" id="testimonials">
+        <div className="container">
+          <div className="text-center mb-7">
+            <div className="font-heading stroke-text opacity-20">Testimonials</div>
 
-            <h2 class="heading bg-white relative max-w-[860px] mx-auto">
+            <h2 className="heading bg-white relative max-w-[860px] mx-auto">
               See what our students tell about us
             </h2>
           </div>
 
-          <div class="slider-overflow-visible center-controls">
-            <div class="testimonial-slider">
-              <div class="item">
-                <div class="bg-lightyellow flex md:h-full flex-wrap">
+          <div className="slider-overflow-visible center-controls">
+            <div className="testimonial-slider">
+              <div className="item">
+                <div className="bg-lightyellow flex md:h-full flex-wrap">
                   <div
-                    class="w-full md:w-2/5 overflow-hidden h-[200px] md:h-auto"
+                    className="w-full md:w-2/5 overflow-hidden h-[200px] md:h-auto"
                   >
                     <img
                       src={tt}
                       alt=""
-                      class="w-full h-full object-cover object-top"
+                      className="w-full h-full object-cover object-top"
                     />
                   </div>
 
                   <div
-                    class="w-full md:w-3/5 pt-5 p-2 md:px-4 md:pt-6 md:pb-3 relative"
+                    className="w-full md:w-3/5 pt-5 p-2 md:px-4 md:pt-6 md:pb-3 relative"
                   >
                     <div
-                      class="absolute -top-3 md:-top-4 left-2 md:left-4 w-6 md:w-auto"
+                      className="absolute -top-3 md:-top-4 left-2 md:left-4 w-6 md:w-auto"
                     >
                       <svg
-                        class="w-full h-auto"
+                        className="w-full h-auto"
                         width="75"
                         height="56"
                         viewBox="0 0 75 56"
@@ -53,7 +53,7 @@ function Test11() {
                       </svg>
                     </div>
 
-                    <p class="mb-0 font-medium">
+                    <p className="mb-0 font-medium">
                       This course provided a clear and step-by-step roadmap that
                       demystified the entire process. From crafting a compelling
                       product page to mastering marketing strategies, I gained
@@ -62,11 +62,11 @@ function Test11() {
                       made all the difference.
                     </p>
 
-                    <div class="pt-4 md:pt-6">
-                      <p class="font-semibold">
+                    <div className="pt-4 md:pt-6">
+                      <p className="font-semibold">
                         Darlene Robertson
 
-                        <span class="font-normal block"
+                        <span className="font-normal block"
                           >Marketing Coordinator</span
                         >
                       </p>
@@ -74,26 +74,26 @@ function Test11() {
                   </div>
                 </div>
               </div>
-              <div class="item">
-                <div class="bg-lightyellow flex md:h-full flex-wrap">
+              <div className="item">
+                <div className="bg-lightyellow flex md:h-full flex-wrap">
                   <div
-                    class="w-full md:w-2/5 overflow-hidden h-[200px] md:h-auto"
+                    className="w-full md:w-2/5 overflow-hidden h-[200px] md:h-auto"
                   >
                     <img
                       src={tt}
                       alt=""
-                      class="w-full h-full object-cover object-top"
+                      className="w-full h-full object-cover object-top"
                     />
                   </div>
 
                   <div
-                    class="w-full md:w-3/5 pt-5 p-2 md:px-4 md:pt-6 md:pb-3 relative"
+                    className="w-full md:w-3/5 pt-5 p-2 md:px-4 md:pt-6 md:pb-3 relative"
                   >
                     <div
-                      class="absolute -top-3 md:-top-4 left-2 md:left-4 w-6 md:w-auto"
+                      className="absolute -top-3 md:-top-4 left-2 md:left-4 w-6 md:w-auto"
                     >
                       <svg
-                        class="w-full h-auto"
+                        className="w-full h-auto"
                         width="75"
                         height="56"
                         viewBox="0 0 75 56"
@@ -106,7 +106,7 @@ function Test11() {
                       </svg>
                     </div>
 
-                    <p class="mb-0 font-medium">
+                    <p className="mb-0 font-medium">
                       This course provided a clear and step-by-step roadmap that
                       demystified the entire process. From crafting a compelling
                       product page to mastering marketing strategies, I gained
@@ -115,11 +115,11 @@ function Test11() {
                       made all the difference.
                     </p>
 
-                    <div class="pt-4 md:pt-6">
-                      <p class="font-semibold">
+                    <div className="pt-4 md:pt-6">
+                      <p className="font-semibold">
                         Darlene Robertson
 
-                        <span class="font-normal block"
+                        <span className="font-normal block"
                           >Marketing Coordinator</span
                         >
                       </p>
@@ -127,26 +127,26 @@ function Test11() {
                   </div>
                 </div>
               </div>
-              <div class="item">
-                <div class="bg-lightyellow flex md:h-full flex-wrap">
+              <div className="item">
+                <div className="bg-lightyellow flex md:h-full flex-wrap">
                   <div
-                    class="w-full md:w-2/5 overflow-hidden h-[200px] md:h-auto"
+                    className="w-full md:w-2/5 overflow-hidden h-[200px] md:h-auto"
                   >
                     <img
                       src={tt}
                       alt=""
-                      class="w-full h-full object-cover object-top"
+                      className="w-full h-full object-cover object-top"
                     />
                   </div>
 
                   <div
-                    class="w-full md:w-3/5 pt-5 p-2 md:px-4 md:pt-6 md:pb-3 relative"
+                    className="w-full md:w-3/5 pt-5 p-2 md:px-4 md:pt-6 md:pb-3 relative"
                   >
                     <div
-                      class="absolute -top-3 md:-top-4 left-2 md:left-4 w-6 md:w-auto"
+                      className="absolute -top-3 md:-top-4 left-2 md:left-4 w-6 md:w-auto"
                     >
                       <svg
-                        class="w-full h-auto"
+                        className="w-full h-auto"
                         width="75"
                         height="56"
                         viewBox="0 0 75 56"
@@ -159,7 +159,7 @@ function Test11() {
                       </svg>
                     </div>
 
-                    <p class="mb-0 font-medium">
+                    <p className="mb-0 font-medium">
                       This course provided a clear and step-by-step roadmap that
                       demystified the entire process. From crafting a compelling
                       product page to mastering marketing strategies, I gained
@@ -168,11 +168,11 @@ function Test11() {
                       made all the difference.
                     </p>
 
-                    <div class="pt-4 md:pt-6">
-                      <p class="font-semibold">
+                    <div className="pt-4 md:pt-6">
+                      <p className="font-semibold">
                         Darlene Robertson
 
-                        <span class="font-normal block"
+                        <span className="font-normal block"
                           >Marketing Coordinator</span
                         >
                       </p>

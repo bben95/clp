@@ -9,20 +9,20 @@ function More5() {
     }
   return (
     <main>
-     <section class="py-6">
-        <div class="container">
-          <div class="grid md:grid-cols-2 gap-3">
-            <div class="rounded-2xl p-4 border-card relative overflow-hidden">
-              <div class="absolute -bottom-3 -left-2">
+     <section className="py-6">
+        <div className="container">
+          <div className="grid md:grid-cols-2 gap-3">
+            <div className="rounded-2xl p-4 border-card relative overflow-hidden">
+              <div className="absolute -bottom-3 -left-2">
                 <img src={lig} alt="" />
               </div>
-              <h3 class="bg-line relative text-center mb-[40px]">
-                <span class="px-2 bg-[#FFFDF9] inline-block relative z-10">
+              <h3 className="bg-line relative text-center mb-[40px]">
+                <span className="px-2 bg-[#FFFDF9] inline-block relative z-10">
                   Why should you take this course
                 </span>
               </h3>
 
-              <ul class="star-list list-check">
+              <ul className="star-list list-check">
                 <li>
                   Beginner friendly - Even an absolute beginner can learn from
                   it
@@ -36,17 +36,17 @@ function More5() {
                 </li>
               </ul>
             </div>
-            <div class="rounded-2xl p-4 border-card relative overflow-hidden">
-              <div class="absolute -bottom-3 -left-2">
+            <div className="rounded-2xl p-4 border-card relative overflow-hidden">
+              <div className="absolute -bottom-3 -left-2">
                 <img src={ssg} alt="" />
               </div>
-              <h3 class="bg-line relative text-center mb-[40px]">
-                <span class="px-2 bg-[#FFFDF9] inline-block relative z-10">
+              <h3 className="bg-line relative text-center mb-[40px]">
+                <span className="px-2 bg-[#FFFDF9] inline-block relative z-10">
                   See course benefits
                 </span>
               </h3>
 
-              <ul class="star-list list-check">
+              <ul className="star-list list-check">
                 <li>
                   Beginner friendly - Even an absolute beginner can learn from
                   it

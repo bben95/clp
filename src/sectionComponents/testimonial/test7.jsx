@@ -11,12 +11,12 @@ function Test7() {
     }
   return (
     <main>
-    <section class="mt-[80px] lg:mt-[140px]" id="testimonials">
-        <div class="container">
+    <section className="mt-[80px] lg:mt-[140px]" id="testimonials">
+        <div className="container">
           <div
-            class="rounded-[27px] border border-primary/20 py-1 px-[20px] max-w-fit"
+            className="rounded-[27px] border border-primary/20 py-1 px-[20px] max-w-fit"
           >
-            <div class="flex items-center">
+            <div className="flex items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="33"
@@ -30,72 +30,72 @@ function Test7() {
                 />
               </svg>
               <div
-                class="text-12 lg:text-14 leading-[1.5] font-bold text-primary"
+                className="text-12 lg:text-14 leading-[1.5] font-bold text-primary"
               >
                 Our testimonials
               </div>
             </div>
           </div>
           <div
-            class="mt-[20px] lg:mt-3 mb-3 lg:mb-5 text-xl lg:text-[56px] lg:leading-[1.14] font-bodoni font-normal max-w-[600px]"
+            className="mt-[20px] lg:mt-3 mb-3 lg:mb-5 text-xl lg:text-[56px] lg:leading-[1.14] font-bodoni font-normal max-w-[600px]"
           >
             See what our students tell about us
           </div>
-          <div class="slider-section">
-            <div class="testimonial-slider6">
-              <div class="item">
+          <div className="slider-section">
+            <div className="testimonial-slider6">
+              <div className="item">
                 <div
-                  class="flex items-center lg:flex-row flex-col rounded-2xl relative overflow-hidden bg-[#F7F2EA]"
+                  className="flex items-center lg:flex-row flex-col rounded-2xl relative overflow-hidden bg-[#F7F2EA]"
                 >
                   <img
-                    class="absolute bottom-0 right-0"
+                    className="absolute bottom-0 right-0"
                     src={tq}
                     alt=""
                   />
                   <img
-                    class="w-full lg:w-auto h-[250px] lg:h-auto object-cover object-top lg:object-none"
+                    className="w-full lg:w-auto h-[250px] lg:h-auto object-cover object-top lg:object-none"
                     src={t2}
                     alt=""
                   />
-                  <div class="text-secondary lg:mx-4 px-2 lg:px-0 py-3 lg:py-0">
+                  <div className="text-secondary lg:mx-4 px-2 lg:px-0 py-3 lg:py-0">
                     <img src={s4} alt="" />
-                    <div class="text-small lg:text-base opacity-80 my-3">
+                    <div className="text-small lg:text-base opacity-80 my-3">
                       This course provided a clear and step-by-step roadmap that
                       demystified the entire process. From crafting a compelling
                       product page to mastering marketing strategies, I gained
                       valuable insights that turbocharged my store's growth.
                     </div>
-                    <div class="text-base font-semibold">Khushi Kapoor</div>
-                    <div class="text-small opacity-80">
+                    <div className="text-base font-semibold">Khushi Kapoor</div>
+                    <div className="text-small opacity-80">
                       Marketing Coordinator
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="item">
+              <div className="item">
                 <div
-                  class="flex items-center lg:flex-row flex-col rounded-2xl relative overflow-hidden bg-[#F7F2EA]"
+                  className="flex items-center lg:flex-row flex-col rounded-2xl relative overflow-hidden bg-[#F7F2EA]"
                 >
                   <img
-                    class="absolute bottom-0 right-0"
+                    className="absolute bottom-0 right-0"
                     src={tq}
                     alt=""
                   />
                   <img
-                    class="w-full lg:w-auto h-[250px] lg:h-auto object-cover object-top lg:object-none"
+                    className="w-full lg:w-auto h-[250px] lg:h-auto object-cover object-top lg:object-none"
                     src={t1}
                     alt=""
                   />
-                  <div class="text-secondary lg:mx-4 px-2 lg:px-0 py-3 lg:py-0">
+                  <div className="text-secondary lg:mx-4 px-2 lg:px-0 py-3 lg:py-0">
                     <img src={s4} alt="" />
-                    <div class="text-small lg:text-base opacity-80 my-3">
+                    <div className="text-small lg:text-base opacity-80 my-3">
                       This course provided a clear and step-by-step roadmap that
                       demystified the entire process. From crafting a compelling
                       product page to mastering marketing strategies, I gained
                       valuable insights that turbocharged my store's growth.
                     </div>
-                    <div class="text-base font-semibold">Khushi Kapoor</div>
-                    <div class="text-small opacity-80">
+                    <div className="text-base font-semibold">Khushi Kapoor</div>
+                    <div className="text-small opacity-80">
                       Marketing Coordinator
                     </div>
                   </div>
