@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import heroBg from '../../asset/group.png';
 import hl from '../../asset/hero-left-image.png';
 import hlm from '../../asset/hero-img-left-mobile.png';
@@ -11,21 +11,17 @@ import youtube from '../../asset/youtube.svg';
 import instagram from '../../asset/instagram.svg';
 import twitter from '../../asset/twitter.svg';
 function Hero8() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main className="overflow-x-hidden">
       <section className="lg:py-[100px] py-[47px] overflow-hidden hero-section">
         <div className="container relative">
           <img
               src={hl}
-              alt=""
+              alt="imag1"
               className="absolute top-[-3%] left-[4%]  md:block z-10"
             />
-          <img src={hlm} className="absolute left-[-12%] top-[-5%] sm:left-[-4%] sm:top-[-12%] block md:hidden z-10"/>
+          <img src={hlm} className="absolute left-[-12%] top-[-5%] sm:left-[-4%] sm:top-[-12%] block md:hidden z-10" alt="image4"/>
           <div className="flex flex-col justify-center items-center">
             <h1 className="font-newSpirit lg:max-w-[809px] sm:max-w-[550px] text-center font-normal md:text-[64px] text-[36px]">
               Your Passport to
@@ -40,11 +36,11 @@ function Hero8() {
             <button
               className="bg-secondary lg:py-2 py-[12px] px-[37px] rounded-full text-white font-ibmPlexSans md:text-18 lg:mt-[46px] mt-[40px] flex">
               Lets get started
-              <img src={ar} alt="" className="ml-[10px]" />
+              <img src={ar} alt="image2" className="ml-[10px]" />
             </button>
             <div className="flex flex-col lg:flex-row gap-[25px] lg:gap-0 items-center mt-4">
               <div className="flex gap-[2px]">
-                <img src={heroBg} alt="" />
+                <img src={heroBg} alt="image101" />
                 <div className="ml-[12px]">
                   <h6 className="text-18 font-bold">5M+</h6>
                   <span className="text-14 mt-1 whitespace-nowrap">Satisfied Customers
@@ -57,24 +53,24 @@ function Hero8() {
                   4.6+ <span className="font-normal text-14">(12,421 ratings)</span>
                 </h6>
                 <div className="flex mt-[4px]">
-                  <img src="img/star.svg" alt="" />
-                  <img src="img/star.svg" alt="" />
-                  <img src="img/star.svg" alt="" />
-                  <img src="img/star.svg" alt="" />
-                  <img src="img/half-star.svg" alt="" />
+                  <img src="img/star.svg" alt="image8" />
+                  <img src="img/star.svg" alt="image9" />
+                  <img src="img/star.svg" alt="image10" />
+                  <img src="img/star.svg" alt="image11" />
+                  <img src="img/half-star.svg" alt="iamge12" />
                 </div>
               </div>
             </div>
           </div>
           <img
               src={hr}
-              alt=""
+              alt="image100"
               className="absolute top-[-11%] right-[-4%] lg:block"
             />
-          <img src={hrm} alt="" className="absolute top-[-4%] sm:top-[-10%] right-[-10%] sm:right-[-2%] block lg:hidden"/>
+          <img src={hrm} alt="image93" className="absolute top-[-4%] sm:top-[-10%] right-[-10%] sm:right-[-2%] block lg:hidden" />
           <div className="relative lg:mt-[80px] mt-[40px]">
-            <img src={travel} alt="" className="rounded-3xl h-[520px] lg:h-auto" />
-            <img src={vid} className="absolute lg:top-[50%] lg:right-[25%] right-[50%] top-[20%] translate-x-[50%] transform lg:translate-y-[-50%] lg:w-[72px] lg:h-[72px] h-[40px] w-[40px]"/>
+            <img src={travel} alt="image5" className="rounded-3xl h-[520px] lg:h-auto"  />
+            <img src={vid} className="absolute lg:top-[50%] lg:right-[25%] right-[50%] top-[20%] translate-x-[50%] transform lg:translate-y-[-50%] lg:w-[72px] lg:h-[72px] h-[40px] w-[40px]" alt="image6"/>
           </div>
           <div className="">
             <div
@@ -95,7 +91,7 @@ function Hero8() {
                       2.01M
                     </h4>
                     <div className="flex gap-1">
-                      <img src={youtube} alt="" />
+                      <img src={youtube} alt="image9" />
                       <span className="lg:text-14 text-12 font-ibmPlexSans leading-[21px]">Subscribers</span>
                     </div>
                   </div>
@@ -107,7 +103,7 @@ function Hero8() {
                       3.01M
                     </h4>
                     <div className="flex gap-1">
-                      <img src={instagram} alt="" />
+                      <img src={instagram} alt="image10" />
                       <span className="lg:text-14 text-12 font-ibmPlexSans leading-[21px]">Followers
                       </span>
                     </div>
@@ -120,7 +116,7 @@ function Hero8() {
                       433K
                     </h4>
                     <div className="flex gap-1">
-                      <img src={twitter} alt="" />
+                      <img src={twitter} alt="image134" />
                       <span className="lg:text-14 text-12 font-ibmPlexSans leading-[21px]">Followers
                       </span>
                     </div>

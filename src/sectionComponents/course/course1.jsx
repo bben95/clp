@@ -1,11 +1,7 @@
-import React, { useState } from 'react';
+import React  from 'react';
 import Best from '../../asset/best-course.webp';
 function Course1() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
     <section

@@ -1,15 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import heroBg from '../../asset/group.png';
 import heroB2 from '../../asset/4star-rating.svg';
 import heroB3 from '../../asset/hero-influencer-mweb.webp';
 import heroB4 from '../../asset/hero-influencer.webp';
 
 function Hero1() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
     <section

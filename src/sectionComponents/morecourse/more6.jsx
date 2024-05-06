@@ -1,10 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 function More6() {
-    const [open,setOpen]=useState(false)
-
-    const handleClick=()=>{
-    setOpen(!open);
-    }
+ 
   return (
     <main>
    <section className="bg-cultured section-pad">

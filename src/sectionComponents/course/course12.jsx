@@ -1,12 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import wol from '../../asset/white-ball-opacity.svg';
 import pi from '../../asset/percent-icon.svg';
 function Course12() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
          <section className="section-pad" id="course">

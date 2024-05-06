@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import hero from '../../asset/hero-6.webp';
 import av1 from '../../asset/avatar-1.webp';
 import av2 from '../../asset/avatar-2.webp';
@@ -6,11 +6,7 @@ import av3 from '../../asset/avatar-3.webp';
 import av4 from '../../asset/avatar-4.webp';
 import star from '../../asset/star-4-6.svg';
 function Hero6() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
     <section

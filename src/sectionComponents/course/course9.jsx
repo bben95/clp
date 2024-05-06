@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import tb from '../../asset/timersection-bg.svg';
 import whatsapp from '../../asset/whatsapp.png';
 import s1 from '../../asset/stack1.png';
@@ -9,11 +9,7 @@ import meditation from '../../asset/meditation.png';
 import mbr from '../../asset/meditation-bgpattern-right.svg';
 import mbl from '../../asset/meditation-bgpattern-left.svg';
 function Course9() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
     <section

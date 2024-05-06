@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import vid from '../../asset/hero-video.mp4';
 import stack1 from '../../asset/stack1-img.png';
 import stack2 from '../../asset/stack2-img.png';
@@ -6,11 +6,7 @@ import stack3 from '../../asset/stack3-img.png';
 import stack4 from '../../asset/stack4-img.png';
 import heroB2 from '../../asset/4star-rating.svg';
 function Hero9() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
       <section

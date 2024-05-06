@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import i1 from '../../asset/icon1.svg';
 import i2 from '../../asset/icon2.svg';
 import i3 from '../../asset/icon3.svg';
@@ -7,11 +7,6 @@ import i5 from '../../asset/icon5.svg';
 import i6 from '../../asset/icon6.svg';
 import wa from '../../asset/wire-arrow.svg'
 function About8() {
-    const [open,setOpen]=useState(false)
-
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
          <section

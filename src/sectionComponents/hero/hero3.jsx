@@ -1,12 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 
 function Hero3() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
     <section

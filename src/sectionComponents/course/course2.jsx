@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ar from '../../asset/arrow-right-circle.svg';
 import al from '../../asset/arrow-left-circle.svg';
 import cd from '../../asset/chevron-down.svg';
@@ -8,11 +8,7 @@ import lm from '../../asset/learners-mobile.svg';
 import star from '../../asset/star.svg';
 import cm from '../../asset/checkmark.svg';
 function Course2() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
       

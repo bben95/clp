@@ -12,7 +12,7 @@ function About4() {
             <img src={dp} alt="" className="absolute top-[-10%] w-[223px] left-[2%] lg:w-[313px]"/>
             <img
               src={am}
-              className=" rounded-[10px] m-auto z-10 relative w-[285px] lg:w-[400px]"
+              className=" rounded-[10px] m-auto z-10 relative w-[285px] lg:w-[400px]" alt="image"
             />
             <div
               className="bg-purple lg:w-[400px] lg:h-[439px] h-[312px] w-[285px] rounded-[10px] absolute top-[7%] left-[15%]"

@@ -1,14 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import prof from '../../asset/hero-profile.jpg';
 import heroBg from '../../asset/group.png';
 import heroB2 from '../../asset/4star-rating.svg';
 
 function Hero2() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
     <section>

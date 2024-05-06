@@ -1,14 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ia from '../../asset/ipl-auction.png';
 import ar from '../../asset/arrow-up-right.svg';
 import cp from '../../asset/courses-pattern.png';
 import star from '../../asset/star.svg';
 function Course10() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
          <section className="lg:pt-[190px] pt-[80px] lg:pb-[150px] pb-[56px] relative" id="course">

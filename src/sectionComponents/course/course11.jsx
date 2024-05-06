@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ts from '../../asset/timer-section-img.jpg';
 import ft from '../../asset/flower-tick.svg';
 import course1 from '../../asset/course1.jpg';
@@ -6,11 +6,7 @@ import course2 from '../../asset/course2.jpg';
 import play from '../../asset/play.svg';
 import star4 from '../../asset/star-4-6.svg';
 function Course11() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
       <section

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import heroBg from '../../asset/hero-bg.webp';
 import stack1 from '../../asset/stack1-img.png';
 import stack2 from '../../asset/stack2-img.png';
@@ -6,11 +6,7 @@ import stack3 from '../../asset/stack3-img.png';
 import stack4 from '../../asset/stack4-img.png';
 import h2 from '../../asset/hero-2.webp';
 function Hero11() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
     <section className="hero-section pt-[150px] pb-5 lg:pb-[200px] lg:pt-[160px] overflow-hidden relative z-[2]">

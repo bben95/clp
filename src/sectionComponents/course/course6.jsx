@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import mi from '../../asset/masterclass-img.webp';
 import ci from '../../asset/course-img.webp';
 import c from '../../asset/cultured-pattern-light.svg';
@@ -6,11 +6,7 @@ import p from '../../asset/polygon.svg';
 
 
 function Course6() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
     <section className="section-pad !pt-0 lg:!pt-[80px]" id="course">

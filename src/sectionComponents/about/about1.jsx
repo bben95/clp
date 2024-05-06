@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import f1 from '../../asset/faang1-mweb.webp';
 import f11 from '../../asset/faang1.webp';
 import f3 from '../../asset/faang3.webp';
@@ -8,11 +8,6 @@ import youtube from '../../asset/youtube.svg';
 import twitter from '../../asset/twitter.svg';
 import instagram from '../../asset/instagram.svg';
 function About1() {
-    const [open,setOpen]=useState(false)
-
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
     <section className="pt-5 md:pt-[140px] pb-6 md:pb-[100px] scrollspy-section" id="about">
@@ -31,7 +26,7 @@ function About1() {
                   width="343"
                   height="256"
                   className="mx-auto w-full"
-                  alt="faang1-mweb"
+                  alt="faang1mweb"
                   loading="lazy"
                 />
               </picture>

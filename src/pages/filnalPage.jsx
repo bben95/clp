@@ -1,5 +1,4 @@
 import React, { useRef } from 'react';
-import ReactDOMServer from 'react-dom/server';
 import NavBar1 from "../sectionComponents/navBar/navBar1";
 import NavBar2 from "../sectionComponents/navBar/navBar2";
 import NavBar3 from "../sectionComponents/navBar/navBar3";
@@ -61,7 +60,7 @@ import Test8 from "../sectionComponents/testimonial/test8";
 import Test9 from "../sectionComponents/testimonial/test9";
 import Test10 from "../sectionComponents/testimonial/test10";
 import Test11 from "../sectionComponents/testimonial/test11";
-import { useSelector, useDispatch } from 'react-redux'
+import { useSelector } from 'react-redux'
 
 
 const FinalPage = () => {
@@ -126,7 +125,6 @@ const FinalPage = () => {
     document.body.removeChild(jsLink);
   };
   const indexs = useSelector(state => state.data);
-  const selcted= indexs.some(element => Number.isInteger(element))
   const section1 = [<NavBar1 />, <NavBar2 />, <NavBar3 />];
   const section2 = [
     <Hero1 />,

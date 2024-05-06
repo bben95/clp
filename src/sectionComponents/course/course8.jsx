@@ -1,15 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import mh from '../../asset/must-have.svg';
 import bs from '../../asset/big-star.png';
 import gs from '../../asset/group-star.png';
 import ss from '../../asset/small-star.png';
 import placeholder from '../../asset/placeholder.svg';
 function Course8() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
          <section>
@@ -27,7 +23,7 @@ function Course8() {
                 <div
                   className="accordion-button py-[18px] px-[20px] lg:text-20 text-18 font-newSpirit main-accordion-button text-apricot flex justify-between">
                   <div className="flex items-center lg:gap-[20px] gap-[12px]">
-                    <img src={mh} alt="" />
+                    <img src={mh} alt="image2" />
                     <span>Travel Essentials for Beginner</span>
                   </div>
                   <div className="chevron"></div>
@@ -151,7 +147,7 @@ function Course8() {
                 <div
                   className="accordion-button py-[18px] px-[20px] lg:text-20 text-18 font-newSpirit main-accordion-button text-apricot flex justify-between">
                   <div className="flex items-center lg:gap-[20px] gap-[12px]">
-                    <img src={mh} alt="" />
+                    <img src={mh} alt="image3" />
                     <span>Travel Essentials for Beginner</span>
                   </div>
                   <div className="chevron"></div>
@@ -275,7 +271,7 @@ function Course8() {
                 <div
                   className="accordion-button py-[18px] px-[20px] lg:text-20 text-18 font-newSpirit main-accordion-button text-apricot flex justify-between">
                   <div className="flex items-center lg:gap-[20px] gap-[12px]">
-                    <img src={mh} alt="" />
+                    <img src={mh} alt="image4" />
                     <span>Travel Essentials for Beginner</span>
                   </div>
                   <div className="chevron"></div>
@@ -399,9 +395,9 @@ function Course8() {
           </div>
           <div className="lg:w-[43%]">
             <div className="bg-oyster lg:px-[40px] px-3 lg:pt-[72px] pt-[60px] pb-[36px] rounded-[32px] relative">
-              <img src={bs} alt="" className="absolute right-0 top-0" />
-              <img src={gs} alt="" className="absolute top-[21%] left-[26%]" />
-              <img src={ss} alt="" className="absolute top-[20%] left-[6%]" />
+              <img src={bs} alt="" className="absolute right-0 top-0"  alt="image6"/>
+              <img src={gs} alt="" className="absolute top-[21%] left-[26%]" alt="image7" />
+              <img src={ss} alt="" className="absolute top-[20%] left-[6%]" alt="image8" />
               <span className="lg:text-[26px] text-24 font-newSpirit block relative mb-2 font-medium">Travel Essentials for
                 Beginners</span>
               <span className="lg:text-[56px] text-[48px] font-medium font-newSpirit relative">$99</span>
@@ -410,25 +406,25 @@ function Course8() {
               <h5 className="text-20 mb-3 font-newSpirit">Benefits</h5>
               <div className="flex flex-col gap-[20px]">
                 <div className="flex gap-[12px]">
-                  <img src={placeholder} alt="" />
+                  <img src={placeholder} alt="imag39" />
                   <p className="font-ibmPlexSans text-16 font-medium">
                     Comprehensive introduction to travel planning
                   </p>
                 </div>
                 <div className="flex gap-[12px]">
-                  <img src={placeholder} />
+                  <img src={placeholder} alt="image11" />
                   <p className="font-ibmPlexSans text-16 font-medium">
                     Comprehensive introduction to travel planning
                   </p>
                 </div>
                 <div className="flex gap-[12px]">
-                  <img src={placeholder} alt="" />
+                  <img src={placeholder} alt="image12" />
                   <p className="font-ibmPlexSans text-16 font-medium">
                     Comprehensive introduction to travel planning
                   </p>
                 </div>
                 <div className="flex gap-[12px]">
-                  <img src={placeholder} alt="" />
+                  <img src={placeholder} alt="image13" />
                   <p className="font-ibmPlexSans text-16 font-medium">
                     Comprehensive introduction to travel planning
                   </p>
@@ -450,7 +446,7 @@ function Course8() {
                 <div
                   className="accordion-button2 py-[18px] px-[20px] lg:text-20 text-18 font-newSpirit main-accordion-button text-apricot flex justify-between">
                   <div className="flex items-center lg:gap-[20px] gap-[12px]">
-                    <img src={mh} alt="" />
+                    <img src={mh} alt="image14" />
                     <span>Travel Essentials for Beginner</span>
                   </div>
                   <div className="chevron"></div>
@@ -574,7 +570,7 @@ function Course8() {
                 <div
                   className="accordion-button2 py-[18px] px-[20px] lg:text-20 text-18 font-newSpirit main-accordion-button text-apricot flex justify-between">
                   <div className="flex items-center lg:gap-[20px] gap-[12px]">
-                    <img src={mh} alt="" />
+                    <img src={mh} alt="image16" />
                     <span>Travel Essentials for Beginner</span>
                   </div>
                   <div className="chevron"></div>
@@ -698,7 +694,7 @@ function Course8() {
                 <div
                   className="accordion-button2 py-[18px] px-[20px] lg:text-20 text-18 font-newSpirit main-accordion-button text-apricot flex justify-between">
                   <div className="flex items-center lg:gap-[20px] gap-[12px]">
-                    <img src={mh} alt="" />
+                    <img src={mh} alt="image17" />
                     <span>Travel Essentials for Beginner</span>
                   </div>
                   <div className="chevron"></div>
@@ -822,9 +818,9 @@ function Course8() {
           </div>
           <div className="lg:w-[43%]">
             <div className="bg-oyster lg:px-[40px] px-3 lg:pt-[72px] pt-[60px] pb-[36px] rounded-[32px] relative">
-              <img src={bs} alt="" className="absolute right-0 top-0" />
-              <img src={gs} alt="" className="absolute top-[21%] left-[26%]" />
-              <img src={ss} alt="" className="absolute top-[20%] left-[6%]" />
+              <img src={bs} alt="image18" className="absolute right-0 top-0" />
+              <img src={gs} alt="image19" className="absolute top-[21%] left-[26%]" />
+              <img src={ss} alt="image20" className="absolute top-[20%] left-[6%]" />
               <span className="lg:text-[26px] text-24 font-newSpirit block relative mb-2 font-medium">Travel Essentials for
                 Beginners</span>
               <span className="lg:text-[56px] text-[48px] font-medium font-newSpirit relative">$99</span>
@@ -833,25 +829,25 @@ function Course8() {
               <h5 className="text-20 mb-3 font-newSpirit">Benefits</h5>
               <div className="flex flex-col gap-[20px]">
                 <div className="flex gap-[12px]">
-                  <img src={placeholder} alt="" />
+                  <img src={placeholder} alt="image13" />
                   <p className="font-ibmPlexSans text-16 font-medium">
                     Comprehensive introduction to travel planning
                   </p>
                 </div>
                 <div className="flex gap-[12px]">
-                  <img src={placeholder} alt="" />
+                  <img src={placeholder} alt="image14" />
                   <p className="font-ibmPlexSans text-16 font-medium">
                     Comprehensive introduction to travel planning
                   </p>
                 </div>
                 <div className="flex gap-[12px]">
-                  <img src={placeholder} alt="" />
+                  <img src={placeholder} alt="image20" />
                   <p className="font-ibmPlexSans text-16 font-medium">
                     Comprehensive introduction to travel planning
                   </p>
                 </div>
                 <div className="flex gap-[12px]">
-                  <img src={placeholder} alt="" />
+                  <img src={placeholder} alt="imag21" />
                   <p className="font-ibmPlexSans text-16 font-medium">
                     Comprehensive introduction to travel planning
                   </p>

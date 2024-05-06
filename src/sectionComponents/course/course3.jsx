@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import e1 from '../../asset/explore-course1.webp';
 import e2 from '../../asset/explore-course2.webp';
 import clock from '../../asset/clock.svg';
@@ -6,11 +6,6 @@ import people from '../../asset/people.svg';
 import f from '../../asset/4-6star.svg';
 
 function Course3() {
-    const [open,setOpen]=useState(false)
-
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
     <section className="py-5 md:py-[120px]">

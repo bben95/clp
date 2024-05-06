@@ -2,7 +2,7 @@ import './App.css';
 import React from 'react';
 import { NavBar } from './components/navbar';
 import { Sidenavbar } from './components/sidenavbar';
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import { Route, Routes} from 'react-router-dom';
 import { About } from './pages/about';
 import { Hero } from './pages/hero';
 import { Course } from './pages/course';

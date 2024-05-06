@@ -1,14 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import leaf from '../../asset/leaf.svg';
 import ma  from '../../asset/mandala-art-full.svg'
 import story from '../../asset/story.webp'
 import sbg from '../../asset/story-bg-patch.svg'
 function About7() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
      <section

@@ -1,14 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import riya from '../../asset/riya.png';
 import sp  from '../../asset/step-pattern.png'
 import heart from '../../asset/heart.svg'
 import curved from '../../asset/curved-shar.svg'
 function About8() {
-    const [open,setOpen]=useState(false)
-
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
      <section className="lg:py-[120px] pt-[92px] pb-6" id="about">

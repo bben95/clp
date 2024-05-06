@@ -1,12 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ts from '../../asset/timer-section-img.jpg';
 import ft from '../../asset/flower-tick.svg';
 function About11() {
-    const [open,setOpen]=useState(false)
-
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
         <section
@@ -74,7 +69,7 @@ id="about"
             <img
               className="rounded-[20px] w-full"
               src={ts}
-              alt=""
+              alt="image1"
             />
             <button
               className="absolute z-[20] sm:right-[15px] right-1 bottom-1 sm:bottom-[15px]"

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import eb from '../../asset/expert-badge.svg';
 import ni from '../../asset/network-icon.svg';
 import ws from '../../asset/white-stars.svg';
@@ -8,11 +8,6 @@ import o2 from '../../asset/owner-2.webp';
 import si from '../../asset/stars-icon.svg';
 import u from '../../asset/users.svg';
 function Course5() {
-    const [open,setOpen]=useState(false)
-
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
      <section className="section-pad overflow-hidden">

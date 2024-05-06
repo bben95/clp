@@ -1,14 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import heroBg from '../../asset/group.png';
 import heroB2 from '../../asset/4star-rating.svg';
 import heroB3 from '../../asset/arrow-right.svg';
 import heroB4 from '../../asset/hero-banner.jpg';
 function Hero4() {
-    const [open,setOpen]=useState(false)
-
-    const handleClick=()=>{
-    setOpen(!open);
-    }
+  
   return (
     <main>
      <section className="bg-primary2 lg:pt-[80px] lg:pb-[128px] pt-4 pb-5 hero-section">

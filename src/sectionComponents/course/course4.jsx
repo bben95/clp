@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import star from '../../asset/star.svg';
 import hs from '../../asset/half-star.svg';
 import ar from '../../asset/arrow-right.svg';
@@ -6,11 +6,7 @@ import m1 from '../../asset/masterclass-img1.jpg';
 import m2 from '../../asset/masterclass-img2.png';
 import wave from '../../asset/wave.svg';
 function Course4() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
     <section className="overflow-x-hidden">

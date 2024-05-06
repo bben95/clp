@@ -1,13 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ci from '../../asset/mycourse-img.png';
 import cb from '../../asset/mycourse-bgpatch.svg';
 
 function Course7() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
          <section className="pt-0 pb-[80px] lg:py-[120px]" id="course">

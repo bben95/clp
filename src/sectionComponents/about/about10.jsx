@@ -37,7 +37,7 @@ function About10() {
           </p>
         </div>
       </div>
-      <img src={cw} alt="" className="absolute lg:top-[50%] top-[95%] w-[200px] lg:w-[350px] right-0" />
+      <img src={cw} alt="" className="absolute lg:top-[50%] top-[95%] w-[200px] lg:w-[350px] right-0" alt="image" />
     </section>
     </main>
   );

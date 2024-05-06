@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import heroBg from '../../asset/homepage-hero-bg.webp';
 import stack1 from '../../asset/stack1-img.png';
 import stack2 from '../../asset/stack2-img.png';
@@ -8,11 +8,7 @@ import heroB2 from '../../asset/4star-rating.svg';
 import hs from '../../asset/hero-section.webp';
 
 function Hero12() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
     <section style={{ backgroundImage: `url(${heroBg})` }} className="bg-cover bg-center pt-150px lg:pt-200px overflow-hidden">
@@ -110,7 +106,7 @@ function Hero12() {
 
           <div>
             <div className="lg:w-[700px] lg:-translate-x-7">
-              <img src={hs} className="w-full" alt="" />
+              <img src={hs} className="w-full" alt="image2" />
             </div>
           </div>
         </div>
