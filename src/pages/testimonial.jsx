@@ -62,7 +62,7 @@ export function Testimonial(props) {
                   type="checkbox"
                   className="size-4 rounded border-gray-300"
                   id="Option1"
-                  checked={indexs[4]!==null?indexs[4]===i: select[i]}
+                  checked={indexs[6]!==null?indexs[6]===i: select[i]}
                   onChange={() => handleSelect(i)}
                 />
               </div>

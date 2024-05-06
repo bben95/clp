@@ -42,7 +42,7 @@ export function Table(props) {
                   type="checkbox"
                   className="size-4 rounded border-gray-300"
                   id="Option1"
-                  checked={indexs[4]!==null?indexs[4]===i: select[i]}
+                  checked={indexs[5]!==null?indexs[5]===i: select[i]}
                   onChange={() => handleSelect(i)}
                 />
               </div>
