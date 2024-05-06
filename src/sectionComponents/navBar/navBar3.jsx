@@ -7,7 +7,7 @@ const NavBar3 = () => {
     setOpen(!open);
     }
   return (
-    <header className="sticky top-0 bg-white z-50 md:pb-[12px] overflow-hidden w-[100vw]">
+    <header className="sticky top-0 bg-white z-50 md:pb-[12px] overflow-hidden max-w-[100vw]">
       {/* Top Banner Marquee Slider */}
       <div className="flex">
         <div className="flex animate-marquee min-w-full flex-shrink-0 bg-[#ffdb4d] flex-nowrap items-center justify-center overflow-hidden">
