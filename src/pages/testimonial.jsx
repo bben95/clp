@@ -42,7 +42,7 @@ export function Testimonial(props) {
         index === i ? true : false
       );
       setSelect(newArray);
-      dispatch(addNumber({ index:5, number:i }));
+      dispatch(addNumber({ index:6, number:i }));
     }
   };
 
