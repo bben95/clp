@@ -63,7 +63,7 @@ export function Course(props) {
                   type="checkbox"
                   className="size-4 rounded border-gray-300"
                   id="Option1"
-                  checked={indexs[2]!==null?indexs[2]===i: select[i]}
+                  checked={indexs[3]!==null?indexs[3]===i: select[i]}
                   onChange={() => handleSelect(i)}
                 />
               </div>
