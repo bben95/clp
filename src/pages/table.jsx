@@ -35,6 +35,7 @@ export function Table(props) {
             <label
               htmlFor="Option1"
               className="flex cursor-pointer items-start gap-4 rounded-lg border border-gray-200 p-4 transition hover:bg-gray-50 has-[:checked]:bg-blue-50 w-[90%]"
+              key={i}
             >
               <div className="flex items-center">
                 &#8203;

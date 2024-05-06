@@ -105,7 +105,7 @@ function Hero3() {
               <picture>
                 <source
                   media="(min-width:768px)"
-                  srcset="img/rigi/hero-influencer.webp"
+                  srcSet="img/rigi/hero-influencer.webp"
                   width="1030"
                   height="526"
                 />

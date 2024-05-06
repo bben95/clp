@@ -53,6 +53,7 @@ export function About(props) {
             <label
               htmlFor="Option1"
               className="flex cursor-pointer items-start gap-4 rounded-lg border border-gray-200 p-4 transition hover:bg-gray-50 has-[:checked]:bg-blue-50 w-[90%]"
+              key={i}
             >
               <div className="flex items-center">
                 &#8203;
@@ -60,7 +61,7 @@ export function About(props) {
                   type="checkbox"
                   className="size-4 rounded border-gray-300"
                   id="Option1"
-                  onClick={() => handleSelect(i)}
+                  onChange={() => handleSelect(i)}
                   checked={indexs[2]!==null?indexs[2]===i: select[i]}
                 />
               </div>

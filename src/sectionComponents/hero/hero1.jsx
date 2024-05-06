@@ -106,7 +106,7 @@ function Hero1() {
               <picture>
                 <source
                   media="(min-width:768px)"
-                  srcset={heroB3}
+                  srcSet={heroB3}
                   width="1030"
                   height="526"
                 />

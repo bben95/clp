@@ -10,14 +10,14 @@ function Course7() {
     }
   return (
     <main>
-         <section class="pt-0 pb-[80px] lg:py-[120px]" id="course">
-        <div class="container">
-          <div class="flex items-center lg:flex-row flex-col lg:gap-[74px]">
-            <div class="w-full lg:w-[55%] text-secondary">
+         <section className="pt-0 pb-[80px] lg:py-[120px]" id="course">
+        <div className="container">
+          <div className="flex items-center lg:flex-row flex-col lg:gap-[74px]">
+            <div className="w-full lg:w-[55%] text-secondary">
               <div
-                class="rounded-[27px] border border-primary/20 py-1 px-[20px] max-w-fit"
+                className="rounded-[27px] border border-primary/20 py-1 px-[20px] max-w-fit"
               >
-                <div class="flex items-center">
+                <div className="flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="33"
@@ -31,67 +31,67 @@ function Course7() {
                     />
                   </svg>
                   <div
-                    class="text-12 leading-[1.8] lg:text-14 lg:leading-[1.5] font-medium lg:font-semibold text-primary"
+                    className="text-12 leading-[1.8] lg:text-14 lg:leading-[1.5] font-medium lg:font-semibold text-primary"
                   >
                     My Courses
                   </div>
                 </div>
               </div>
               <div
-                class="mt-4 mb-2 lg:mb-3 font-bodoni text-[28px] lg:text-[56px] leading-[1.14] font-normal max-w-[611px]"
+                className="mt-4 mb-2 lg:mb-3 font-bodoni text-[28px] lg:text-[56px] leading-[1.14] font-normal max-w-[611px]"
               >
                 Beginner's Guide to Yoga: Discover Balance and Wellness.
               </div>
-              <div class="text-base26 opacity-60 lg:opacity-80 max-w-[610px]">
+              <div className="text-base26 opacity-60 lg:opacity-80 max-w-[610px]">
                 Our experienced instructors will lead you through gentle and
                 accessible yoga sessions, focusing on foundational poses
                 (asanas), breathing techniques (pranayama), and relaxation
                 methods.
               </div>
-              <div class=" lg:block hidden">
-                <div class="mt-[30px] mb-5">
+              <div className=" lg:block hidden">
+                <div className="mt-[30px] mb-5">
                   <div
-                    class="opacity-50 text-16 leading-[1.5] font-medium mb-3"
+                    className="opacity-50 text-16 leading-[1.5] font-medium mb-3"
                   >
                     Course Includes:
                   </div>
-                  <ul class="list-check">
-                    <li class="text-secondary mb-[20px]">
+                  <ul className="list-check">
+                    <li className="text-secondary mb-[20px]">
                       Complete guide of yoga assanas
                     </li>
-                    <li class="text-secondary mb-[20px]">
+                    <li className="text-secondary mb-[20px]">
                       Community of like minded Yoga practitioner
                     </li>
-                    <li class="text-secondary">My Personal study material</li>
+                    <li className="text-secondary">My Personal study material</li>
                   </ul>
                 </div>
-                <div class="text-secondary hidden">
+                <div className="text-secondary hidden">
                   <div
-                    class="opacity-50 text-16 leading-[1.5] font-medium mb-2 hidden"
+                    className="opacity-50 text-16 leading-[1.5] font-medium mb-2 hidden"
                   >
                     Discounted price of the course:
                   </div>
-                  <div class="flex items-center gap-[20px] hidden">
-                    <div class="text-[56px] leading-[1.3] font-bold">
+                  <div className="flex items-center gap-[20px] hidden">
+                    <div className="text-[56px] leading-[1.3] font-bold">
                       ₹1,999
                     </div>
                     <div
-                      class="text-24 opacity-50 leading-[1.7] font-normal line-through"
+                      className="text-24 opacity-50 leading-[1.7] font-normal line-through"
                     >
                       ₹4,999
                     </div>
                   </div>
                 </div>
-                <div class="mt-4">
+                <div className="mt-4">
                   <a
                     href="#!"
-                    class="button6 py-[12px] px-[20px] rounded-[50px] w-full bg-primary min-w-[160px] inline-block text-white text-16 leading-[1.5]"
+                    className="button6 py-[12px] px-[20px] rounded-[50px] w-full bg-primary min-w-[160px] inline-block text-white text-16 leading-[1.5]"
                   >
-                    <div class="relative overflow-hidden">
-                      <span class="button-content6"
+                    <div className="relative overflow-hidden">
+                      <span className="button-content6"
                         >Book your seats now !!!</span
                       >
-                      <span class="button-content-hover6"
+                      <span className="button-content-hover6"
                         >Book your seats now !!!</span
                       >
                     </div>
@@ -99,65 +99,65 @@ function Course7() {
                 </div>
               </div>
             </div>
-            <div class="w-full lg:w-[45%] relative">
+            <div className="w-full lg:w-[45%] relative">
               <img
-                class="relative z-[1] rounded-2xl w-full lg:h-[325px] sm:h-auto object-cover mt-2 lg:mt-0"
+                className="relative z-[1] rounded-2xl w-full lg:h-[325px] sm:h-auto object-cover mt-2 lg:mt-0"
                 src={ci}
                 alt=""
               />
               <img
-                class="absolute top-[-15%] z-0 right-[-15%]  hidden lg:inline-block"
+                className="absolute top-[-15%] z-0 right-[-15%]  hidden lg:inline-block"
                 src={cb}
                 alt=""
               />
-              <div class="block lg:hidden">
-                <div class="mt-4 mb-6">
+              <div className="block lg:hidden">
+                <div className="mt-4 mb-6">
                   <div
-                    class="opacity-50 text-16 leading-[1.5] font-medium mb-3"
+                    className="opacity-50 text-16 leading-[1.5] font-medium mb-3"
                   >
                     Course Includes:
                   </div>
-                  <ul class="list-check">
-                    <li class="text-secondary mb-2 lg:mb-[20px]">
+                  <ul className="list-check">
+                    <li className="text-secondary mb-2 lg:mb-[20px]">
                       Complete guide of yoga assanas
                     </li>
-                    <li class="text-secondary mb-2 lg:mb-[20px]">
+                    <li className="text-secondary mb-2 lg:mb-[20px]">
                       Community of like minded Yoga practitioner
                     </li>
-                    <li class="text-secondary">My Personal study material</li>
+                    <li className="text-secondary">My Personal study material</li>
                   </ul>
                 </div>
-                <div class="text-center text-secondary">
+                <div className="text-center text-secondary">
                   <div
-                    class="opacity-50 text-16 leading-[1.5] font-medium mb-[12px] lg:mb-2"
+                    className="opacity-50 text-16 leading-[1.5] font-medium mb-[12px] lg:mb-2"
                   >
                     Discounted price of the course:
                   </div>
                   <div
-                    class="flex justify-center items-center gap-[18px] lg:gap-[20px]"
+                    className="flex justify-center items-center gap-[18px] lg:gap-[20px]"
                   >
                     <div
-                      class="text-[42px] lg:text-[56px] leading-[1.3] font-bold"
+                      className="text-[42px] lg:text-[56px] leading-[1.3] font-bold"
                     >
                       ₹1,999
                     </div>
                     <div
-                      class="text-24 opacity-50 leading-[1.7] font-normal line-through"
+                      className="text-24 opacity-50 leading-[1.7] font-normal line-through"
                     >
                       ₹4,999
                     </div>
                   </div>
                 </div>
-                <div class="mt-3 lg:mt-4">
+                <div className="mt-3 lg:mt-4">
                   <a
                     href="#!"
-                    class="button py-[12px] px-[20px] rounded-[50px] w-full bg-primary min-w-[160px] inline-block text-white text-16 leading-[1.5]"
+                    className="button py-[12px] px-[20px] rounded-[50px] w-full bg-primary min-w-[160px] inline-block text-white text-16 leading-[1.5]"
                   >
-                    <div class="relative overflow-hidden">
-                      <span class="button-content"
+                    <div className="relative overflow-hidden">
+                      <span className="button-content"
                         >Book your seats now !!!</span
                       >
-                      <span class="button-content-hover"
+                      <span className="button-content-hover"
                         >Book your seats now !!!</span
                       >
                     </div>

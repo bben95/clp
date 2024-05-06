@@ -15,7 +15,7 @@ function Hero11() {
     <main>
     <section className="hero-section pt-[150px] pb-5 lg:pb-[200px] lg:pt-[160px] overflow-hidden relative z-[2]">
       <div className="absolute top-0 left-0 bottom-0 h-full w-full">
-      <img classNameName="h-full" src={heroBg} alt="" />
+      <img className="h-full" src={heroBg} alt="" />
       </div>
       <div className="container relative">
         <div className="flex lg:flex-row flex-col items-center">

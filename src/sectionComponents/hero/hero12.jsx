@@ -15,7 +15,7 @@ function Hero12() {
     }
   return (
     <main>
-    <section style={{ backgroundImage: `url(${heroBg})` }} classNameName="bg-cover bg-center pt-150px lg:pt-200px overflow-hidden">
+    <section style={{ backgroundImage: `url(${heroBg})` }} className="bg-cover bg-center pt-150px lg:pt-200px overflow-hidden">
       <div className="container">
         <div className="grid lg:grid-cols-2">
           <div className="pb-4">

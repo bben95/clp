@@ -12,25 +12,25 @@ function About7() {
   return (
     <main>
      <section
-        class="bg-alabaster pb-[84px] lg:pb-[120px] pt-[270px] mt-[-70px] relative overflow-hidden mt-8"
+        className="bg-alabaster pb-[84px] lg:pb-[120px] pt-[270px] mt-[-70px] relative overflow-hidden mt-8"
         id="about"
       >
-        <div class="container">
+        <div className="container">
           <img
             src={leaf}
-            class="absolute z-[3] top-3 lg:top-[-80px] -left-3 lg:left-0 w-[290px] h-[280px] lg:w-auto lg:h-auto"
+            className="absolute z-[3] top-3 lg:top-[-80px] -left-3 lg:left-0 w-[290px] h-[280px] lg:w-auto lg:h-auto"
             alt=""
           />
           <img
-            class="absolute z-[3] w-[530px] top-[-105px] right-[-220px]  lg:inline-block"
+            className="absolute z-[3] w-[530px] top-[-105px] right-[-220px]  lg:inline-block"
             src={ma}
             alt=""
           />
           <div
-            class="flex items-start lg:items-center lg:flex-row flex-col lg:mt-[-100px]"
+            className="flex items-start lg:items-center lg:flex-row flex-col lg:mt-[-100px]"
           >
-            <div class="block lg:hidden mt-[22px]">
-              <div class="flex items-center">
+            <div className="block lg:hidden mt-[22px]">
+              <div className="flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="33"
@@ -44,33 +44,33 @@ function About7() {
                   />
                 </svg>
                 <div
-                  class="text-16 leading-[1.5] font-bold text-primary ml-[2px] mr-2"
+                  className="text-16 leading-[1.5] font-bold text-primary ml-[2px] mr-2"
                 >
                   My&nbsp;Story
                 </div>
-                <div class="w-full h-[2px] bg-primary"></div>
+                <div className="w-full h-[2px] bg-primary"></div>
               </div>
               <div
-                class="font-bodoni text-[28px] leading-[1.14] text-secondary font-normal mt-[19px] lg:mt-[30px] mb-3"
+                className="font-bodoni text-[28px] leading-[1.14] text-secondary font-normal mt-[19px] lg:mt-[30px] mb-3"
               >
                 Some background about me
               </div>
             </div>
-            <div class="relative w-full lg:w-1/2">
+            <div className="relative w-full lg:w-1/2">
               <img
-                class="lg:w-[536px] lg:h-[680px] w-full relative z-[1]"
+                className="lg:w-[536px] lg:h-[680px] w-full relative z-[1]"
                 src={story}
                 alt=""
               />
               <img
-                class="absolute top-[10%] left-0 lg:left-[5%] bottom-0 right-0"
+                className="absolute top-[10%] left-0 lg:left-[5%] bottom-0 right-0"
                 src={sbg}
                 alt=""
               />
             </div>
-            <div class="w-full lg:w-1/2">
-              <div class="lg:block">
-                <div class="flex items-center">
+            <div className="w-full lg:w-1/2">
+              <div className="lg:block">
+                <div className="flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="33"
@@ -84,20 +84,20 @@ function About7() {
                     />
                   </svg>
                   <div
-                    class="text-16 leading-[1.5] font-bold text-primary ml-[2px] mr-2"
+                    className="text-16 leading-[1.5] font-bold text-primary ml-[2px] mr-2"
                   >
                     My&nbsp;Story
                   </div>
-                  <div class="w-full h-[2px] bg-primary"></div>
+                  <div className="w-full h-[2px] bg-primary"></div>
                 </div>
                 <div
-                  class="font-bodoni text-[56px] leading-[1.2] text-secondary font-normal max-w-[465px] mt-[30px] mb-3"
+                  className="font-bodoni text-[56px] leading-[1.2] text-secondary font-normal max-w-[465px] mt-[30px] mb-3"
                 >
                   Some background about me
                 </div>
               </div>
               <div
-                class="text-16 leading-[1.6] font-medium text-secondary/80 mb-3 mt-[45px] lg:mt-0"
+                className="text-16 leading-[1.6] font-medium text-secondary/80 mb-3 mt-[45px] lg:mt-0"
               >
                 Ananya Sharma is a dedicated and passionate yoga instructor
                 based in the serene town of Rishikesh, known as the yoga capital
@@ -108,7 +108,7 @@ function About7() {
                 make the practice accessible to modern individuals through
                 online platforms.
               </div>
-              <div class="text-16 leading-[1.6] font-medium text-secondary/80">
+              <div className="text-16 leading-[1.6] font-medium text-secondary/80">
                 Teaching Philosophy: Ananya's teaching philosophy revolves
                 around the belief that yoga is not just a physical practice but
                 a holistic journey towards self-discovery and well-being. She

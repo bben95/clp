@@ -17,7 +17,7 @@ function Hero9() {
         className="hero-section pt-[220px] pb-5 lg:pb-[200px] lg:pt-[250px] overflow-hidden relative z-[2]"
       >
         <div className="absolute top-0 left-0 bottom-0 h-full w-full">
-        <video autoplay muted loop playsinline>
+        <video autoPlay muted loop playsInline>
         <source src={vid} type="video/mp4" />
         </video>
           <div className="absolute inset-0 bg-[#000000]/50"></div>
