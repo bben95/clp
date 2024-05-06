@@ -26,10 +26,11 @@ export function About(props) {
     <About11 />,
     <About12 />,
   ];
+  const indexs = useSelector(state => state.data);
   const [select, setSelect] = useState(Array(components.length).fill(false)); 
   const dispatch=useDispatch()
-//   const count = useSelector(state => state.data);
-//  console.log(count);
+  
+
   const handleSelect = (i) => {
     if (select[i] === true) {
       const newArray = [...select];
@@ -60,7 +61,7 @@ export function About(props) {
                   className="size-4 rounded border-gray-300"
                   id="Option1"
                   onClick={() => handleSelect(i)}
-                  checked={select[i]}
+                  checked={indexs[2]!==null?indexs[2]===i: select[i]}
                 />
               </div>
 

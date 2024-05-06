@@ -29,7 +29,7 @@ export function Course(props) {
     <Course11 />,
     <Course12 />,
   ];
-
+  const indexs = useSelector(state => state.data);
   const [select, setSelect] = useState(Array(components.length).fill(false));
   const dispatch=useDispatch()
 
@@ -63,7 +63,7 @@ export function Course(props) {
                   type="checkbox"
                   className="size-4 rounded border-gray-300"
                   id="Option1"
-                  checked={select[i]}
+                  checked={indexs[2]!==null?indexs[2]===i: select[i]}
                   onChange={() => handleSelect(i)}
                 />
               </div>

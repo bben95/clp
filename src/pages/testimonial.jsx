@@ -28,6 +28,7 @@ export function Testimonial(props) {
     <Test10 />,
     <Test11 />,
   ];
+  const indexs = useSelector(state => state.data);
   const [select, setSelect] = useState(Array(components.length).fill(false));
   const dispatch=useDispatch()
 
@@ -61,7 +62,7 @@ export function Testimonial(props) {
                   type="checkbox"
                   className="size-4 rounded border-gray-300"
                   id="Option1"
-                  checked={select[i]}
+                  checked={indexs[4]!==null?indexs[4]===i: select[i]}
                   onChange={() => handleSelect(i)}
                 />
               </div>

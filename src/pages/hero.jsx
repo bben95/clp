@@ -29,7 +29,7 @@ export function Hero(props) {
     <Hero11 />,
     <Hero12 />,
   ];
-
+  const indexs = useSelector(state => state.data);
   const [select, setSelect] = useState(Array(components.length).fill(false));
   const dispatch=useDispatch()
 
@@ -63,7 +63,7 @@ export function Hero(props) {
                   type="checkbox"
                   className="size-4 rounded border-gray-300"
                   id="Option1"
-                  checked={select[i]}
+                  checked={indexs[1]!==null?indexs[1]===i: select[i]}
                   onChange={() => handleSelect(i)}
                 />
               </div>
