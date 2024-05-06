@@ -9,8 +9,7 @@ import {store} from'../src/redux/index'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    
+  <React.StrictMode> 
     <Router>
     <Provider store={store}>
     <App />

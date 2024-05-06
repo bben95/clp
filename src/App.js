@@ -11,18 +11,12 @@ import { More } from './pages/more';
 import { Table } from './pages/table';
 import { Testimonial } from './pages/testimonial';
 import FinalPage from './pages/filnalPage';
-
-
-
-
 function App() {
   return (
     <div className="App" >
       <NavBar/>
       <div className='flex'>
-
      <Sidenavbar/>
-     
      <Routes>
      <Route path="/" element={<Navbar/>} />
      <Route   path="/hero" element={<Hero/>} />
