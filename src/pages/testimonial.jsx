@@ -10,6 +10,8 @@ import Test8 from "../sectionComponents/testimonial/test8";
 import Test9 from "../sectionComponents/testimonial/test9";
 import Test10 from "../sectionComponents/testimonial/test10";
 import Test11 from "../sectionComponents/testimonial/test11";
+import { addNumber, removeNumber } from"../redux/index";
+import { useSelector, useDispatch } from 'react-redux'
 
 export function Testimonial(props) {
   const components = [
@@ -27,17 +29,20 @@ export function Testimonial(props) {
     <Test11 />,
   ];
   const [select, setSelect] = useState(Array(components.length).fill(false));
+  const dispatch=useDispatch()
 
   const handleSelect = (i) => {
     if (select[i] === true) {
       const newArray = [...select];
       newArray[i] = !newArray[i];
       setSelect(newArray);
+      dispatch(removeNumber({ index:6 }))
     } else {
       const newArray = select.map((item, index) =>
         index === i ? true : false
       );
       setSelect(newArray);
+      dispatch(addNumber({ index:5, number:i }));
     }
   };
 

@@ -11,6 +11,8 @@ import Course9 from "../sectionComponents/course/course9";
 import Course10 from "../sectionComponents/course/course10";
 import Course11 from "../sectionComponents/course/course11";
 import Course12 from "../sectionComponents/course/course12";
+import { addNumber, removeNumber } from"../redux/index";
+import { useSelector, useDispatch } from 'react-redux'
 
 export function Course(props) {
   const components = [
@@ -29,17 +31,20 @@ export function Course(props) {
   ];
 
   const [select, setSelect] = useState(Array(components.length).fill(false));
+  const dispatch=useDispatch()
 
   const handleSelect = (i) => {
     if (select[i] === true) {
       const newArray = [...select];
       newArray[i] = !newArray[i];
       setSelect(newArray);
+      dispatch(removeNumber({ index:3 }))
     } else {
       const newArray = select.map((item, index) =>
         index === i ? true : false
       );
       setSelect(newArray);
+      dispatch(addNumber({ index:3, number:i }));
     }
   };
 

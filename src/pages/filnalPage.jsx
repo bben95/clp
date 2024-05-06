@@ -3,6 +3,7 @@ import ReactDOMServer from 'react-dom/server';
 import NavBar1 from '../sectionComponents/navBar/navBar1'
 import NavBar2 from '../sectionComponents/navBar/navBar2'
 import NavBar3 from '../sectionComponents/navBar/navBar3'
+import { useSelector, useDispatch } from 'react-redux'
 
 
 const FinalPage = () => {
@@ -66,14 +67,13 @@ const FinalPage = () => {
     jsLink.click();
     document.body.removeChild(jsLink);
   };
+  const sections = useSelector(state => state.data);
 
   return (
     <div  ref={htmlRef}>
-           <NavBar1/>
-      <NavBar2/>
-      <NavBar3/>
+     
  
-      {/* Add more components as needed */}
+      {data.some(element => Number.isInteger(element))?data.map((section)=>section):<p>Please Select Sections</p>}
       <button className="inline-block rounded border border-indigo-600 bg-indigo-600 px-2 py-1 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 fixed bottom-2 right-2"  onClick={downloadFiles} >Download Files</button>
     </div>
   );

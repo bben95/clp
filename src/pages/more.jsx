@@ -7,6 +7,8 @@ import More5 from "../sectionComponents/morecourse/more5";
 import More6 from "../sectionComponents/morecourse/more6";
 import More7 from "../sectionComponents/morecourse/more7";
 import More8 from "../sectionComponents/morecourse/more8";
+import { addNumber, removeNumber } from"../redux/index";
+import { useSelector, useDispatch } from 'react-redux';
 
 export function More(props) {
   const components = [
@@ -20,17 +22,20 @@ export function More(props) {
     <More8 />,
   ];
   const [select, setSelect] = useState(Array(components.length).fill(false));
+  const dispatch=useDispatch()
 
   const handleSelect = (i) => {
     if (select[i] === true) {
       const newArray = [...select];
       newArray[i] = !newArray[i];
       setSelect(newArray);
+      dispatch(removeNumber({ index:4 }))
     } else {
       const newArray = select.map((item, index) =>
         index === i ? true : false
       );
       setSelect(newArray);
+      dispatch(addNumber({ index:4, number:i }));
     }
   };
 

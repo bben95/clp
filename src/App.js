@@ -24,10 +24,10 @@ function App() {
      <Sidenavbar/>
      
      <Routes>
-     <Route   path="/" element={<Hero/>} />
+     <Route path="/" element={<Navbar/>} />
+     <Route   path="/hero" element={<Hero/>} />
     <Route path="/about" element={<About/>} />
     <Route path="/course" element={<Course/>} />
-    <Route path="/navbar" element={<Navbar/>} />
     <Route path="/more" element={<More/>} />
     <Route path="/table" element={<Table/>} />
     <Route path="/testimonial" element={<Testimonial/>} />

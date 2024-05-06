@@ -11,6 +11,8 @@ import Hero9 from "../sectionComponents/hero/hero9";
 import Hero10 from "../sectionComponents/hero/hero10";
 import Hero11 from "../sectionComponents/hero/hero11";
 import Hero12 from "../sectionComponents/hero/hero12";
+import { addNumber, removeNumber } from"../redux/index";
+import { useSelector, useDispatch } from 'react-redux'
 
 export function Hero(props) {
   const components = [
@@ -29,17 +31,20 @@ export function Hero(props) {
   ];
 
   const [select, setSelect] = useState(Array(components.length).fill(false));
+  const dispatch=useDispatch()
 
   const handleSelect = (i) => {
     if (select[i] === true) {
       const newArray = [...select];
       newArray[i] = !newArray[i];
       setSelect(newArray);
+      dispatch(removeNumber({ index:1 }))
     } else {
       const newArray = select.map((item, index) =>
         index === i ? true : false
       );
       setSelect(newArray);
+      dispatch(addNumber({ index:1, number:i }));
     }
   };
 

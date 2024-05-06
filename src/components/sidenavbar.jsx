@@ -8,7 +8,7 @@ export function Sidenavbar(props) {
   const handleClick = (item) => {
     setState(item);
     switch (item) {
-      case "Hero": {
+      case "Navbar": {
         navigate("/");
         break;
       }
@@ -20,8 +20,8 @@ export function Sidenavbar(props) {
         navigate("/course");
         break;
       }
-      case "Navbar": {
-        navigate("/navbar");
+      case "Hero": {
+        navigate("/hero");
         break;
       }
       case "More": {
@@ -43,10 +43,10 @@ export function Sidenavbar(props) {
   };
 
   const items = [
+    "Navbar",
     "Hero",
     "About",
     "Course",
-    "Navbar",
     "More",
     "Table",
     "Testimonial",

@@ -3,21 +3,26 @@ import Table8 from "../sectionComponents/table/table8";
 import Table9 from "../sectionComponents/table/table9";
 import Table10 from "../sectionComponents/table/table10";
 import Table12 from "../sectionComponents/table/table12";
+import { addNumber, removeNumber } from"../redux/index";
+import { useSelector, useDispatch } from 'react-redux'
 
 export function Table(props) {
   const components = [<Table8 />, <Table9 />, <Table10 />, <Table12 />];
   const [select, setSelect] = useState(Array(components.length).fill(false));
+  const dispatch=useDispatch()
 
   const handleSelect = (i) => {
     if (select[i] === true) {
       const newArray = [...select];
       newArray[i] = !newArray[i];
       setSelect(newArray);
+      dispatch(removeNumber({ index:5 }))
     } else {
       const newArray = select.map((item, index) =>
         index === i ? true : false
       );
       setSelect(newArray);
+      dispatch(addNumber({ index:5, number:i }));
     }
   };
 

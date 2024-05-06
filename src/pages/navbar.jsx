@@ -2,21 +2,27 @@ import React, { useState } from "react";
 import NavBar1 from "../sectionComponents/navBar/navBar1";
 import NavBar2 from "../sectionComponents/navBar/navBar2";
 import NavBar3 from "../sectionComponents/navBar/navBar3";
+import { addNumber, removeNumber } from"../redux/index";
+import { useSelector, useDispatch } from 'react-redux'
 
 export function Navbar(props) {
   const components = [<NavBar1 />, <NavBar2 />, <NavBar3 />];
   const [select, setSelect] = useState(Array(components.length).fill(false));
+
+  const dispatch=useDispatch()
 
   const handleSelect = (i) => {
     if (select[i] === true) {
       const newArray = [...select];
       newArray[i] = !newArray[i];
       setSelect(newArray);
+      dispatch(removeNumber({ index:0 }))
     } else {
       const newArray = select.map((item, index) =>
         index === i ? true : false
       );
       setSelect(newArray);
+      dispatch(addNumber({ index:0, number:i }));
     }
   };
 

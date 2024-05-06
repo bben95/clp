@@ -10,7 +10,8 @@ import About9 from "../sectionComponents/about/about9";
 import About10 from "../sectionComponents/about/about10";
 import About11 from "../sectionComponents/about/about11";
 import About12 from "../sectionComponents/about/about12";
-
+import { addNumber, removeNumber } from"../redux/index";
+import { useSelector, useDispatch } from 'react-redux'
 export function About(props) {
   const components = [
     <About1 />,
@@ -25,18 +26,22 @@ export function About(props) {
     <About11 />,
     <About12 />,
   ];
-  const [select, setSelect] = useState(Array(components.length).fill(false));
-
+  const [select, setSelect] = useState(Array(components.length).fill(false)); 
+  const dispatch=useDispatch()
+//   const count = useSelector(state => state.data);
+//  console.log(count);
   const handleSelect = (i) => {
     if (select[i] === true) {
       const newArray = [...select];
       newArray[i] = !newArray[i];
       setSelect(newArray);
+      dispatch(removeNumber({ index:2 }))
     } else {
       const newArray = select.map((item, index) =>
         index === i ? true : false
       );
       setSelect(newArray);
+      dispatch(addNumber({ index:2, number:i }));
     }
   };
   return (
