@@ -9,7 +9,7 @@ function Hero1() {
   return (
     <main>
     <section
-      className="py-[60px] md:py-[64px] rigi-hero relative overflow-hidden"
+      className="pb-[60px] md:pb-[64px] rigi-hero relative overflow-hidden"
     >
       <div className="container">
         <div className="w-full text-center">

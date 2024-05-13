@@ -51,7 +51,7 @@ export function Course(props) {
   return (
     <>
       <fieldset>
-        <div className="space-y-2 flex flex-col mx-2 my-2 h-[100vh] overflow-scroll">
+        <div className="space-y-2 flex flex-col mx-2 my-2 h-[100vh] v-[80vw] overflow-y-scroll">
           {components.map((component, i) => (
             <label
               htmlFor="Option1"

@@ -8,7 +8,7 @@ function NavBar1() {
     setOpen(!open);
     }
   return (
-    <header className="sticky top-0 bg-secondary md:pb-[12px] z-50 overflow-hidden max-w-[100vw]">
+    <header className="sticky top-0 bg-secondary lg:pb-[12px] z-50 overflow-hidden max-w-[100vw]">
       {/* Top Banner Marquee Slider */}
       <div className="flex mb-1">
         <div className="flex mx-[-0.5px] animate-marquee min-w-full flex-shrink-0 bg-[#ffdb4d] flex-nowrap items-center justify-center overflow-hidden">

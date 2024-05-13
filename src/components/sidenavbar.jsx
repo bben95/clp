@@ -57,7 +57,7 @@ export function Sidenavbar(props) {
 
   return (
     <>
-      <div className="flex h-screen flex-col justify-between border-e bg-white w-[20%]">
+      <div className="flex h-screen flex-col justify-between border-e bg-white w-[15vw]">
         <div className="px-4 py-6 overflow-y-scroll">
           <ul className="mt-1 ">
             {items.map((item, i) => (
@@ -82,7 +82,7 @@ export function Sidenavbar(props) {
           </button>
         </div>
 
-        <div className="sticky inset-x-0 bottom-0 border-t border-gray-100">
+        <div className="sticky inset-x-0 bottom-0 border-t border-gray-100 ml-[20px]">
 
             <div>
               <p className="text-xs">
