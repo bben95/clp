@@ -5,9 +5,6 @@ export function Sidenavbar(props) {
   const [state, setState] = useState("hero");
   const navigate = useNavigate();
   const [open,setOpen]=useState(false)
-  const handleHamburger=()=>{
-  setOpen(!open);
-  }
 
   const handleClick = (item) => {
     setState(item);
