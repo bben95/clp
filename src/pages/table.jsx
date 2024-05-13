@@ -30,7 +30,7 @@ export function Table(props) {
   return (
     <>
       <fieldset>
-        <div className="space-y-2 flex flex-col mx-2 my-2 h-[100vh] w-[80vw] overflow-y-scroll">
+        <div className="space-y-2 flex flex-col mx-2 my-2 h-[100vh] max-w-[80vw] overflow-y-scroll">
           {components.map((component, i) => (
             <label
               htmlFor="Option1"

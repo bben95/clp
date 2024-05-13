@@ -4,6 +4,10 @@ import { useNavigate } from "react-router-dom";
 export function Sidenavbar(props) {
   const [state, setState] = useState("hero");
   const navigate = useNavigate();
+  const [open,setOpen]=useState(false)
+  const handleHamburger=()=>{
+  setOpen(!open);
+  }
 
   const handleClick = (item) => {
     setState(item);
@@ -57,8 +61,9 @@ export function Sidenavbar(props) {
 
   return (
     <>
-      <div className="flex h-screen flex-col justify-between border-e bg-white w-[15vw]">
+      <div className="flex h-screen flex-col justify-between border-e bg-white w-[15vw] hidden md:block">
         <div className="px-4 py-6 overflow-y-scroll">
+     
           <ul className="mt-1 ">
             {items.map((item, i) => (
               <li key={i}>
@@ -74,14 +79,15 @@ export function Sidenavbar(props) {
               </li>
             ))}
           </ul>
+        
           <button
             className="inline-block rounded border border-indigo-600 bg-indigo-600 px-5 py-1 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 mt-[10px]"
             onClick={handleFinish}
           >
             Finish
           </button>
-        </div>
-
+          </div>
+    
         <div className="sticky inset-x-0 bottom-0 border-t border-gray-100 ml-[20px]">
 
             <div>

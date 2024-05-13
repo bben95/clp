@@ -200,7 +200,7 @@ const FinalPage = () => {
   
 
   return (
-    <div  ref={htmlRef} className="mx-2 my-2 h-[100vh] w-[80vw] overflow-y-scroll">
+    <div  ref={htmlRef} className="mx-2 my-2 h-[100vh] max-w-[80vw] overflow-y-scroll">
      
  
       {!(selectedComponents?.length===0)? selectedComponents.map((component)=> component):<div className="flex items-center justify-center  h-full"><h1 className='text-black text-[50px]'>Please Select Sections</h1></div>}
