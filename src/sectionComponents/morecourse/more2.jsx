@@ -1,14 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import fm from '../../asset/financial-markets.svg';
 import no from '../../asset/networking-opportunities.svg';
 import fp from '../../asset/financial-planning.svg';
 import fl from '../../asset/financial-literacy.svg';
 function More2() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
       <section className="lg:py-[150px] py-[60px]">

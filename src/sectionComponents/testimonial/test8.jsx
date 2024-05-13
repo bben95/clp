@@ -1,14 +1,10 @@
-import React, { useState} from 'react';
+import React from 'react';
 import cs from '../../asset/curved-shar.svg';
 import star from '../../asset/star.svg';
 import gs from '../../asset/green-star-sm.svg';
 import kavya from '../../asset/kavya.svg';
 function Test8() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
         <section className="lg:py-[120px] pt-[100px] pb-[120px] overflow-hidden">

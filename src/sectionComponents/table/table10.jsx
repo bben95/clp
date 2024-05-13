@@ -1,13 +1,8 @@
-import React, { useState} from 'react';
+import React from 'react';
 import verify from '../../asset/verify.svg';
 import not from '../../asset/not-verified.svg';
 import up from '../../asset/usp-pattern.png';
 function Table10() {
-    const [open,setOpen]=useState(false)
-
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
     <section className="lg:pt-[250px] pt-[200px]  relative">

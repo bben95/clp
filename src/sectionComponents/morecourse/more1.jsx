@@ -1,12 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import course from '../../asset/course1.webp';
 import ad from '../../asset/arrow-down.svg';
 function More1() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
       <section className="md:py-[60px] py-4">

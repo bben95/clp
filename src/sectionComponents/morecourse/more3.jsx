@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import mf from '../../asset/manage-finance.svg';
 import investments from '../../asset/investments.svg';
 import et from '../../asset/effective-tools.svg';
@@ -7,11 +7,7 @@ import di from '../../asset/debt-investing.svg';
 import tpt from '../../asset/tax-planning-tool.svg';
 
 function More3() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
     <section

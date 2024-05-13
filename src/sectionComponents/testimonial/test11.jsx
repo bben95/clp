@@ -1,12 +1,8 @@
-import React, { useState} from 'react';
+import React from 'react';
 import tt from '../../asset/testimonial-thumb.jpg';
 
 function Test11() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
      <section className="section-pad overflow-hidden" id="testimonials">

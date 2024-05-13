@@ -1,12 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import sp from '../../asset/services-pattern.png';
 import checked from '../../asset/checked.svg';
 function More8() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
         <section className="mt-[52px]">

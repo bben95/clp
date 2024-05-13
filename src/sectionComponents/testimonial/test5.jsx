@@ -1,12 +1,8 @@
-import React, { useState} from 'react';
+import React from 'react';
 import a1 from '../../asset/avatar-1.webp';
 import si from '../../asset/stars-icon.svg';
 function Test5() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
      <section

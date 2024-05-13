@@ -1,12 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import lig from '../../asset/like-icon-gradient.svg';
 import ssg from '../../asset/smile-star-gradient.svg';
 function More5() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
      <section className="py-6">

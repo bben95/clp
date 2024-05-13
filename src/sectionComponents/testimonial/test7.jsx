@@ -1,14 +1,9 @@
-import React, { useState} from 'react';
+import React from 'react';
 import t1 from '../../asset/testimonial1.jpg';
 import t2 from '../../asset/testimonial2.jpg';
 import s4 from '../../asset/4stars.svg';
 import tq from '../../asset/testimonial-quotes.svg';
 function Test7() {
-    const [open,setOpen]=useState(false)
-
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
     <section className="mt-[80px] lg:mt-[140px]" id="testimonials">

@@ -1,11 +1,6 @@
-import React, { useState} from 'react';
+import React from 'react';
 import si from '../../asset/student-img.webp';
 function Test3() {
-    const [open,setOpen]=useState(false)
-
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
          <section className="py-5 md:py-[120px] bg-palelavender/40">

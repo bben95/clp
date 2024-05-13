@@ -1,15 +1,10 @@
-import React, { useState} from 'react';
+import React from 'react';
 import c1 from '../../asset/customer1.png';
 import c2 from '../../asset/customer2.png';
 import c3 from '../../asset/customer3.png';
 import quotes from '../../asset/quotes.svg';
 
 function Test10() {
-    const [open,setOpen]=useState(false)
-
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
       <section

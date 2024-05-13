@@ -1,14 +1,9 @@
-import React, { useState} from 'react';
-import checked from '../../asset/checked.svg';
+import React from 'react';
 import quotes from '../../asset/quotes.svg';
 import sanchita from '../../asset/sanchita.svg';
 import star from '../../asset/star.svg';
 function Test2() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
     <section className="" id="testimonials">

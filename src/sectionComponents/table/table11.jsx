@@ -1,13 +1,9 @@
-import React, { useState} from 'react';
+import React from 'react';
 import vp from '../../asset/verify-pass.svg';
 import vf from '../../asset/verify-fail.svg';
 
 function Table8() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
       <section className="py-5 lg:py-[80px] bg-white">

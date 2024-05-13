@@ -1,13 +1,9 @@
-import React, { useState} from 'react';
+import React from 'react';
 import cg from '../../asset/check-green.svg';
 import cross from '../../asset/cross-red.svg';
 
 function Table12() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
      <section className="section-pad">

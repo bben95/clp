@@ -1,13 +1,9 @@
-import React, { useState} from 'react';
+import React from 'react';
 import ankit from '../../asset/ankit.png';
 import s4 from '../../asset/4star-rating.svg';
 import hearts from '../../asset/hearts.svg';
 function Test1() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
     <section

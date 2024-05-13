@@ -1,14 +1,10 @@
-import React, { useState} from 'react';
+import React from 'react';
 import c1 from '../../asset/customer1.png';
 import c2 from '../../asset/customer2.png';
 import c3 from '../../asset/customer3.png';
 import s5 from '../../asset/5star.svg';
 function Test6() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
     <section className="section-pad bg-white" id="testimonials">

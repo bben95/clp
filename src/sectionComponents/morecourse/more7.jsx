@@ -1,11 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ff from '../../asset/flower-fill2.svg';
 function More7() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
     <section className="pt-1 lg:py-[50px]">

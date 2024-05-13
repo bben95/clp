@@ -1,13 +1,8 @@
-import React, { useState} from 'react';
-import t1 from '../../asset/testimonial1.png';
-import tm from '../../asset/testimonial-mobile.png';
+import React from 'react';
+
 
 function Test9() {
-    const [open,setOpen]=useState(false)
 
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
         <section

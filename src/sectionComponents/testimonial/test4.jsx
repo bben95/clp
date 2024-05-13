@@ -1,13 +1,8 @@
-import React, { useState} from 'react';
+import React from 'react';
 import star from '../../asset/star.svg';
 import gs from '../../asset/green-star.svg';
 import becky from '../../asset/becky.svg';
 function Test4() {
-    const [open,setOpen]=useState(false)
-
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
     <section id="success-stories">
