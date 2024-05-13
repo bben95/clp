@@ -64,7 +64,7 @@ function Table12() {
                           <img
                             src={cg}
                             className="inline-block w-[20px] md:w-auto"
-                            alt=""
+                            alt="img11"
                           />
                         </td>
                         <td
@@ -73,7 +73,7 @@ function Table12() {
                           <img
                             src={cg}
                             className="inline-block w-[20px] md:w-auto"
-                            alt=""
+                            alt="img12"
                           />
                         </td>
                         <td
@@ -82,7 +82,7 @@ function Table12() {
                           <img
                             src={cg}
                             className="inline-block w-[20px] md:w-auto"
-                            alt=""
+                            alt="img13"
                           />
                         </td>
                       </tr>
@@ -98,7 +98,7 @@ function Table12() {
                           <img
                             src={cg}
                             className="inline-block w-[20px] md:w-auto"
-                            alt=""
+                            alt="img14"
                           />
                         </td>
                         <td
@@ -107,7 +107,7 @@ function Table12() {
                           <img
                             src={cross}
                             className="inline-block w-[20px] md:w-auto"
-                            alt=""
+                            alt="img15"
                           />
                         </td>
                         <td
@@ -116,7 +116,7 @@ function Table12() {
                           <img
                             src={cg}
                             className="inline-block w-[20px] md:w-auto"
-                            alt=""
+                            alt="img16"
                           />
                         </td>
                       </tr>
@@ -132,7 +132,7 @@ function Table12() {
                           <img
                             src={cross}
                             className="inline-block w-[20px] md:w-auto"
-                            alt=""
+                            alt="img17"
                           />
                         </td>
                         <td
@@ -141,7 +141,7 @@ function Table12() {
                           <img
                             src={cross}
                             className="inline-block w-[20px] md:w-auto"
-                            alt=""
+                            alt="img18"
                           />
                         </td>
                         <td
@@ -150,7 +150,7 @@ function Table12() {
                           <img
                             src={cg}
                             className="inline-block w-[20px] md:w-auto"
-                            alt=""
+                            alt="img19"
                           />
                         </td>
                       </tr>
@@ -166,7 +166,7 @@ function Table12() {
                           <img
                             src={cg}
                             className="inline-block w-[20px] md:w-auto"
-                            alt=""
+                            alt="img21"
                           />
                         </td>
                         <td
@@ -175,7 +175,7 @@ function Table12() {
                           <img
                             src={cross}
                             className="inline-block w-[20px] md:w-auto"
-                            alt=""
+                            alt="img22"
                           />
                         </td>
                         <td
@@ -184,7 +184,7 @@ function Table12() {
                           <img
                             src={cg}
                             className="inline-block w-[20px] md:w-auto"
-                            alt=""
+                            alt="img23"
                           />
                         </td>
                       </tr>

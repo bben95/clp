@@ -36,21 +36,21 @@ function Table8() {
                   <img
                     className="mx-auto"
                     src={vp}
-                    alt=""
+                    alt="img11"
                   />
                 </td>
                 <td>
                   <img
                     className="mx-auto"
                     src={vf}
-                    alt=""
+                    alt="img12"
                   />
                 </td>
                 <td>
                   <img
                     className="mx-auto"
                     src={vp}
-                    alt=""
+                    alt="img13"
                   />
                 </td>
               </tr>
@@ -60,21 +60,21 @@ function Table8() {
                   <img
                     className="mx-auto"
                     src={vf}
-                    alt=""
+                    alt="img14"
                   />
                 </td>
                 <td>
                   <img
                     className="mx-auto"
                     src={vf}
-                    alt=""
+                    alt="img15"
                   />
                 </td>
                 <td>
                   <img
                     className="mx-auto"
                     src={vp}
-                    alt=""
+                    alt="img16"
                   />
                 </td>
               </tr>
@@ -84,21 +84,21 @@ function Table8() {
                   <img
                     className="mx-auto"
                     src={vf}
-                    alt=""
+                    alt="img17"
                   />
                 </td>
                 <td>
                   <img
                     className="mx-auto"
                     src={vp}
-                    alt=""
+                    alt="img18"
                   />
                 </td>
                 <td>
                   <img
                     className="mx-auto"
                     src={vp}
-                    alt=""
+                    alt="img19"
                   />
                 </td>
               </tr>
@@ -108,21 +108,21 @@ function Table8() {
                   <img
                     className="mx-auto"
                     src={vf}
-                    alt=""
+                    alt="img20"
                   />
                 </td>
                 <td>
                   <img
                     className="mx-auto"
                     src={vp}
-                    alt=""
+                    alt="img21"
                   />
                 </td>
                 <td>
                   <img
                     className="mx-auto"
                     src={vp}
-                    alt=""
+                    alt="img22"
                   />
                 </td>
               </tr>
@@ -132,21 +132,21 @@ function Table8() {
                   <img
                     className="mx-auto"
                     src={vp}
-                    alt=""
+                    alt="img23"
                   />
                 </td>
                 <td>
                   <img
                     className="mx-auto"
                     src={vf}
-                    alt=""
+                    alt="img24"
                   />
                 </td>
                 <td className="last-cell">
                   <img
                     className="mx-auto"
                     src={vp}
-                    alt=""
+                    alt="img25"
                   />
                 </td>
               </tr>

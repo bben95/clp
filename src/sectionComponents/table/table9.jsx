@@ -22,21 +22,21 @@ function Table9() {
                   <img
                     className="mx-auto"
                     src={vp}
-                    alt=""
+                    alt="img1"
                   />
                 </td>
                 <td>
                   <img
                     className="mx-auto"
                     src={vf}
-                    alt=""
+                    alt="img2"
                   />
                 </td>
                 <td>
                   <img
                     className="mx-auto"
                     src={vp}
-                    alt=""
+                    alt="img3"
                   />
                 </td>
               </tr>
@@ -46,21 +46,21 @@ function Table9() {
                   <img
                     className="mx-auto"
                     src={vp}
-                    alt=""
+                    alt="img4"
                   />
                 </td>
                 <td>
                   <img
                     className="mx-auto"
                     src={vp}
-                    alt=""
+                    alt="img5"
                   />
                 </td>
                 <td>
                   <img
                     className="mx-auto"
                     src={vp}
-                    alt=""
+                    alt="img6"
                   />
                 </td>
               </tr>
@@ -70,21 +70,21 @@ function Table9() {
                   <img
                     className="mx-auto"
                     src={vf}
-                    alt=""
+                    alt="img7"
                   />
                 </td>
                 <td>
                   <img
                     className="mx-auto"
                     src={vf}
-                    alt=""
+                    alt="img8"
                   />
                 </td>
                 <td>
                   <img
                     className="mx-auto"
                     src={vp}
-                    alt=""
+                    alt="img9"
                   />
                 </td>
               </tr>
@@ -94,21 +94,21 @@ function Table9() {
                   <img
                     className="mx-auto"
                     src={vf}
-                    alt=""
+                    alt="img10"
                   />
                 </td>
                 <td>
                   <img
                     className="mx-auto"
                     src={vf}
-                    alt=""
+                    alt="img11"
                   />
                 </td>
                 <td>
                   <img
                     className="mx-auto"
                     src={vp}
-                    alt=""
+                    alt="img12"
                   />
                 </td>
               </tr>
