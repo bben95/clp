@@ -60,6 +60,7 @@ import Test8 from "../sectionComponents/testimonial/test8";
 import Test9 from "../sectionComponents/testimonial/test9";
 import Test10 from "../sectionComponents/testimonial/test10";
 import Test11 from "../sectionComponents/testimonial/test11";
+import JSZip from 'jszip';
 import { useSelector } from 'react-redux'
 
 
@@ -83,46 +84,93 @@ const FinalPage = () => {
     return jsContent;
   };
   const downloadFiles = () => {
-    
-    const htmlContent = htmlRef.current.innerHTML;
-
-   
-    const cssContent = Array.from(document.styleSheets)
+    const zip = new JSZip();
+    const htmlContent = `<!DOCTYPE html>
+    <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+    <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+    <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+    <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+    <html>
+      <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Rigi - Real Money - Exhibitionist</title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600&display=swap"
+          rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/tailwind.css" />
+      </head>
+      <body>
+      ${htmlRef.current.innerHTML}
+  </body>
+</html>
+      `;
+      zip.file('index.html', htmlContent);
+      const cssContent = Array.from(document.styleSheets)
       .map(sheet => Array.from(sheet.cssRules).map(rule => rule.cssText).join('\n'))
       .join('\n');
-
-    
+    zip.file('styles.css', cssContent);
     let jsContent = '';
-    jsContent += extractJavaScript(<NavBar1/>);
-    jsContent += extractJavaScript(<NavBar2/>);
+    jsContent += extractJavaScript(<NavBar1 />);
+    jsContent += extractJavaScript(<NavBar2 />);
+    zip.file('main.js', jsContent);
+    zip.generateAsync({ type: 'blob' }).then(blob => {
+      // Create a link to download the zip file
+      const zipUrl = URL.createObjectURL(blob);
+      const zipLink = document.createElement('a');
+      zipLink.href = zipUrl;
+      zipLink.download = 'Landing-page.zip';
+      document.body.appendChild(zipLink);
+      zipLink.click();
+      document.body.removeChild(zipLink);
+    });
+
    
-    const htmlBlob = new Blob([htmlContent], { type: 'text/html' });
-    const htmlUrl = URL.createObjectURL(htmlBlob);
-    const htmlLink = document.createElement('a');
-    htmlLink.href = htmlUrl;
-    htmlLink.download = 'science_art_page.html';
-    document.body.appendChild(htmlLink);
-    htmlLink.click();
-    document.body.removeChild(htmlLink);
+    // const cssContent = Array.from(document.styleSheets)
+    //   .map(sheet => Array.from(sheet.cssRules).map(rule => rule.cssText).join('\n'))
+    //   .join('\n');
 
     
-    const cssBlob = new Blob([cssContent], { type: 'text/css' });
-    const cssUrl = URL.createObjectURL(cssBlob);
-    const cssLink = document.createElement('a');
-    cssLink.href = cssUrl;
-    cssLink.download = 'styles.css';
-    document.body.appendChild(cssLink);
-    cssLink.click();
-    document.body.removeChild(cssLink);
+    // let jsContent = '';
+    // jsContent += extractJavaScript(<NavBar1/>);
+    // jsContent += extractJavaScript(<NavBar2/>);
+   
+    // const htmlBlob = new Blob([htmlContent], { type: 'text/html' });
+    // const htmlUrl = URL.createObjectURL(htmlBlob);
+    // const htmlLink = document.createElement('a');
+    // htmlLink.href = htmlUrl;
+    // htmlLink.download = 'index.html';
+    // document.body.appendChild(htmlLink);
+    // htmlLink.click();
+    // document.body.removeChild(htmlLink);
 
-    const jsBlob = new Blob([jsContent], { type: 'text/javascript' });
-    const jsUrl = URL.createObjectURL(jsBlob);
-    const jsLink = document.createElement('a');
-    jsLink.href = jsUrl;
-    jsLink.download = 'main.js';
-    document.body.appendChild(jsLink);
-    jsLink.click();
-    document.body.removeChild(jsLink);
+    
+    // const cssBlob = new Blob([cssContent], { type: 'text/css' });
+    // const cssUrl = URL.createObjectURL(cssBlob);
+    // const cssLink = document.createElement('a');
+    // cssLink.href = cssUrl;
+    // cssLink.download = 'styles.css';
+    // document.body.appendChild(cssLink);
+    // cssLink.click();
+    // document.body.removeChild(cssLink);
+
+    // const jsBlob = new Blob([jsContent], { type: 'text/javascript' });
+    // const jsUrl = URL.createObjectURL(jsBlob);
+    // const jsLink = document.createElement('a');
+    // jsLink.href = jsUrl;
+    // jsLink.download = 'main.js';
+    // document.body.appendChild(jsLink);
+    // jsLink.click();
+    // document.body.removeChild(jsLink);
   };
   const indexs = useSelector(state => state.data);
   const section1 = [<NavBar1 />, <NavBar2 />, <NavBar3 />];
