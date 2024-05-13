@@ -203,7 +203,7 @@ const FinalPage = () => {
     <div  ref={htmlRef} className="mx-2 my-2 h-[100vh] w-[80vw] overflow-y-scroll">
      
  
-      {!(selectedComponents.lenght===0)? selectedComponents.map((component)=> component):<div className="flex items-center justify-center w-[80vw] h-full"><h1 className='text-black text-[50px]'>Please Select Sections</h1></div>}
+      {!(selectedComponents?.length===0)? selectedComponents.map((component)=> component):<div className="flex items-center justify-center  h-full"><h1 className='text-black text-[50px]'>Please Select Sections</h1></div>}
       <button className="inline-block rounded border border-indigo-600 bg-indigo-600 px-2 py-1 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 fixed bottom-2 right-2"  onClick={downloadFiles} >Download Files</button>
     </div>
   );
