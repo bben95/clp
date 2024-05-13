@@ -50,7 +50,7 @@ function Test2() {
           </div>
           <div className="lg:w-1/3 !w-full ">
             <div className="bg-lightOlive p-3 rounded-xl">
-              <img src={quotes} className="mb-[12px]" />
+              <img src={quotes} alt="img45" className="mb-[12px]" />
               <p className="text-secondary/60 lg:text-16 text-14">
                 I can't speak highly enough about the Finance Course I recently
                 completed.
@@ -64,17 +64,17 @@ function Test2() {
               <div className="border border-b-0 mt-4 mb-2 border-[#54808833]"></div>
               <div className="flex justify-between">
                 <div className="flex">
-                  <img src={sanchita} alt="" className="mr-[12px]"/>
+                  <img src={sanchita} alt="img46" className="mr-[12px]"/>
                   <div>
                     <p className="text-secondary/70 font-bold text-16 ">Sanchita Gupta</p>
                     <span className="text-14 text-secondary/70 font-normal">Bcom Student</span>
                   </div>
                 </div>
                 <div className="flex gap-1">
-                  <img src={star} alt=""/>
-                  <img src={star} alt=""/>
-                  <img src={star} alt=""/>
-                  <img src={star} alt=""/>
+                  <img src={star} alt="img47"/>
+                  <img src={star} alt="img48"/>
+                  <img src={star} alt="img49"/>
+                  <img src={star} alt="img50"/>
                 </div>
               </div>
             </div>
@@ -95,17 +95,17 @@ function Test2() {
               <div className="border border-b-0 mt-4 mb-2 border-[#54808833]"></div>
               <div className="flex justify-between">
                 <div className="flex">
-                  <img src={sanchita} alt="" className="mr-[12px]"/>
+                  <img src={sanchita} alt="img51" className="mr-[12px]"/>
                   <div>
                     <p className="text-secondary/70 font-bold text-16 ">Sanchita Gupta</p>
                     <span className="text-14 text-secondary/70 font-normal">Bcom Student</span>
                   </div>
                 </div>
                 <div className="flex gap-1">
-                  <img src={star} alt=""/>
-                  <img src={star} alt=""/>
-                  <img src={star} alt=""/>
-                  <img src={star} alt=""/>
+                  <img src={star} alt="img52"/>
+                  <img src={star} alt="img53"/>
+                  <img src={star} alt="img54"/>
+                  <img src={star} alt="img55"/>
                 </div>
               </div>
             </div>
