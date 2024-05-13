@@ -7,7 +7,7 @@ function More8() {
     <main>
         <section className="mt-[52px]">
       <div className="container relative overflow-hidden">
-        <img src={sp} className="absolute bottom-0"/>
+        <img src={sp} alt="img1" className="absolute bottom-0"/>
         <div className="bg-karry lg:py-[68px] p-3 lg:px-[100px] rounded-[32px]">
           <h2 className="lg:text-[32px] text-24 font-newSpirit text-center font-normal mb-[40px]">
             What sets you apart ?

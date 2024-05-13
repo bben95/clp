@@ -6,12 +6,12 @@ function Table10() {
   return (
     <main>
     <section className="lg:pt-[250px] pt-[200px]  relative">
-      <img src={up} className="absolute lg:bottom-0 bottom-[40%] w-[275px]"/>
+      <img src={up} alt="img1" className="absolute lg:bottom-0 bottom-[40%] w-[275px]"/>
       <div className="container">
         <div className="flex lg:gap-[136px]  gap-4 sm:flex-row flex-col">
           <div className="lg:w-[45%] flex flex-col lg:gap-4 gap-2 z-10">
             <h2 className="lg:text-[40px] text-[28px]">What makes us different from others</h2>
-            <h4 className="text-primary text-16 lg:text-24">// USPs</h4>
+            <h4 className="text-primary text-16 lg:text-24"> USPs</h4>
             <p className="font-sora text-16">
               Add this certificate to your CV or your resume or post it
               directly on LinkedIn to enhance your professional credibility
@@ -31,27 +31,27 @@ function Table10() {
               <tbody>
                 <tr>
                   <td className="lg:px-[30px] text-start">Video Lessons</td>
-                  <td><img src={verify} /></td>
-                  <td><img src={verify} /></td>
-                  <td><img src={verify} /></td>
+                  <td><img alt="img2" src={verify} /></td>
+                  <td><img alt="img3" src={verify} /></td>
+                  <td><img alt="img4" src={verify} /></td>
                 </tr>
                 <tr>
                   <td className="lg:px-[30px] text-start">PDF Resources</td>
-                  <td><img src={verify} /></td>
-                  <td><img src={not} /></td>
-                  <td><img src={verify} /></td>
+                  <td><img alt="img5" src={verify} /></td>
+                  <td><img alt="img6" src={not} /></td>
+                  <td><img alt="img7" src={verify} /></td>
                 </tr>
                 <tr>
                   <td className="lg:px-[30px] text-start">Lifetime Validity</td>
-                  <td><img src={not} /></td>
-                  <td><img src={not} /></td>
-                  <td><img src={verify} /></td>
+                  <td><img alt="img8" src={not} /></td>
+                  <td><img alt="img9" src={not} /></td>
+                  <td><img alt="img10" src={verify} /></td>
                 </tr>
                 <tr>
                   <td className="lg:px-[30px] text-start">Live Zoom classNamees</td>
-                  <td><img src={verify} /></td>
-                  <td><img src={not} /></td>
-                  <td><img src={verify} /></td>
+                  <td><img alt="img11" src={verify} /></td>
+                  <td><img alt="img12" src={not} /></td>
+                  <td><img alt="img13" src={verify} /></td>
                 </tr>
               </tbody>
             </table>

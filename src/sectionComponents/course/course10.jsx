@@ -37,7 +37,7 @@ function Course10() {
             <div className="flex lg:mt-5 ">
               <div>
                 <h5 className="lg:text-[28px] text-[22px] flex">
-                  4.6 <img src={star} className="lg:h-[30px] h-3 w-3 ml-1" />
+                  4.6 <img src={star} alt="img18" className="lg:h-[30px] h-3 w-3 ml-1" />
                 </h5>
                 <p>Ratings</p>
               </div>

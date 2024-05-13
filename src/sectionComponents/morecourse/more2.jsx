@@ -14,7 +14,7 @@ function More2() {
         </div>
         <div className="lg:w-[50%] w-full mt-[44px] lg:mt-0">
           <div className="flex gap-3 items-start lg:mb-7 mb-[56px]">
-            <img src={fm} className="h-[42px] w-[42px]" />
+            <img src={fm} alt="img1" className="h-[42px] w-[42px]" />
             <div>
               <h4 className="">Understanding Financial Markets</h4>
               <h6 className="lg:mt-[18px] mt-2 font-normal text-secondary/70">
@@ -25,7 +25,7 @@ function More2() {
             </div>
           </div>
           <div className="flex gap-3 items-start lg:mb-7 mb-[56px]">
-            <img src={no} className="h-[42px] w-[42px]" />
+            <img src={no} alt="img2" className="h-[42px] w-[42px]" />
             <div>
               <h4 className="">Networking Opportunities</h4>
               <h6 className="lg:mt-[18px] mt-[16px] font-normal text-secondary/70">
@@ -35,7 +35,7 @@ function More2() {
             </div>
           </div>
           <div className="flex gap-3 items-start lg:mb-7 mb-[56px]">
-            <img src={fp} className="h-[42px] w-[42px]" />
+            <img src={fp} alt="img3" className="h-[42px] w-[42px]" />
             <div>
               <h4 className="">Personal Financial Planning</h4>
               <h6 className="lg:mt-[18px] mt-[16px] font-normal text-secondary/70">
@@ -45,7 +45,7 @@ function More2() {
             </div>
           </div>
           <div className="flex gap-3 items-start ">
-            <img src={fl} className="h-[42px] w-[42px]" />
+            <img src={fl} alt="img4" className="h-[42px] w-[42px]" />
             <div>
               <h4 className="">Enhance financial Literacy</h4>
               <h6 className="lg:mt-[18px] mt-[16px] font-normal text-secondary/70">
