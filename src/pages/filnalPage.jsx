@@ -94,7 +94,7 @@ const FinalPage = () => {
       <head>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>Rigi - Real Money - Exhibitionist</title>
+        <title>Rigi-Landing Page</title>
         <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -107,7 +107,7 @@ const FinalPage = () => {
           href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600&display=swap"
           rel="stylesheet"
         />
-        <link rel="stylesheet" href="css/tailwind.css" />
+        <link rel="stylesheet" href="./index.css" />
       </head>
       <body>
       ${htmlRef.current.innerHTML}
