@@ -19,7 +19,7 @@ function Test2() {
         <div className="slider flex  sm:gap-[20px] lg:w-[67%] w-full mt-[60px] lg:mt-0">
           <div className="lg:w-1/3 !w-full ">
             <div className="bg-lightOlive p-3 rounded-xl">
-              <img src={quotes} className="mb-[12px]" />
+              <img src={quotes} alt="img1" className="mb-[12px]" />
               <p className="text-secondary/60 lg:text-16 text-14">
                 I can't speak highly enough about the Finance Course I recently
                 completed.
@@ -33,17 +33,17 @@ function Test2() {
               <div className="border border-b-0 mt-4 mb-2 border-[#54808833]"></div>
               <div className="flex justify-between">
                 <div className="flex">
-                  <img src={sanchita} alt="" className="mr-[12px]"/>
+                  <img src={sanchita} alt="img2" className="mr-[12px]"/>
                   <div>
                     <p className="text-secondary/70 font-bold text-16 ">Sanchita Gupta</p>
                     <span className="text-14 text-secondary/70 font-normal">Bcom Student</span>
                   </div>
                 </div>
                 <div className="flex gap-1">
-                  <img src={star} alt=""/>
-                  <img src={star} alt=""/>
-                  <img src={star} alt=""/>
-                  <img src={star} alt=""/>
+                  <img src={star} alt="img3"/>
+                  <img src={star} alt="img4"/>
+                  <img src={star} alt="img5"/>
+                  <img src={star} alt="img6"/>
                 </div>
               </div>
             </div>
