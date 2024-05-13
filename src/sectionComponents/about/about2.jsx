@@ -30,9 +30,9 @@ function About2() {
           <div className=" sm:row-span-2">
             <div className="bg-beige max-w-[610px] lg:h-[512px] h-[275px] financial-future relative mt-2 lg:mt-0">
               <img src={kf}
-                className="absolute top-[-10%] right-[12%] w-[175px] lg:w-[316px] rounded-xl" alt="image" />
+                className="absolute top-[-10%] right-[12%] w-[175px] lg:w-[316px] rounded-xl" alt="img16" />
               <img src={ks}
-                className="absolute bottom-[10%] left-[22%] w-[118px] lg:w-[210px] rounded-xl" alt="image" />
+                className="absolute bottom-[10%] left-[22%] w-[118px] lg:w-[210px] rounded-xl" alt="img17" />
             </div>
           </div>
           <div className="flex items-end">

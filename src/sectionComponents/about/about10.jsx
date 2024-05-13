@@ -1,18 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ci from '../../asset/creator-image.png';
 import cw from '../../asset/creator-wheel.png';
 function About10() {
-    const [open,setOpen]=useState(false)
-
-    const handleClick=()=>{
-    setOpen(!open);
-    }
   return (
     <main>
 <section className="relative" id="about">
       <div className="container flex lg:gap-[120px] gap-[48px] items-center justify-center lg:flex-row flex-col">
         <div className="lg:w-[50%]">
-          <img src={ci}/>
+          <img src={ci} alt="img1"/>
         </div>
         <div className="lg:w-[50%] z-10">
           <h2 className="font-bold text-48">More about the creator</h2>
@@ -37,7 +32,7 @@ function About10() {
           </p>
         </div>
       </div>
-      <img src={cw} alt="" className="absolute lg:top-[50%] top-[95%] w-[200px] lg:w-[350px] right-0" alt="image" />
+      <img src={cw} alt="image2" className="absolute lg:top-[50%] top-[95%] w-[200px] lg:w-[350px] right-0" />
     </section>
     </main>
   );

@@ -25,14 +25,14 @@ function Course2() {
             </h6>
           </div>
           <div className="flex gap-[12px] ">
-            <img src={al} className="cursor-pointer" id="prevButton" />
-            <img src={ar} className="cursor-pointer" id="nextButton" />
+            <img src={al} className="cursor-pointer" id="prevButton" alt="img1" />
+            <img src={ar} className="cursor-pointer" id="nextButton"  alt="img2"/>
           </div>
         </div>
         <div className="wrapper relative flex w-full mt-[44px] ">
           <div className="background-card bg-lightOlive w-[90%] z-40 rounded-xl h-full">
             <div className="  lg:p-4 p-2 flex lg:flex-row flex-col lg:gap-5 gap-[20px]  rounded-lg">
-              <img src={os} />
+              <img src={os} alt="img3" />
               <div className="flex flex-col justify-center">
                 <h5 className="mb-1 text-18 lg:text-[28px]">Financial Analysis and Strategies</h5>
                 <p className="text-secondary/70 font-khula pr-2">
@@ -42,25 +42,25 @@ function Course2() {
                 <div className="border border-customgrey/10 border-b-0 mt-3 mb-[29px] w-[95%]"></div>
                 <h5 className="text-20 mb-[20px]">You will learn</h5>
                 <div className="flex mb-3">
-                  <img src={cm} />
+                  <img src={cm} alt="img4" />
                   <p className="ml-1 font-normal font-khula">
                     What are the strategies to find a Multibagger stock?
                   </p>
                 </div>
                 <div className="flex mb-3">
-                  <img src={cm} />
+                  <img src={cm} alt="img5" />
                   <p className="ml-1 font-normal font-khula">
                     What are the strategies to find a Multibagger stock?
                   </p>
                 </div>
                 <div className="flex mb-3">
-                  <img src={cm} />
+                  <img src={cm} alt="img6" />
                   <p className="ml-1 font-normal font-khula">
                     What are the strategies to find a Multibagger stock?
                   </p>
                 </div>
                 <div className="flex mb-3">
-                  <img src={cm} />
+                  <img src={cm} alt="img7" />
                   <p className="ml-1 font-normal font-khula">
                     What are the strategies to find a Multibagger stock?
                   </p>
@@ -76,7 +76,7 @@ function Course2() {
                   <div>
                     <div className="flex items-start">
                       <h6 className="!mr-[6px] font-bold">25</h6>
-                      <img src={s} />
+                      <img src={s} alt="img8" />
                     </div>
                     <span className="font-khula text-14 font-semibold mt-[5px] whitespace-nowrap">Days Left</span>
                   </div>
@@ -84,7 +84,7 @@ function Course2() {
                   <div className="flex flex-col">
                     <div className="flex items-start">
                       <h6 className="mr-[14px] font-bold">4.3</h6>
-                      <img src={star} alt="" />
+                      <img src={star} alt="img9"/>
                     </div>
                     <span className="font-khula font-semibold text-14 mt-[5px] whitespace-nowrap">Average ratings</span>
                   </div>
@@ -94,7 +94,7 @@ function Course2() {
           </div>
           <div className="background-card bg-tranquil z-30 w-[93.33%] h-full absolute rounded-xl">
             <div className="  lg:p-4 p-2 flex lg:flex-row flex-col lg:gap-5 gap-[20px]  rounded-lg">
-              <img src={os} />
+              <img src={os} alt="img10" />
               <div className="flex flex-col justify-center">
                 <h5 className="mb-1 text-18 lg:text-[28px]">Financial Analysis and Strategies</h5>
                 <p className="text-secondary/70 font-khula pr-2">
@@ -104,25 +104,25 @@ function Course2() {
                 <div className="border border-b-0 mt-3 mb-[29px] w-[95%] border-customgrey/10"></div>
                 <h5 className="text-20 mb-[20px]">You will learn</h5>
                 <div className="flex mb-3">
-                  <img src={cm} />
+                  <img src={cm} alt="img11" />
                   <p className="ml-1 font-normal font-khula">
                     What are the strategies to find a Multibagger stock?
                   </p>
                 </div>
                 <div className="flex mb-3">
-                  <img src={cm} />
+                  <img src={cm} alt="img12" />
                   <p className="ml-1 font-normal font-khula">
                     What are the strategies to find a Multibagger stock?
                   </p>
                 </div>
                 <div className="flex mb-3">
-                  <img src={cm} />
+                  <img src={cm} alt="img13" />
                   <p className="ml-1 font-normal font-khula">
                     What are the strategies to find a Multibagger stock?
                   </p>
                 </div>
                 <div className="flex mb-3">
-                  <img src={cm} />
+                  <img src={cm} alt="img14" />
                   <p className="ml-1 font-normal font-khula">
                     What are the strategies to find a Multibagger stock?
                   </p>
@@ -138,7 +138,7 @@ function Course2() {
                   <div>
                     <div className="flex items-start">
                       <h6 className="!mr-[6px] font-bold">25</h6>
-                      <img src={s} />
+                      <img src={s} alt="img15" />
                     </div>
                     <span className="font-khula text-14 font-semibold mt-[5px] whitespace-nowrap">Days Left</span>
                   </div>
@@ -146,7 +146,7 @@ function Course2() {
                   <div className="flex flex-col">
                     <div className="flex items-start">
                       <h6 className="mr-[14px] font-bold">4.3</h6>
-                      <img src={star} alt="" />
+                      <img src={star} alt="img16" />
                     </div>
                     <span className="font-khula font-semibold text-14 mt-[5px] whitespace-nowrap">Average ratings</span>
                   </div>
@@ -156,7 +156,7 @@ function Course2() {
           </div>
           <div className="background-card bg-cadbe z-20 w-[96.66%] h-full absolute rounded-xl">
             <div className="  lg:p-4 p-2 flex lg:flex-row flex-col lg:gap-5 gap-[20px]  rounded-lg">
-              <img src={os} />
+              <img src={os} alt="img17" />
               <div className="flex flex-col justify-center">
                 <h5 className="mb-1 text-18 lg:text-[28px]">Financial Analysis and Strategies</h5>
                 <p className="text-secondary/70 font-khula pr-2">
@@ -166,25 +166,25 @@ function Course2() {
                 <div className="border border-b-0 mt-3 mb-[29px] w-[95%] border-customgrey/10"></div>
                 <h5 className="text-20 mb-[20px]">You will learn</h5>
                 <div className="flex mb-3">
-                  <img src={cm} />
+                  <img src={cm} alt="img18" />
                   <p className="ml-1 font-normal font-khula">
                     What are the strategies to find a Multibagger stock?
                   </p>
                 </div>
                 <div className="flex mb-3">
-                  <img src={cm} />
+                  <img src={cm} alt="img19" />
                   <p className="ml-1 font-normal font-khula">
                     What are the strategies to find a Multibagger stock?
                   </p>
                 </div>
                 <div className="flex mb-3">
-                  <img src={cm} />
+                  <img src={cm} alt="img20" />
                   <p className="ml-1 font-normal font-khula">
                     What are the strategies to find a Multibagger stock?
                   </p>
                 </div>
                 <div className="flex mb-3">
-                  <img src={cm} />
+                  <img src={cm} alt="img21" />
                   <p className="ml-1 font-normal font-khula">
                     What are the strategies to find a Multibagger stock?
                   </p>
@@ -200,7 +200,7 @@ function Course2() {
                   <div>
                     <div className="flex items-start">
                       <h6 className="!mr-[6px] font-bold">25</h6>
-                      <img src={s} />
+                      <img src={s} alt="img22" />
                     </div>
                     <span className="font-khula text-14 font-semibold mt-[5px] whitespace-nowrap">Days Left</span>
                   </div>
@@ -208,7 +208,7 @@ function Course2() {
                   <div className="flex flex-col">
                     <div className="flex items-start">
                       <h6 className="mr-[14px] font-bold">4.3</h6>
-                      <img src={star} alt="" />
+                      <img src={star} alt="img23" />
                     </div>
                     <span className="font-khula font-semibold text-14 mt-[5px] whitespace-nowrap">Average ratings</span>
                   </div>
@@ -218,7 +218,7 @@ function Course2() {
           </div>
           <div className="background-card bg-darkOlive z-10 w-[100%] h-full absolute rounded-xl">
             <div className="  lg:p-4 p-2 flex lg:flex-row flex-col lg:gap-5 gap-[20px]  rounded-lg">
-              <img src={os} />
+              <img src={os} alt="img24" />
               <div className="flex flex-col justify-center">
                 <h5 className="mb-1 text-18 lg:text-[28px]">Financial Analysis and Strategies</h5>
                 <p className="text-secondary/70 font-khula pr-2">
@@ -228,25 +228,25 @@ function Course2() {
                 <div className="border border-b-0 mt-3 mb-[29px] w-[95%] border-customgrey/10"></div>
                 <h5 className="text-20 mb-[20px]">You will learn</h5>
                 <div className="flex mb-3">
-                  <img src={cm} />
+                  <img src={cm} alt="img25" />
                   <p className="ml-1 font-normal font-khula">
                     What are the strategies to find a Multibagger stock?
                   </p>
                 </div>
                 <div className="flex mb-3">
-                  <img src={cm} />
+                  <img src={cm} alt="img26" />
                   <p className="ml-1 font-normal font-khula">
                     What are the strategies to find a Multibagger stock?
                   </p>
                 </div>
                 <div className="flex mb-3">
-                  <img src={cm} />
+                  <img src={cm} alt="img27" />
                   <p className="ml-1 font-normal font-khula">
                     What are the strategies to find a Multibagger stock?
                   </p>
                 </div>
                 <div className="flex mb-3">
-                  <img src={cm} />
+                  <img src={cm} alt="img28" />
                   <p className="ml-1 font-normal font-khula">
                     What are the strategies to find a Multibagger stock?
                   </p>
@@ -262,7 +262,7 @@ function Course2() {
                   <div>
                     <div className="flex items-start">
                       <h6 className="!mr-[6px] font-bold">25</h6>
-                      <img src={s} />
+                      <img src={s} alt="img29" />
                     </div>
                     <span className="font-khula text-14 font-semibold mt-[5px] whitespace-nowrap">Days Left</span>
                   </div>
@@ -270,7 +270,7 @@ function Course2() {
                   <div className="flex flex-col">
                     <div className="flex items-start">
                       <h6 className="mr-[14px] font-bold">4.3</h6>
-                      <img src={star} alt="" />
+                      <img src={star} alt="img30" />
                     </div>
                     <span className="font-khula font-semibold text-14 mt-[5px] whitespace-nowrap">Average ratings</span>
                   </div>
@@ -295,7 +295,7 @@ function Course2() {
         <div className="slider mt-[36px] gap-[20px]">
           <div className=" bg-tranquil  w-full h-full  rounded-lg">
             <div className=" p-2 flex flex-col  gap-[20px]  rounded-lg">
-              <img src={os} />
+              <img src={os} alt="img31" />
               <div className="flex flex-col justify-center">
                 <h5 className="mb-1 text-18 lg:text-[28px] mt-[20px]">Financial Analysis and Strategies</h5>
                 <p className="text-secondary/70 font-khula pr-2">
@@ -305,30 +305,30 @@ function Course2() {
                 <div>
                   <div className="lg:hidden mt-[12px] flex gap-[12px] items-center toggle-button">
                     <span className="font-khula font-bold">View all details</span>
-                    <img src={cd} className="toggle-icon" />
+                    <img src={cd} alt="img32" className="toggle-icon" />
                   </div>
                   <div className="toggle-content">
                     <div className="mt-[12px]">
                       <div className="flex lg:mb-3 mb-2 items-start">
-                        <img src={cm} className="lg:h-[18px] lg:w-[18px] h-[16px] w-[16px] mt-[2px]" />
+                        <img src={cm} alt="img33" className="lg:h-[18px] lg:w-[18px] h-[16px] w-[16px] mt-[2px]" />
                         <p className="ml-1 font-normal font-khula">
                           What are the strategies to find a Multibagger stock?
                         </p>
                       </div>
                       <div className="flex lg:mb-3 mb-2  items-start">
-                        <img src={cm} className="lg:h-[18px] lg:w-[18px] h-[16px] w-[16px] mt-[2px]" />
+                        <img src={cm} alt="img34" className="lg:h-[18px] lg:w-[18px] h-[16px] w-[16px] mt-[2px]" />
                         <p className="ml-1 font-normal font-khula">
                           What are the strategies to find a Multibagger stock?
                         </p>
                       </div>
                       <div className="flex lg:mb-3 mb-2  items-start">
-                        <img src={cm} className="lg:h-[18px] lg:w-[18px] h-[16px] w-[16px] mt-[2px]" />
+                        <img src={cm} alt="img35" className="lg:h-[18px] lg:w-[18px] h-[16px] w-[16px] mt-[2px]" />
                         <p className="ml-1 font-normal font-khula">
                           What are the strategies to find a Multibagger stock?
                         </p>
                       </div>
                       <div className="flex  items-start3">
-                        <img src={cm} className="lg:h-[18px] lg:w-[18px] h-[16px] w-[16px] mt-[2px]" />
+                        <img src={cm} alt="img36" className="lg:h-[18px] lg:w-[18px] h-[16px] w-[16px] mt-[2px]" />
                         <p className="ml-1 font-normal font-khula">
                           What are the strategies to find a Multibagger stock?
                         </p>
@@ -343,12 +343,12 @@ function Course2() {
                         </a>
                         <div className="flex gap-[10px]">
                           <div>
-                            <img src={lm} />
+                            <img src={lm} alt="img37" />
                           </div>
                           <div className="flex flex-col">
                             <div className="flex items-start">
                               <h6 className="mr-[14px] font-bold">4.3</h6>
-                              <img src={star} alt="" />
+                              <img src={star} alt="img38" />
                             </div>
                             <span className="font-khula font-semibold text-14 mt-[5px] whitespace-nowrap">Average
                               ratings</span>
@@ -365,7 +365,7 @@ function Course2() {
           </div>
           <div className=" bg-tranquil  w-full h-full  rounded-lg">
             <div className=" p-2 flexflex-col  gap-[20px]  rounded-lg">
-              <img src={os} />
+              <img src={os} alt="img39" />
               <div className="flex flex-col justify-center">
                 <h5 className="mb-1 text-18 lg:text-[28px] mt-[20px]">Financial Analysis and Strategies</h5>
                 <p className="text-secondary/70 font-khula pr-2">
@@ -375,30 +375,30 @@ function Course2() {
                 <div>
                   <div className="lg:hidden mt-[12px] flex gap-[12px] items-center toggle-button">
                     <span className="font-khula font-bold">View all details</span>
-                    <img src={cd} className="toggle-icon" />
+                    <img src={cd} alt="img40" className="toggle-icon" />
                   </div>
                   <div className="toggle-content">
                     <div className="mt-[12px]">
                       <div className="flex lg:mb-3 mb-2 items-start">
-                        <img src={cm} className="lg:h-[18px] lg:w-[18px] h-[16px] w-[16px] mt-[2px]" />
+                        <img src={cm} alt="img41" className="lg:h-[18px] lg:w-[18px] h-[16px] w-[16px] mt-[2px]" />
                         <p className="ml-1 font-normal font-khula">
                           What are the strategies to find a Multibagger stock?
                         </p>
                       </div>
                       <div className="flex lg:mb-3 mb-2  items-start">
-                        <img src={cm} className="lg:h-[18px] lg:w-[18px] h-[16px] w-[16px] mt-[2px]" />
+                        <img src={cm} alt="img42" className="lg:h-[18px] lg:w-[18px] h-[16px] w-[16px] mt-[2px]" />
                         <p className="ml-1 font-normal font-khula">
                           What are the strategies to find a Multibagger stock?
                         </p>
                       </div>
                       <div className="flex lg:mb-3 mb-2  items-start">
-                        <img src={cm} className="lg:h-[18px] lg:w-[18px] h-[16px] w-[16px] mt-[2px]" />
+                        <img src={cm} alt="img43" className="lg:h-[18px] lg:w-[18px] h-[16px] w-[16px] mt-[2px]" />
                         <p className="ml-1 font-normal font-khula">
                           What are the strategies to find a Multibagger stock?
                         </p>
                       </div>
                       <div className="flex  items-start3">
-                        <img src={cm} className="lg:h-[18px] lg:w-[18px] h-[16px] w-[16px] mt-[2px]" />
+                        <img src={cm} alt="img44" className="lg:h-[18px] lg:w-[18px] h-[16px] w-[16px] mt-[2px]" />
                         <p className="ml-1 font-normal font-khula">
                           What are the strategies to find a Multibagger stock?
                         </p>
@@ -413,12 +413,12 @@ function Course2() {
                         </a>
                         <div className="flex gap-[10px]">
                           <div>
-                            <img src={lm} />
+                            <img src={lm} alt="img45" />
                           </div>
                           <div className="flex flex-col">
                             <div className="flex items-start">
                               <h6 className="mr-[14px] font-bold">4.3</h6>
-                              <img src={star} alt="" />
+                              <img src={star} alt="img46" />
                             </div>
                             <span className="font-khula font-semibold text-14 mt-[5px] whitespace-nowrap">Average
                               ratings</span>
@@ -435,7 +435,7 @@ function Course2() {
           </div>
           <div className=" bg-tranquil  w-full h-full  rounded-lg">
             <div className=" p-2 flexflex-col  gap-[20px]  rounded-lg">
-              <img src={os} />
+              <img src={os} alt="img47" />
               <div className="flex flex-col justify-center">
                 <h5 className="mb-1 text-18 lg:text-[28px] mt-[20px]">Financial Analysis and Strategies</h5>
                 <p className="text-secondary/70 font-khula pr-2">
@@ -445,30 +445,30 @@ function Course2() {
                 <div>
                   <div className="lg:hidden mt-[12px] flex gap-[12px] items-center toggle-button">
                     <span className="font-khula font-bold">View all details</span>
-                    <img src={cd} className="toggle-icon" />
+                    <img src={cd} alt="img48" className="toggle-icon" />
                   </div>
                   <div className="toggle-content">
                     <div className="mt-[12px]">
                       <div className="flex lg:mb-3 mb-2 items-start">
-                        <img src={cm} className="lg:h-[18px] lg:w-[18px] h-[16px] w-[16px] mt-[2px]" />
+                        <img src={cm} alt="img49" className="lg:h-[18px] lg:w-[18px] h-[16px] w-[16px] mt-[2px]" />
                         <p className="ml-1 font-normal font-khula">
                           What are the strategies to find a Multibagger stock?
                         </p>
                       </div>
                       <div className="flex lg:mb-3 mb-2  items-start">
-                        <img src={cm} className="lg:h-[18px] lg:w-[18px] h-[16px] w-[16px] mt-[2px]" />
+                        <img src={cm} alt="img50" className="lg:h-[18px] lg:w-[18px] h-[16px] w-[16px] mt-[2px]" />
                         <p className="ml-1 font-normal font-khula">
                           What are the strategies to find a Multibagger stock?
                         </p>
                       </div>
                       <div className="flex lg:mb-3 mb-2  items-start">
-                        <img src={cm} className="lg:h-[18px] lg:w-[18px] h-[16px] w-[16px] mt-[2px]" />
+                        <img src={cm} alt="img51" className="lg:h-[18px] lg:w-[18px] h-[16px] w-[16px] mt-[2px]" />
                         <p className="ml-1 font-normal font-khula">
                           What are the strategies to find a Multibagger stock?
                         </p>
                       </div>
                       <div className="flex  items-start3">
-                        <img src={cm} className="lg:h-[18px] lg:w-[18px] h-[16px] w-[16px] mt-[2px]" />
+                        <img src={cm}alt="img52" className="lg:h-[18px] lg:w-[18px] h-[16px] w-[16px] mt-[2px]" />
                         <p className="ml-1 font-normal font-khula">
                           What are the strategies to find a Multibagger stock?
                         </p>
@@ -483,12 +483,12 @@ function Course2() {
                         </a>
                         <div className="flex gap-[10px]">
                           <div>
-                            <img src={lm} />
+                            <img src={lm} alt="img53" />
                           </div>
                           <div className="flex flex-col">
                             <div className="flex items-start">
                               <h6 className="mr-[14px] font-bold">4.3</h6>
-                              <img src={star} alt="" />
+                              <img src={star} alt="img54" />
                             </div>
                             <span className="font-khula font-semibold text-14 mt-[5px] whitespace-nowrap">Average
                               ratings</span>
@@ -505,7 +505,7 @@ function Course2() {
           </div>
           <div className=" bg-tranquil  w-full h-full  rounded-lg">
             <div className=" p-2 flexflex-col  gap-[20px]  rounded-lg">
-              <img src={os} />
+              <img src={os} alt="img55" />
               <div className="flex flex-col justify-center">
                 <h5 className="mb-1 text-18 lg:text-[28px] mt-[20px]">Financial Analysis and Strategies</h5>
                 <p className="text-secondary/70 font-khula pr-2">
@@ -515,30 +515,30 @@ function Course2() {
                 <div>
                   <div className="lg:hidden mt-[12px] flex gap-[12px] items-center toggle-button">
                     <span className="font-khula font-bold">View all details</span>
-                    <img src={cd} className="toggle-icon" />
+                    <img src={cd} alt="img56" className="toggle-icon" />
                   </div>
                   <div className="toggle-content">
                     <div className="mt-[12px]">
                       <div className="flex lg:mb-3 mb-2 items-start">
-                        <img src={cm} className="lg:h-[18px] lg:w-[18px] h-[16px] w-[16px] mt-[2px]" />
+                        <img src={cm} alt="img57" className="lg:h-[18px] lg:w-[18px] h-[16px] w-[16px] mt-[2px]" />
                         <p className="ml-1 font-normal font-khula">
                           What are the strategies to find a Multibagger stock?
                         </p>
                       </div>
                       <div className="flex lg:mb-3 mb-2  items-start">
-                        <img src={cm} className="lg:h-[18px] lg:w-[18px] h-[16px] w-[16px] mt-[2px]" />
+                        <img src={cm} alt="img58" className="lg:h-[18px] lg:w-[18px] h-[16px] w-[16px] mt-[2px]" />
                         <p className="ml-1 font-normal font-khula">
                           What are the strategies to find a Multibagger stock?
                         </p>
                       </div>
                       <div className="flex lg:mb-3 mb-2  items-start">
-                        <img src={cm} className="lg:h-[18px] lg:w-[18px] h-[16px] w-[16px] mt-[2px]" />
+                        <img src={cm} alt="img59" className="lg:h-[18px] lg:w-[18px] h-[16px] w-[16px] mt-[2px]" />
                         <p className="ml-1 font-normal font-khula">
                           What are the strategies to find a Multibagger stock?
                         </p>
                       </div>
                       <div className="flex  items-start3">
-                        <img src={cm} className="lg:h-[18px] lg:w-[18px] h-[16px] w-[16px] mt-[2px]" />
+                        <img src={cm} alt="img60" className="lg:h-[18px] lg:w-[18px] h-[16px] w-[16px] mt-[2px]" />
                         <p className="ml-1 font-normal font-khula">
                           What are the strategies to find a Multibagger stock?
                         </p>
@@ -553,12 +553,12 @@ function Course2() {
                         </a>
                         <div className="flex gap-[10px]">
                           <div>
-                            <img src={lm} />
+                            <img alt="img61" src={lm} />
                           </div>
                           <div className="flex flex-col">
                             <div className="flex items-start">
                               <h6 className="mr-[14px] font-bold">4.3</h6>
-                              <img src={star} alt="" />
+                              <img src={star} alt="img62" />
                             </div>
                             <span className="font-khula font-semibold text-14 mt-[5px] whitespace-nowrap">Average
                               ratings</span>

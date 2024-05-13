@@ -395,9 +395,9 @@ function Course8() {
           </div>
           <div className="lg:w-[43%]">
             <div className="bg-oyster lg:px-[40px] px-3 lg:pt-[72px] pt-[60px] pb-[36px] rounded-[32px] relative">
-              <img src={bs} alt="" className="absolute right-0 top-0"  alt="image6"/>
-              <img src={gs} alt="" className="absolute top-[21%] left-[26%]" alt="image7" />
-              <img src={ss} alt="" className="absolute top-[20%] left-[6%]" alt="image8" />
+              <img src={bs}  className="absolute right-0 top-0"  alt="image6"/>
+              <img src={gs}  className="absolute top-[21%] left-[26%]" alt="image7" />
+              <img src={ss}  className="absolute top-[20%] left-[6%]" alt="image8" />
               <span className="lg:text-[26px] text-24 font-newSpirit block relative mb-2 font-medium">Travel Essentials for
                 Beginners</span>
               <span className="lg:text-[56px] text-[48px] font-medium font-newSpirit relative">$99</span>

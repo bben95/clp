@@ -11,7 +11,7 @@ function Course10() {
       <div className="container">
         <div className="flex lg:flex-row flex-col">
           <div className="t9">Become an IPL fantasy team expert.</div>
-          <span className="mt-[12px] text-primary lg:ml-3 lg:text-[24px] text-16 font-bold ">// Courses
+          <span className="mt-[12px] text-primary lg:ml-3 lg:text-[24px] text-16 font-bold "> Courses
           </span>
         </div>
         <div className="border border-b-0 mt-3 lg:mb-[80px] mb-4"></div>
@@ -55,14 +55,14 @@ function Course10() {
             <button
               className="bg-primary whitespace-nowrap lg:w-fit w-full justify-between rounded-full flex items-center px-4 py-[12px] text-14 text-white mt-5 font-sora">
               BUY THIS COURSE
-              <img src={ar} className="ml-4" />
+              <img src={ar} alt="img2" className="ml-4" />
             </button>
           </div>
         </div>
         
         
       </div>
-      <img src={cp} alt="" className="lg:block hidden absolute  top-[24%] right-0" />
+      <img src={cp} alt="imag1" className="lg:block hidden absolute  top-[24%] right-0" />
     </section>
     </main>
   );

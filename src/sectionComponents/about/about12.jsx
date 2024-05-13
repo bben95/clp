@@ -11,7 +11,7 @@ function About12() {
           <img src={ys} className="w-full" alt="imag1" />
         </div>
         <div className="absolute top-0 left-0 w-full z-0 block md:hidden">
-          <img src={ysm} className="w-full" alt="image2" />
+          <img src={ysm} className="w-full" alt="img3" />
         </div>
         <div className="container relative z-10">
           <div className="grid md:grid-cols-2 gap-4 lg:gap-8">
@@ -33,7 +33,7 @@ function About12() {
                 <img
                   src={c1}
                   className="w-full h-full object-cover"
-                  alt="image"
+                  alt="img1"
                 />
 
                 <div className="absolute inset-0 flex justify-center items-center">
