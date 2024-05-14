@@ -107,7 +107,7 @@ const FinalPage = () => {
           href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600&display=swap"
           rel="stylesheet"
         />
-        <link rel="stylesheet" href="./index.css" />
+        <link rel="stylesheet" href="./styles.css" />
       </head>
       <body>
       ${htmlRef.current.innerHTML}
