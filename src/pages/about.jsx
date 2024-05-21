@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import About1 from "../sectionComponents/about/about1";
 import About2 from "../sectionComponents/about/about2";
 import About4 from "../sectionComponents/about/about4";
@@ -29,7 +29,17 @@ export function About(props) {
   const indexs = useSelector(state => state.data);
   const [select, setSelect] = useState(Array(components.length).fill(false)); 
   const dispatch=useDispatch()
-  
+  useEffect(() => {
+    if (indexs[2]!==null) {
+      
+ 
+    setSelect((prevSelect) => {
+      const newSelect = [...prevSelect];
+      newSelect[indexs[2]] = true;
+      return newSelect;
+    });
+  }
+  }, [components.length]);
 
   const handleSelect = (i) => {
     if (select[i] === true) {
@@ -62,7 +72,7 @@ export function About(props) {
                   className="size-4 rounded border-gray-300"
                   id="Option1"
                   onChange={() => handleSelect(i)}
-                  checked={indexs[2]!==null?indexs[2]===i: select[i]}
+                  checked={indexs[2]!==null && indexs[2]===i}
                 />
               </div>
 

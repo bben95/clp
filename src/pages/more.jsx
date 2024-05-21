@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import More1 from "../sectionComponents/morecourse/more1";
 import More2 from "../sectionComponents/morecourse/more2";
 import More3 from "../sectionComponents/morecourse/more3";
@@ -24,6 +24,17 @@ export function More(props) {
   const [select, setSelect] = useState(Array(components.length).fill(false));
   const dispatch=useDispatch()
   const indexs = useSelector(state => state.data);
+  useEffect(() => {
+    if (indexs[4]!==null) {
+      
+ 
+    setSelect((prevSelect) => {
+      const newSelect = [...prevSelect];
+      newSelect[indexs[4]] = true;
+      return newSelect;
+    });
+  }
+  }, [components.length]);
 
   const handleSelect = (i) => {
     if (select[i] === true) {

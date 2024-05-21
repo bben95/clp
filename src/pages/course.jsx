@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Course1 from "../sectionComponents/course/course1";
 import Course2 from "../sectionComponents/course/course2";
 import Course3 from "../sectionComponents/course/course3";
@@ -32,6 +32,17 @@ export function Course(props) {
   const indexs = useSelector(state => state.data);
   const [select, setSelect] = useState(Array(components.length).fill(false));
   const dispatch=useDispatch()
+  useEffect(() => {
+    if (indexs[3]!==null) {
+      
+ 
+    setSelect((prevSelect) => {
+      const newSelect = [...prevSelect];
+      newSelect[indexs[3]] = true;
+      return newSelect;
+    });
+  }
+  }, [components.length]);
 
   const handleSelect = (i) => {
     if (select[i] === true) {
