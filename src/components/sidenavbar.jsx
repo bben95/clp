@@ -66,7 +66,7 @@ export function Sidenavbar(props) {
               <li key={i}>
                 <button
                   className={
-                    "block rounded-lg px-4 py-1 my-2 text-sm font-medium  text-gray-900" +
+                    "block rounded-lg px-4 py-1 my-2 text-sm font-medium hover:bg-gray-200  text-gray-900" +
                     (state === item ? " bg-indigo-600 text-white" : "")
                   }
                   onClick={() => handleClick(item)}
