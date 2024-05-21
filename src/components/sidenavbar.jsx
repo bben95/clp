@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 export function Sidenavbar(props) {
-  const [state, setState] = useState("hero");
+  const [state, setState] = useState("Navbar");
   const navigate = useNavigate();
   const [open,setOpen]=useState(false)
 
@@ -66,8 +66,8 @@ export function Sidenavbar(props) {
               <li key={i}>
                 <button
                   className={
-                    "block rounded-lg px-4 py-2 text-sm font-medium hover:bg-gray-100 text-gray-500" +
-                    (state === item ? "bg-gray-100 text-gray-900" : "")
+                    "block rounded-lg px-4 py-1 my-2 text-sm font-medium  text-gray-900" +
+                    (state === item ? " bg-indigo-600 text-white" : "")
                   }
                   onClick={() => handleClick(item)}
                 >
