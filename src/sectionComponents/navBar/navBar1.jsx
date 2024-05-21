@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import logo from "../../asset/RigiLogo.png";
 
 function NavBar1() {
     const [open,setOpen]=useState(false)
@@ -8,7 +8,7 @@ function NavBar1() {
     setOpen(!open);
     }
   return (
-    <header className="sticky top-0 bg-secondary lg:pb-[12px] z-50 overflow-hidden max-w-[100vw]">
+    <header className="sticky top-0 bg-secondary z-50 overflow-hidden max-w-[100vw]">
       {/* Top Banner Marquee Slider */}
       <div className="flex mb-1">
         <div className="flex mx-[-0.5px] animate-marquee min-w-full flex-shrink-0 bg-[#ffdb4d] flex-nowrap items-center justify-center overflow-hidden">
@@ -37,7 +37,7 @@ function NavBar1() {
       <nav className="flex items-center justify-between container mt-0 md:my-[12px] relative py-1 xl:py-0">
         <div>
           <a href="#!" className="flex w-[119px] md:w-[159px] h-[28px] md:h-4 relative z-[999]">
-            <img src="img/onyx/onyx-logo.svg" alt="influencers logo" loading="lazy" width="69" height="38" className="flex" />
+            <img src={logo} style={{filter: 'invert(100%) saturate(0%)'}} alt="influencers logo" loading="lazy" width="76" height="32" className="flex" />
           </a>
         </div>
         <div className={`nav-area ${open?'nav-open':null}`}>

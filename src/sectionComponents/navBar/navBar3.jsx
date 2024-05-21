@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import logo from "../../asset/RigiLogo.png";
 
 const NavBar3 = () => {
     const [open,setOpen]=useState(false)
@@ -7,7 +8,7 @@ const NavBar3 = () => {
     setOpen(!open);
     }
   return (
-    <header className="sticky top-0 bg-white z-50 md:pb-[12px] overflow-hidden max-w-[100vw]">
+    <header className="sticky top-0 bg-white z-50 overflow-hidden max-w-[100vw]">
       {/* Top Banner Marquee Slider */}
       <div className="flex">
         <div className="flex animate-marquee min-w-full flex-shrink-0 bg-[#ffdb4d] flex-nowrap items-center justify-center overflow-hidden">
@@ -33,10 +34,10 @@ const NavBar3 = () => {
           </div>
         </div>
       </div>
-      <nav className="flex items-center justify-between container mt-0 md:mt-[12px] relative py-1 xl:py-0">
+      <nav className="flex items-center justify-between container mt-0 md:mt-[12px] relative py-1">
         <div>
           <a href="#!" className="flex w-[119px] md:w-[159px] h-[28px] md:h-4 relative z-[999]">
-            <img src="img/rigi/influencers-logo.svg" alt="influencers logo" loading="lazy" width="159" height="32" className="flex" />
+            <img src={logo} alt="influencers logo" loading="lazy" width="76" height="32" className="flex" />
           </a>
         </div>
 

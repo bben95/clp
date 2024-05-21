@@ -52,6 +52,7 @@ function Hero1() {
                     width="90"
                     height="26"
                     loading="lazy"
+                    className="hidden md:block"
                   />
                 </div>
                 <p
@@ -65,7 +66,7 @@ function Hero1() {
                   width="90"
                   height="26"
                   loading="lazy"
-                  className="hidden md:block"
+                  className="md:hidden block"
                 />
               </div>
               <div className="pl-[26px]">
@@ -95,6 +96,7 @@ function Hero1() {
                   width="90"
                   height="26"
                   loading="lazy"
+                  className="md:hidden block"
                 />
               </div>
             </div>

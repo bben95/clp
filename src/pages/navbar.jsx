@@ -34,7 +34,7 @@ export function Navbar(props) {
           {components.map((component, i) => (
             <label
               htmlFor="Option1"
-              className="flex cursor-pointer items-start gap-4 rounded-lg border border-gray-200 p-4 transition hover:bg-gray-50 has-[:checked]:bg-blue-50 w-[90%]"
+              className="flex cursor-pointer items-center gap-4 rounded-lg py-3 px-4 transition hover:bg-gray-100 has-[:checked]:bg-blue-50 w-[90%]"
               key={i}
             >
               <div className="flex items-center">
@@ -48,7 +48,7 @@ export function Navbar(props) {
                 />
               </div>
 
-              <div className="w-[90%]">{component}</div>
+              <div className="w-[100%] rounded-lg overflow-hidden shadow-md">{component}</div>
             </label>
           ))}
         </div>
