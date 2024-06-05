@@ -11,7 +11,7 @@ function Hero4() {
       <div className="container flex sm:flex-row flex-col sm:gap-[30px] lg:gap-0">
         <div className="lg:w-[60%] w-full lg:pr-[135px]">
           <h1 className="text-[40px] md:text-60 font-semibold px-[12px] lg:px-0">
-            MasterclassName for Ambitious Individuals to Excel in Networking
+            Masterclass for Ambitious Individuals to Excel in Networking
           </h1>
           <h6 className="lg:mt-4 lg:mb-5 mt-2 mb-3 text-white/50 text-center sm:text-start lg:text-18 text-16 font-supreme">
             Unlock the potential to attract and retain a multitude of high-end
