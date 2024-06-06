@@ -7,12 +7,12 @@ function Hero4() {
   
   return (
     <main>
-     <section className="bg-primary2 lg:pt-[80px] lg:pb-[128px] pt-4 pb-5 hero-section">
+     <section className="bg-primaryhero4 lg:pt-[80px] lg:pb-[128px] pt-4 pb-5 hero-section">
       <div className="container flex sm:flex-row flex-col sm:gap-[30px] lg:gap-0">
         <div className="lg:w-[60%] w-full lg:pr-[135px]">
-          <h1 className="text-[40px] md:text-60 font-semibold px-[12px] lg:px-0">
+          <div className=" h11 text-[40px] text-white md:text-60 font-semibold px-[12px] lg:px-0">
             Masterclass for Ambitious Individuals to Excel in Networking
-          </h1>
+          </div>
           <h6 className="lg:mt-4 lg:mb-5 mt-2 mb-3 text-white/50 text-center sm:text-start lg:text-18 text-16 font-supreme">
             Unlock the potential to attract and retain a multitude of high-end
             clients who recognize the unique value you provide.
@@ -21,7 +21,9 @@ function Hero4() {
             className="bg-purple whitespace-nowrap lg:w-fit  justify-center w-full font-supreme font-bold flex gap-1 items-center text-white lg:mb-6 mb-4 lg:py-[20px] py-2 lg:px-[130px]  rounded-[60px] uppercase"
           >
             Join Waitlist
+            <div className="lg:w-[40%] w-full z-10 mt-[40px] sm:mt-0 h-full">
             <img src={heroB3} alt=""/>
+            </div>
           </button>
           <div className="flex  items-start">
             <div className="flex lg:flex-row flex-col">

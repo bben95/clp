@@ -13,18 +13,18 @@ function About1() {
     <section className="pt-5 md:pt-[140px] pb-6 md:pb-[100px] scrollspy-section" id="about">
         <div className="container">
           <div className="flex justify-between md:flex-row flex-col-reverse">
-            <div className="w-full md:w-2/5">
+            <div className="w-full md:w-2/5 mr-4">
               <picture>
                 <source
                   media="(min-width:768px)"
                   srcSet={f11}
                   width="505"
-                  height="618"
+                  height="800"
                 />
                 <img
                   src={f1}
                   width="343"
-                  height="256"
+                  height="400"
                   className="mx-auto w-full"
                   alt="faang1mweb"
                   loading="lazy"
@@ -38,7 +38,7 @@ function About1() {
                 About the creator
               </div>
               <h2
-                className="mt-2 mb-[40px] md:mb-4 text-xl tracking-[-0.5px] md:text-4xl text-secondary"
+                className="mt-2 md:mb-4 text-xl tracking-[-0.5px] md:text-4xl text-secondary"
               >
                 Conquered Google's Summer of Code Twice and Thrived at FAANG
               </h2>
@@ -57,7 +57,7 @@ function About1() {
                   the thriving Startup scene in the four years since his
                   graduation.
                 </p>
-                <div className="flex mt-[100px]">
+                <div className="flex">
                   <div className="flex items-center mr-5 flex-shrink">
                     <img
                       className="w-4 md:w-[36px]"
@@ -120,7 +120,7 @@ function About1() {
               Amazon, Netflix, Google), Finance, and the thriving Startup scene
               in the four years since his graduation.
             </p>
-            <div className="flex mt-5 flex-wrap">
+            <div className="flex flex-wrap">
               <div className="flex items-center mr-[78px] mb-[28px] flex-shrink">
                 <img
                   className="w-4 md:w-[36px]"
@@ -131,7 +131,7 @@ function About1() {
                   alt="youtube"
                 />
                 <p
-                  className="mb-0 ml-[12px] text-24 md:text-32 leading-[1.3] md:leading-[1.5] font-bold"
+                  className="mb-0 ml-[12px] text-16 md:text-32 leading-[1.3] md:leading-[1.5] font-bold"
                 >
                   234k
                 </p>
@@ -146,7 +146,7 @@ function About1() {
                   alt="instagram"
                 />
                 <p
-                  className="mb-0 ml-[12px] text-24 md:text-32 leading-[1.3] md:leading-[1.5] font-bold"
+                  className="mb-0 ml-[12px] text-16 md:text-32 leading-[1.3] md:leading-[1.5] font-bold"
                 >
                   234k
                 </p>
@@ -161,7 +161,7 @@ function About1() {
                   alt="twitter"
                 />
                 <p
-                  className="mb-0 ml-[12px] text-24 md:text-32 leading-[1.3] md:leading-[1.5] font-bold"
+                  className="mb-0 ml-[12px] text-16 md:text-32 leading-[1.3] md:leading-[1.5] font-bold"
                 >
                   234k
                 </p>
@@ -172,7 +172,7 @@ function About1() {
             <div
               className="flex flex-nowrap mt-5 md:mt-7 min-w-max gap-[12px] md:gap-[20px]"
             >
-              <div className="w-[33%] flex-shrink">
+              <div className="w-[50%] flex-shrink">
                 <img
                   className="w-[162px] md:w-[400px]"
                   src={f2}
@@ -182,21 +182,11 @@ function About1() {
                   loading="lazy"
                 />
               </div>
-              <div className="w-[33%] flex-shrink">
+              <div className="w-[50%] flex-shrink">
                 <img
                   className="w-[162px] md:w-[400px]"
                   src={f3}
                   alt="faang3"
-                  width="400"
-                  height="302"
-                  loading="lazy"
-                />
-              </div>
-              <div className="w-[33%] flex-shrink">
-                <img
-                  className="w-[162px] md:w-[400px]"
-                  src={f4}
-                  alt="faang4"
                   width="400"
                   height="302"
                   loading="lazy"

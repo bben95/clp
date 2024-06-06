@@ -32,9 +32,9 @@ function Hero11() {
             <div className="lg:max-w-[175px] w-full mt-4 mb-3 lg:mb-6">
               <a
                 href="#!"
-                className="button py-[18px] px-[40px] lg:px-[32px] rounded-[50px] w-full bg-white inline-block text-black font-semibold text-14 leading-none"
+                className="button py-[18px] px-[40px] lg:px-[32px] rounded-[50px] w-full bg-white inline-block font-semibold text-14 leading-none"
               >
-                <div className="relative overflow-hidden">
+                <div className="relative overflow-hidden text-black">
                   <span className="button-content">Explore Courses</span>
                   <span className="button-content-hover">Explore Courses</span>
                 </div>

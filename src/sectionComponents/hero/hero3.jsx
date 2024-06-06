@@ -1,122 +1,93 @@
 import React from 'react';
-
-
+import him from '../../asset/hero-img-mweb.webp';
+import ws from '../../asset/worldwide-students.png';
+import star from '../../asset/4-6star.svg';
 function Hero3() {
 
   return (
     <main>
-    <section
-      className="py-[60px] md:py-[64px] rigi-hero relative overflow-hidden"
-    >
+    <section className="pb-0 pt-[110px] lg:pt-[200px] lg:pb-[120px] md:pb-[120px] onyx-hero relative overflow-hidden">
       <div className="container">
-        <div className="w-full text-center">
-          <h1
-            className="text-secondary text-[40px] md:text-64 leading-[1.1] tracking-[-2px] font-semibold max-w-[720px] mx-auto"
-          >
-            Tech Dreams Come True: Your Job Awaits
-          </h1>
-          <p
-            className="max-w-[641px] mx-auto text-sm22 md:text-16 md:leading-[1.5] text-secondary/80 mt-2 mb-4"
-          >
-            Job seekers can create compelling profiles, showcasing their
-            skills, experience, and aspirations, while exploring an extensive
-            database of tech job openings from top-tier tech companies to
-            exciting startups.
+        <div className="w-full md:text-left text-center">
+          <div className="h13 text-white text-34 md:text-64 leading-[1.1] tracking-[-2px] font-semibold max-w-[735px]">
+            Complete course on Stock Market Investing
+          </div>
+          <p className="max-w-[600px] text-base2.5 font-medium md:font-semibold md:text-18 md:leading-[1.4] text-white/60 mt-2 mb-3">
+            Uncover what’s happening during your product trials so go-to-market teams can turn insights into action.
           </p>
-          <div className="max-w-[404px] mx-auto">
-            <button
-              type="button"
-              className="button py-[16px] md:py-[20px] px-[10px] bg-primary w-full inline-block text-white text-16 leading-none"
-            >
-              <div className="relative overflow-hidden">
-                <span className="button-content">Book your seat</span>
-                <span className="button-content-hover">Book your seat</span>
-              </div>
-            </button>
+          <div className="flex gap-2 md:gap-[20px] md:flex-row flex-col">
+            <div className="max-w-full md:max-w-[190px]">
+              <button
+                type="button"
+                className="button rounded-[10px] py-[16px] md:py-[19px] px-[10px] md:px-[38px] bg-primary w-full inline-block text-white text-16 leading-none"
+              >
+                <div className="relative overflow-hidden">
+                  <span className="button-content">Buy Course</span>
+                  <span className="button-content-hover">Buy Course</span>
+                </div>
+              </button>
+            </div>
+            <div className="max-w-full md:max-w-[190px]">
+              <button
+                type="button"
+                className="button rounded-[10px] py-[16px] md:py-[19px] px-[10px] md:px-[38px] bg-white/10 w-full inline-block text-white text-16 leading-none"
+              >
+                <div className="relative overflow-hidden">
+                  <span className="button-content">Book a Call</span>
+                  <span className="button-content-hover">Book a Call</span>
+                </div>
+              </button>
+            </div>
           </div>
           <div className="flex md:flex-col flex-col-reverse">
-            <div className="flex justify-center mt-4">
-              <div className="pr-[26px] md:border-r md:border-secondary/[0.12]">
-                <div className="text-center block md:flex">
-                  <div
-                    className="mr-[10px] text-secondary text-32 md:text-[24px] leading-[1.25] md:leading-none font-bold md:font-semibold"
-                  >
-                    15k
+            <div className="flex items-center md:flex-row flex-col gap-3 md:gap-0 mt-3 md:mt-[67px]">
+              <div className="pr-[23px] md:border-r md:border-white/10">
+                <div className="flex items-center">
+                  <img
+                    src={ws}
+                    alt="worldwide-students"
+                    width="120"
+                    height="48"
+                    loading="lazy"
+                  />
+                  <div className="flex flex-col ml-[12px]">
+                    <div className="text-white font-semibold text-18 leading-none">
+                      45,000+
+                    </div>
+                    <div className="text-white/[0.36] text-14 leading-none font-medium">
+                      Students Worldwide
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="pl-[23px]">
+                <div className="flex flex-col">
+                  <div className="text-white font-semibold text-18 leading-none">
+                    4.6+<span className="text-white/[0.36] ml-[5px] text-14 leading-none font-medium">(12,421 ratings)</span>
                   </div>
                   <img
-                    src="img/rigi/group.png"
-                    alt="group"
-                    width="90"
-                    height="26"
+                    src={star}
+                    alt="worldwide-students"
+                    width="92"
+                    height="20"
                     loading="lazy"
-                    className="hidden md:block"
+                    className="mt-[1px]"
                   />
                 </div>
-                <p
-                  className="mb-[7px] md:mb-0 mt-[12px] md:mt-[10px] text-base2 text-secondary/80"
-                >
-                  Satisfied learners
-                </p>
-                <img
-                  src="img/rigi/group.png"
-                  alt="group"
-                  width="90"
-                  height="26"
-                  loading="lazy"
-                  className="md:hidden block mx-auto"
-                />
               </div>
-              <div className="pl-[26px]">
-                <div className="text-center block md:flex">
-                  <div
-                    className="mr-[10px] text-secondary text-32 md:text-[24px] leading-[1.25] md:leading-none font-bold md:font-semibold"
-                  >
-                    4.3
-                  </div>
-                  <img
-                    src="img/rigi/4star-rating.svg"
-                    alt="4star-rating"
-                    width="90"
-                    height="26"
-                    loading="lazy"
-                    className="hidden md:block"
-                  />
-                </div>
-                <p
-                  className="mb-[7px] md:mb-0 mt-[12px] md:mt-[10px] text-base2 text-secondary/80"
-                >
-                  Average ratings
-                </p>
-                <img
-                  src="img/rigi/4star-rating.svg"
-                  alt="4star-rating"
-                  width="90"
-                  height="26"
-                  loading="lazy"
-                  className="md:hidden block mx-auto"
-                />
-              </div>
-            </div>
-            <div className="mt-3 md:mt-[100px] max-w-[1030px] mx-auto">
-              <picture>
-                <source
-                  media="(min-width:768px)"
-                  srcSet="img/rigi/hero-influencer.webp"
-                  width="1030"
-                  height="526"
-                />
-                <img
-                  src="img/rigi/hero-influencer-mweb.webp"
-                  width="343"
-                  height="255"
-                  className="mx-auto"
-                  alt="hero-influencer"
-                  loading="lazy"
-                />
-              </picture>
             </div>
           </div>
         </div>
+      </div>
+      <div className="block md:hidden pt-4">
+        <img
+          src={him}
+          alt="hero-img"
+          loading="lazy"
+          width="375"
+          height="373"
+          className="w-full"
+        />
       </div>
     </section>
     </main>

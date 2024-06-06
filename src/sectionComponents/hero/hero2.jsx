@@ -38,7 +38,7 @@ function Hero2() {
                 <img src={heroBg} alt="" />
                 <div className="flex flex-col ml-2 mb-2 lg:mb-0">
                   <h6 className="font-bold text-[20px] lg:text-18">15K+</h6>
-                  <span className="font-khula lg:text-14 text-16 mt-0 whitespace-nowrap">Satisfied learners</span>
+                  <span className="font-khula lg:text-14 text-16 mt-0 whitespace-nowrap"></span>
                 </div>
               </div>
               <div className="border-r-2 mx-3 border-customgrey/10"></div>

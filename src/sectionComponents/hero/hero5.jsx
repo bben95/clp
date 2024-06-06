@@ -25,7 +25,7 @@ function Hero5() {
                 className="text-[36px] lg:text-[60px] font-semibold leading-[110%] tracking-[-1px] text-white mb-3"
               >
                Drive Business Excellence with a
-                <span className="text-lightyellow">Skilled Coach</span>
+               <span className="text-lightyellow" style={{ marginLeft: '20px' }}>Skilled Coach</span>
               </h1>
             <p className="text-white mb-5">
               Discover the power of expert guidance and strategic insights as

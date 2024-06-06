@@ -52,7 +52,7 @@ function Hero7() {
           </div>
         </div>
         <h1
-          className="text-[36px] tracking-[-1px] lg:tracking-normal lg:text-[72px] lg:max-w-[713px] font-bodoni font-normal leading-[1.16] lg:leading-none text-white mt-4 lg:mt-[36px] mb-3"
+          className="text-34 tracking-[-1px] lg:tracking-normal lg:text-[72px] lg:max-w-[713px] font-bodoni font-normal leading-[1.16] lg:leading-none text-white mt-4 lg:mt-[36px] mb-3"
         >
           Learn Yoga at the comfort of your home and find peace within you
         </h1>
@@ -184,22 +184,6 @@ function Hero7() {
         </div>
       </div>
     </div>
-  </div>
-  <div className="relative bottom-[-101px] lg:bottom-[-201px] z-[2] w-full">
-    <svg
-      className="w-full h-auto"
-      width="1440"
-      height="143"
-      viewBox="0 0 1440 143"
-      fill="none"
-    >
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M0 142.493v-125a1350.384 1350.384 0 0 1 560.277 26.959l241.629 63.58C1018.12 164.924 1248.14 132.287 1440 17.493v125H0Z"
-        fill="#F4ECE1"
-      />
-    </svg>
   </div>
 </section>
     </main>
