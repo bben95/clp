@@ -23,7 +23,7 @@ function More3() {
           <div
             className="text-base2.5 text-center text-white/60 max-w-[610px] mx-auto"
           >
-            Join our MasterclassName Courses for Finance and Stocks and take a
+            Join our Masterclass Courses for Finance and Stocks and take a
             decisive step towards achieving your financial goals.
           </div>
           <div

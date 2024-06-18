@@ -173,7 +173,12 @@ const FinalPage = () => {
     // document.body.removeChild(jsLink);
   };
   const indexs = useSelector(state => state.data);
-  const section1 = [<NavBar1 />, <NavBar2 />, <NavBar3 />];
+  const section1 = [
+  <NavBar1 />, 
+  <NavBar2 />, 
+  <NavBar3 />,
+  <NavBar4 />,
+];
   const section2 = [
     <Hero1 />,
     <Hero2 />,

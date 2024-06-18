@@ -8,7 +8,7 @@ function Table12() {
     <main>
      <section className="section-pad">
         <div className="container">
-          <div className="flex -mx-2 flex-wrap">
+          <div className="flex flex-wrap lg:flex-nowrap -mx-2">
             <div className="w-full lg:w-1/3 px-2">
               <div className="font-heading stroke-text opacity-20">USP</div>
 
@@ -28,7 +28,7 @@ function Table12() {
               <div className="py-5 lg:py-0 lg:pl-8">
                 <div className="overflow-auto">
                     
-                  <table className="w-full bg-lightyellow " style={{ width: '100%' }}>
+                  <table className="w-full bg-lightyellow">
                     <thead>
                       <tr>
                         <th
@@ -158,7 +158,7 @@ function Table12() {
                         <td
                           className="p-2 md:p-4 text-14 md:text-20 font-medium border-r border-r-white"
                         >
-                          Live Zoom classNamees
+                          Live Zoom classes
                         </td>
                         <td
                           className="p-2 md:p-4 text-14 md:text-20 font-medium border-r border-r-white text-center"

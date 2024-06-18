@@ -27,14 +27,16 @@ function Course6() {
             <div
               className="text-white text-center font-semibold font-melodrama text-32 lg:text-[56px] leading-[1.1]"
             >
+              <span className="mr-1">
               Start your
+              </span>
               <span className="text-primary6">Journey!</span>
             </div>
             <div
-              className="text-white/70 md:max-w-[563px] text-center mx-auto mt-2 text-16 leading-[1.6]"
+              className="md:max-w-[563px] text-center mx-auto mt-2 text-16 leading-[1.6]"
             >
-              Start your journey towards Creating Content and Building
-              Businesses now.
+              <span className="text-white">Start your journey towards Creating Content and Building
+              Businesses now.</span>
             </div>
           </div>
           <div className="max-w-[1030px] mx-auto relative">
@@ -79,7 +81,7 @@ function Course6() {
                   <a
                     href="#!"
                     className="button chevron-light button-darkgreen w-full mt-3 lg:mt-4"
-                    >Buy MasterclassName</a
+                    >Buy Masterclass</a
                   >
                 </div>
               </div>
@@ -87,7 +89,7 @@ function Course6() {
                 <div
                   className="opacity-70 text-14 lg:text-16 leading-[1.6] tracking-[2px] font-bold"
                 >
-                  MASTERclassName
+                  MASTERCLASS
                 </div>
                 <div
                   className="mt-1 lg:mt-[20px] mb-2 lg:mb-[18px] font-extrabold text-20 lg:text-32 leading-[1.5] lg:leading-[1.25] tracking-[-0.08px] lg:tracking-[-0.128px]"
@@ -126,7 +128,7 @@ function Course6() {
               >
                 <div className="flex items-center lg:flex-row flex-col">
                   <div className="text-16 leading-[1.62] font-bold lg:mr-2">
-                    Get <span className="text-orange">20% Off</span> on this course
+                  <span className="text-white"> Get </span><span className="text-orange">20% Off</span> <span className="text-white">on this course</span>
                   </div>
                   <div
                     className="bg-orange text-14 leading-[1.7] font-bold py-[2px] px-[12px] rounded-[29px] mt-[6px] lg:mt-0 mb-[20px] lg:mb-0"
@@ -225,7 +227,9 @@ function Course6() {
                 <div
                   className="text-16 leading-[1.5] font-bold mt-[40px] lg:mt-5 mb-3"
                 >
+                  <span className="text-white">
                   Get access to 50+ courses to help you with:
+                  </span>
                 </div>
                 <div className="grid grid-cols-2">
                   <ul className="list-check-light">

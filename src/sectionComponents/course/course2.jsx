@@ -30,254 +30,250 @@ function Course2() {
           </div>
         </div>
         <div className="wrapper relative flex w-full mt-[44px] ">
-          <div className="background-card bg-lightOlive w-[90%] z-40 rounded-xl h-full">
-            <div className="  lg:p-4 p-2 flex lg:flex-row flex-col lg:gap-5 gap-[20px]  rounded-lg">
-              <img src={os} alt="img3" />
-              <div className="flex flex-col justify-center">
-                <h5 className="mb-1 text-18 lg:text-[28px]">Financial Analysis and Strategies</h5>
-                <p className="text-secondary/70 font-khula pr-2">
-                  This finance course provides a comprehensive understanding of
-                  financial analysis techniques and investment strategies.
+        <div className="background-card bg-lightOlive w-[90%] z-40 rounded-xl h-full">
+    <div className="lg:p-4 p-2 flex lg:flex-row flex-col lg:gap-5 gap-[10px] rounded-lg">
+        <img src={os} alt="img3" className="lg:w-1/3 w-full" />
+        <div className="flex flex-col justify-center lg:w-2/3 w-full">
+            <h5 className="mb-1 text-16 lg:text-24">Financial Analysis and Strategies</h5>
+            <p className="text-secondary/70 font-khula pr-2 text-14 lg:text-16">
+                This finance course provides a comprehensive understanding of financial analysis techniques and investment strategies.
+            </p>
+            <div className="border border-customgrey/10 border-b-0 mt-3 mb-4 w-[95%]"></div>
+            <h5 className="text-14 lg:text-16 mb-4">You will learn</h5>
+            <div className="flex mb-2">
+                <img src={cm} alt="img4" className="w-5 h-5 lg:w-6 lg:h-6" />
+                <p className="ml-1 font-normal font-khula text-12 lg:text-14">
+                    What are the strategies to find a Multibagger stock?
                 </p>
-                <div className="border border-customgrey/10 border-b-0 mt-3 mb-[29px] w-[95%]"></div>
-                <h5 className="text-20 mb-[20px]">You will learn</h5>
-                <div className="flex mb-3">
-                  <img src={cm} alt="img4" />
-                  <p className="ml-1 font-normal font-khula">
-                    What are the strategies to find a Multibagger stock?
-                  </p>
-                </div>
-                <div className="flex mb-3">
-                  <img src={cm} alt="img5" />
-                  <p className="ml-1 font-normal font-khula">
-                    What are the strategies to find a Multibagger stock?
-                  </p>
-                </div>
-                <div className="flex mb-3">
-                  <img src={cm} alt="img6" />
-                  <p className="ml-1 font-normal font-khula">
-                    What are the strategies to find a Multibagger stock?
-                  </p>
-                </div>
-                <div className="flex mb-3">
-                  <img src={cm} alt="img7" />
-                  <p className="ml-1 font-normal font-khula">
-                    What are the strategies to find a Multibagger stock?
-                  </p>
-                </div>
-                <div className="flex mt-[49px]">
-                  <a href="#!"
-                    className="mr-[36px] button py-[16px] px-[105px] rounded-lg bg-secondary inline-block text-white text-16 leading-[1.5]">
-                    <div className="relative overflow-hidden">
-                      <span className="button-content whitespace-nowrap">Enroll Now</span>
-                      <span className="button-content-hover whitespace-nowrap">Enroll Now</span>
-                    </div>
-                  </a>
-                  <div>
-                    <div className="flex items-start">
-                      <h6 className="!mr-[6px] font-bold">25</h6>
-                      <img src={s} alt="img8" />
-                    </div>
-                    <span className="font-khula text-14 font-semibold mt-[5px] whitespace-nowrap">Days Left</span>
-                  </div>
-                  <div className="border border-r-0 mx-2 border-customgrey/10"></div>
-                  <div className="flex flex-col">
-                    <div className="flex items-start">
-                      <h6 className="mr-[14px] font-bold">4.3</h6>
-                      <img src={star} alt="img9"/>
-                    </div>
-                    <span className="font-khula font-semibold text-14 mt-[5px] whitespace-nowrap">Average ratings</span>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
-          <div className="background-card bg-tranquil z-30 w-[93.33%] h-full absolute rounded-xl">
-            <div className="  lg:p-4 p-2 flex lg:flex-row flex-col lg:gap-5 gap-[20px]  rounded-lg">
-              <img src={os} alt="img10" />
-              <div className="flex flex-col justify-center">
-                <h5 className="mb-1 text-18 lg:text-[28px]">Financial Analysis and Strategies</h5>
-                <p className="text-secondary/70 font-khula pr-2">
-                  This finance course provides a comprehensive understanding of
-                  financial analysis techniques and investment strategies.
+            <div className="flex mb-2">
+                <img src={cm} alt="img5" className="w-5 h-5 lg:w-6 lg:h-6" />
+                <p className="ml-1 font-normal font-khula text-12 lg:text-14">
+                    What are the strategies to find a Multibagger stock?
                 </p>
-                <div className="border border-b-0 mt-3 mb-[29px] w-[95%] border-customgrey/10"></div>
-                <h5 className="text-20 mb-[20px]">You will learn</h5>
-                <div className="flex mb-3">
-                  <img src={cm} alt="img11" />
-                  <p className="ml-1 font-normal font-khula">
-                    What are the strategies to find a Multibagger stock?
-                  </p>
-                </div>
-                <div className="flex mb-3">
-                  <img src={cm} alt="img12" />
-                  <p className="ml-1 font-normal font-khula">
-                    What are the strategies to find a Multibagger stock?
-                  </p>
-                </div>
-                <div className="flex mb-3">
-                  <img src={cm} alt="img13" />
-                  <p className="ml-1 font-normal font-khula">
-                    What are the strategies to find a Multibagger stock?
-                  </p>
-                </div>
-                <div className="flex mb-3">
-                  <img src={cm} alt="img14" />
-                  <p className="ml-1 font-normal font-khula">
-                    What are the strategies to find a Multibagger stock?
-                  </p>
-                </div>
-                <div className="flex mt-[49px]">
-                  <a href="#!"
-                    className="mr-[36px] button py-[16px] px-[105px] rounded-lg bg-secondary inline-block text-white text-16 leading-[1.5]">
-                    <div className="relative overflow-hidden">
-                      <span className="button-content whitespace-nowrap">Enroll Now</span>
-                      <span className="button-content-hover whitespace-nowrap">Enroll Now</span>
-                    </div>
-                  </a>
-                  <div>
-                    <div className="flex items-start">
-                      <h6 className="!mr-[6px] font-bold">25</h6>
-                      <img src={s} alt="img15" />
-                    </div>
-                    <span className="font-khula text-14 font-semibold mt-[5px] whitespace-nowrap">Days Left</span>
-                  </div>
-                  <div className="border border-r-0 mx-2 border-customgrey/10"></div>
-                  <div className="flex flex-col">
-                    <div className="flex items-start">
-                      <h6 className="mr-[14px] font-bold">4.3</h6>
-                      <img src={star} alt="img16" />
-                    </div>
-                    <span className="font-khula font-semibold text-14 mt-[5px] whitespace-nowrap">Average ratings</span>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
-          <div className="background-card bg-cadbe z-20 w-[96.66%] h-full absolute rounded-xl">
-            <div className="  lg:p-4 p-2 flex lg:flex-row flex-col lg:gap-5 gap-[20px]  rounded-lg">
-              <img src={os} alt="img17" />
-              <div className="flex flex-col justify-center">
-                <h5 className="mb-1 text-18 lg:text-[28px]">Financial Analysis and Strategies</h5>
-                <p className="text-secondary/70 font-khula pr-2">
-                  This finance course provides a comprehensive understanding of
-                  financial analysis techniques and investment strategies.
+            <div className="flex mb-2">
+                <img src={cm} alt="img6" className="w-5 h-5 lg:w-6 lg:h-6" />
+                <p className="ml-1 font-normal font-khula text-12 lg:text-14">
+                    What are the strategies to find a Multibagger stock?
                 </p>
-                <div className="border border-b-0 mt-3 mb-[29px] w-[95%] border-customgrey/10"></div>
-                <h5 className="text-20 mb-[20px]">You will learn</h5>
-                <div className="flex mb-3">
-                  <img src={cm} alt="img18" />
-                  <p className="ml-1 font-normal font-khula">
-                    What are the strategies to find a Multibagger stock?
-                  </p>
-                </div>
-                <div className="flex mb-3">
-                  <img src={cm} alt="img19" />
-                  <p className="ml-1 font-normal font-khula">
-                    What are the strategies to find a Multibagger stock?
-                  </p>
-                </div>
-                <div className="flex mb-3">
-                  <img src={cm} alt="img20" />
-                  <p className="ml-1 font-normal font-khula">
-                    What are the strategies to find a Multibagger stock?
-                  </p>
-                </div>
-                <div className="flex mb-3">
-                  <img src={cm} alt="img21" />
-                  <p className="ml-1 font-normal font-khula">
-                    What are the strategies to find a Multibagger stock?
-                  </p>
-                </div>
-                <div className="flex mt-[49px]">
-                  <a href="#!"
-                    className="mr-[36px] button py-[16px] px-[105px] rounded-lg bg-secondary inline-block text-white text-16 leading-[1.5]">
-                    <div className="relative overflow-hidden">
-                      <span className="button-content whitespace-nowrap">Enroll Now</span>
-                      <span className="button-content-hover whitespace-nowrap">Enroll Now</span>
-                    </div>
-                  </a>
-                  <div>
-                    <div className="flex items-start">
-                      <h6 className="!mr-[6px] font-bold">25</h6>
-                      <img src={s} alt="img22" />
-                    </div>
-                    <span className="font-khula text-14 font-semibold mt-[5px] whitespace-nowrap">Days Left</span>
-                  </div>
-                  <div className="border border-r-0 mx-2 border-customgrey/10"></div>
-                  <div className="flex flex-col">
-                    <div className="flex items-start">
-                      <h6 className="mr-[14px] font-bold">4.3</h6>
-                      <img src={star} alt="img23" />
-                    </div>
-                    <span className="font-khula font-semibold text-14 mt-[5px] whitespace-nowrap">Average ratings</span>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
-          <div className="background-card bg-darkOlive z-10 w-[100%] h-full absolute rounded-xl">
-            <div className="  lg:p-4 p-2 flex lg:flex-row flex-col lg:gap-5 gap-[20px]  rounded-lg">
-              <img src={os} alt="img24" />
-              <div className="flex flex-col justify-center">
-                <h5 className="mb-1 text-18 lg:text-[28px]">Financial Analysis and Strategies</h5>
-                <p className="text-secondary/70 font-khula pr-2">
-                  This finance course provides a comprehensive understanding of
-                  financial analysis techniques and investment strategies.
+            <div className="flex mb-2">
+                <img src={cm} alt="img7" className="w-5 h-5 lg:w-6 lg:h-6" />
+                <p className="ml-1 font-normal font-khula text-12 lg:text-14">
+                    What are the strategies to find a Multibagger stock?
                 </p>
-                <div className="border border-b-0 mt-3 mb-[29px] w-[95%] border-customgrey/10"></div>
-                <h5 className="text-20 mb-[20px]">You will learn</h5>
-                <div className="flex mb-3">
-                  <img src={cm} alt="img25" />
-                  <p className="ml-1 font-normal font-khula">
-                    What are the strategies to find a Multibagger stock?
-                  </p>
-                </div>
-                <div className="flex mb-3">
-                  <img src={cm} alt="img26" />
-                  <p className="ml-1 font-normal font-khula">
-                    What are the strategies to find a Multibagger stock?
-                  </p>
-                </div>
-                <div className="flex mb-3">
-                  <img src={cm} alt="img27" />
-                  <p className="ml-1 font-normal font-khula">
-                    What are the strategies to find a Multibagger stock?
-                  </p>
-                </div>
-                <div className="flex mb-3">
-                  <img src={cm} alt="img28" />
-                  <p className="ml-1 font-normal font-khula">
-                    What are the strategies to find a Multibagger stock?
-                  </p>
-                </div>
-                <div className="flex mt-[49px]">
-                  <a href="#!"
-                    className="mr-[36px] button py-[16px] px-[105px] rounded-lg bg-secondary inline-block text-white text-16 leading-[1.5]">
-                    <div className="relative overflow-hidden">
-                      <span className="button-content whitespace-nowrap">Enroll Now</span>
-                      <span className="button-content-hover whitespace-nowrap">Enroll Now</span>
-                    </div>
-                  </a>
-                  <div>
-                    <div className="flex items-start">
-                      <h6 className="!mr-[6px] font-bold">25</h6>
-                      <img src={s} alt="img29" />
-                    </div>
-                    <span className="font-khula text-14 font-semibold mt-[5px] whitespace-nowrap">Days Left</span>
-                  </div>
-                  <div className="border border-r-0 mx-2 border-customgrey/10"></div>
-                  <div className="flex flex-col">
-                    <div className="flex items-start">
-                      <h6 className="mr-[14px] font-bold">4.3</h6>
-                      <img src={star} alt="img30" />
-                    </div>
-                    <span className="font-khula font-semibold text-14 mt-[5px] whitespace-nowrap">Average ratings</span>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
+            <div className="flex mt-6">
+                <a href="#!" className="mr-8 button py-2 px-4 lg:py-3 lg:px-6 rounded-lg bg-secondary inline-block text-white text-14 lg:text-16 leading-[1.5]">
+                    <div className="relative overflow-hidden">
+                        <span className="button-content whitespace-nowrap">Enroll Now</span>
+                        <span className="button-content-hover whitespace-nowrap">Enroll Now</span>
+                    </div>
+                </a>
+                <div>
+                    <div className="flex items-start">
+                        <h6 className="!mr-2 font-bold text-14 lg:text-16">25</h6>
+                        <img src={s} alt="img8" className="w-4 h-4 lg:w-5 lg:h-5"/>
+                    </div>
+                    <span className="font-khula text-12 lg:text-14 font-semibold mt-1 whitespace-nowrap">Days Left</span>
+                </div>
+                <div className="border border-r-0 mx-2 border-customgrey/10"></div>
+                <div className="flex flex-col">
+                    <div className="flex items-start">
+                        <h6 className="mr-2 font-bold text-14 lg:text-16">4.3</h6>
+                        <img src={star} alt="img9" className="w-4 h-4 lg:w-5 lg:h-5"/>
+                    </div>
+                    <span className="font-khula font-semibold text-12 lg:text-14 mt-1 whitespace-nowrap">Average ratings</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div className="background-card bg-tranquil z-30 w-[93.33%] h-full absolute rounded-xl">
+    <div className="lg:p-4 p-2 flex lg:flex-row flex-col lg:gap-5 gap-[10px] rounded-lg">
+        <img src={os} alt="img10" className="lg:w-1/3 w-full" />
+        <div className="flex flex-col justify-center lg:w-2/3 w-full">
+            <h5 className="mb-1 text-16 lg:text-24">Financial Analysis and Strategies</h5>
+            <p className="text-secondary/70 font-khula pr-2 text-14 lg:text-16">
+                This finance course provides a comprehensive understanding of financial analysis techniques and investment strategies.
+            </p>
+            <div className="border border-b-0 mt-3 mb-4 w-[95%] border-customgrey/10"></div>
+            <h5 className="text-14 lg:text-16 mb-4">You will learn</h5>
+            <div className="flex mb-2">
+                <img src={cm} alt="img11" className="w-5 h-5 lg:w-6 lg:h-6" />
+                <p className="ml-1 font-normal font-khula text-12 lg:text-14">
+                    What are the strategies to find a Multibagger stock?
+                </p>
+            </div>
+            <div className="flex mb-2">
+                <img src={cm} alt="img12" className="w-5 h-5 lg:w-6 lg:h-6" />
+                <p className="ml-1 font-normal font-khula text-12 lg:text-14">
+                    What are the strategies to find a Multibagger stock?
+                </p>
+            </div>
+            <div className="flex mb-2">
+                <img src={cm} alt="img13" className="w-5 h-5 lg:w-6 lg:h-6" />
+                <p className="ml-1 font-normal font-khula text-12 lg:text-14">
+                    What are the strategies to find a Multibagger stock?
+                </p>
+            </div>
+            <div className="flex mb-2">
+                <img src={cm} alt="img14" className="w-5 h-5 lg:w-6 lg:h-6" />
+                <p className="ml-1 font-normal font-khula text-12 lg:text-14">
+                    What are the strategies to find a Multibagger stock?
+                </p>
+            </div>
+            <div className="flex mt-6">
+                <a href="#!" className="mr-8 button py-2 px-4 lg:py-3 lg:px-6 rounded-lg bg-secondary inline-block text-white text-14 lg:text-16 leading-[1.5]">
+                    <div className="relative overflow-hidden">
+                        <span className="button-content whitespace-nowrap">Enroll Now</span>
+                        <span className="button-content-hover whitespace-nowrap">Enroll Now</span>
+                    </div>
+                </a>
+                <div>
+                    <div className="flex items-start">
+                        <h6 className="!mr-2 font-bold text-14 lg:text-16">25</h6>
+                        <img src={s} alt="img15" className="w-4 h-4 lg:w-5 lg:h-5" />
+                    </div>
+                    <span className="font-khula text-12 lg:text-14 font-semibold mt-1 whitespace-nowrap">Days Left</span>
+                </div>
+                <div className="border border-r-0 mx-2 border-customgrey/10"></div>
+                <div className="flex flex-col">
+                    <div className="flex items-start">
+                        <h6 className="mr-2 font-bold text-14 lg:text-16">4.3</h6>
+                        <img src={star} alt="img16" className="w-4 h-4 lg:w-5 lg:h-5" />
+                    </div>
+                    <span className="font-khula font-semibold text-12 lg:text-14 mt-1 whitespace-nowrap">Average ratings</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div className="background-card bg-cadbe z-20 w-[96.66%] h-full absolute rounded-xl">
+    <div className="lg:p-4 p-2 flex lg:flex-row flex-col lg:gap-5 gap-[10px] rounded-lg">
+        <img src={os} alt="img17" className="lg:w-1/3 w-full" />
+        <div className="flex flex-col justify-center lg:w-2/3 w-full">
+            <h5 className="mb-1 text-16 lg:text-24">Financial Analysis and Strategies</h5>
+            <p className="text-secondary/70 font-khula pr-2 text-14 lg:text-16">
+                This finance course provides a comprehensive understanding of financial analysis techniques and investment strategies.
+            </p>
+            <div className="border border-b-0 mt-3 mb-4 w-[95%] border-customgrey/10"></div>
+            <h5 className="text-14 lg:text-16 mb-4">You will learn</h5>
+            <div className="flex mb-2">
+                <img src={cm} alt="img18" className="w-5 h-5 lg:w-6 lg:h-6" />
+                <p className="ml-1 font-normal font-khula text-12 lg:text-14">
+                    What are the strategies to find a Multibagger stock?
+                </p>
+            </div>
+            <div className="flex mb-2">
+                <img src={cm} alt="img19" className="w-5 h-5 lg:w-6 lg:h-6" />
+                <p className="ml-1 font-normal font-khula text-12 lg:text-14">
+                    What are the strategies to find a Multibagger stock?
+                </p>
+            </div>
+            <div className="flex mb-2">
+                <img src={cm} alt="img20" className="w-5 h-5 lg:w-6 lg:h-6" />
+                <p className="ml-1 font-normal font-khula text-12 lg:text-14">
+                    What are the strategies to find a Multibagger stock?
+                </p>
+            </div>
+            <div className="flex mb-2">
+                <img src={cm} alt="img21" className="w-5 h-5 lg:w-6 lg:h-6" />
+                <p className="ml-1 font-normal font-khula text-12 lg:text-14">
+                    What are the strategies to find a Multibagger stock?
+                </p>
+            </div>
+            <div className="flex mt-6">
+                <a href="#!" className="mr-8 button py-2 px-4 lg:py-3 lg:px-6 rounded-lg bg-secondary inline-block text-white text-14 lg:text-16 leading-[1.5]">
+                    <div className="relative overflow-hidden">
+                        <span className="button-content whitespace-nowrap">Enroll Now</span>
+                        <span className="button-content-hover whitespace-nowrap">Enroll Now</span>
+                    </div>
+                </a>
+                <div>
+                    <div className="flex items-start">
+                        <h6 className="!mr-2 font-bold text-14 lg:text-16">25</h6>
+                        <img src={s} alt="img22" className="w-4 h-4 lg:w-5 lg:h-5" />
+                    </div>
+                    <span className="font-khula text-12 lg:text-14 font-semibold mt-1 whitespace-nowrap">Days Left</span>
+                </div>
+                <div className="border border-r-0 mx-2 border-customgrey/10"></div>
+                <div className="flex flex-col">
+                    <div className="flex items-start">
+                        <h6 className="mr-2 font-bold text-14 lg:text-16">4.3</h6>
+                        <img src={star} alt="img23" className="w-4 h-4 lg:w-5 lg:h-5" />
+                    </div>
+                    <span className="font-khula font-semibold text-12 lg:text-14 mt-1 whitespace-nowrap">Average ratings</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div className="background-card bg-darkOlive z-10 w-[100%] h-full absolute rounded-xl">
+    <div className="lg:p-4 p-2 flex lg:flex-row flex-col lg:gap-5 gap-[10px] rounded-lg">
+        <img src={os} alt="img24" className="lg:w-1/3 w-full" />
+        <div className="flex flex-col justify-center lg:w-2/3 w-full">
+            <h5 className="mb-1 text-16 lg:text-24">Financial Analysis and Strategies</h5>
+            <p className="text-secondary/70 font-khula pr-2 text-14 lg:text-16">
+                This finance course provides a comprehensive understanding of financial analysis techniques and investment strategies.
+            </p>
+            <div className="border border-b-0 mt-3 mb-4 w-[95%] border-customgrey/10"></div>
+            <h5 className="text-14 lg:text-16 mb-4">You will learn</h5>
+            <div className="flex mb-2">
+                <img src={cm} alt="img25" className="w-5 h-5 lg:w-6 lg:h-6" />
+                <p className="ml-1 font-normal font-khula text-12 lg:text-14">
+                    What are the strategies to find a Multibagger stock?
+                </p>
+            </div>
+            <div className="flex mb-2">
+                <img src={cm} alt="img26" className="w-5 h-5 lg:w-6 lg:h-6" />
+                <p className="ml-1 font-normal font-khula text-12 lg:text-14">
+                    What are the strategies to find a Multibagger stock?
+                </p>
+            </div>
+            <div className="flex mb-2">
+                <img src={cm} alt="img27" className="w-5 h-5 lg:w-6 lg:h-6" />
+                <p className="ml-1 font-normal font-khula text-12 lg:text-14">
+                    What are the strategies to find a Multibagger stock?
+                </p>
+            </div>
+            <div className="flex mb-2">
+                <img src={cm} alt="img28" className="w-5 h-5 lg:w-6 lg:h-6" />
+                <p className="ml-1 font-normal font-khula text-12 lg:text-14">
+                    What are the strategies to find a Multibagger stock?
+                </p>
+            </div>
+            <div className="flex mt-6">
+                <a href="#!" className="mr-8 button py-2 px-4 lg:py-3 lg:px-6 rounded-lg bg-secondary inline-block text-white text-14 lg:text-16 leading-[1.5]">
+                    <div className="relative overflow-hidden">
+                        <span className="button-content whitespace-nowrap">Enroll Now</span>
+                        <span className="button-content-hover whitespace-nowrap">Enroll Now</span>
+                    </div>
+                </a>
+                <div>
+                    <div className="flex items-start">
+                        <h6 className="!mr-2 font-bold text-14 lg:text-16">25</h6>
+                        <img src={s} alt="img29" className="w-4 h-4 lg:w-5 lg:h-5" />
+                    </div>
+                    <span className="font-khula text-12 lg:text-14 font-semibold mt-1 whitespace-nowrap">Days Left</span>
+                </div>
+                <div className="border border-r-0 mx-2 border-customgrey/10"></div>
+                <div className="flex flex-col">
+                    <div className="flex items-start">
+                        <h6 className="mr-2 font-bold text-14 lg:text-16">4.3</h6>
+                        <img src={star} alt="img30" className="w-4 h-4 lg:w-5 lg:h-5" />
+                    </div>
+                    <span className="font-khula font-semibold text-12 lg:text-14 mt-1 whitespace-nowrap">Average ratings</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
         </div>
     
     </div>
@@ -297,7 +293,7 @@ function Course2() {
             <div className=" p-2 flex flex-col  gap-[20px]  rounded-lg">
               <img src={os} alt="img31" />
               <div className="flex flex-col justify-center">
-                <h5 className="mb-1 text-18 lg:text-[28px] mt-[20px]">Financial Analysis and Strategies</h5>
+                <h5 className="mb-1 text-18 lg:text-[28px] mt-[20px] font-bold">Financial Analysis and Strategies</h5>
                 <p className="text-secondary/70 font-khula pr-2">
                   This finance course provides a comprehensive understanding of
                   financial analysis techniques and investment strategies.
@@ -367,7 +363,7 @@ function Course2() {
             <div className=" p-2 flexflex-col  gap-[20px]  rounded-lg">
               <img src={os} alt="img39" />
               <div className="flex flex-col justify-center">
-                <h5 className="mb-1 text-18 lg:text-[28px] mt-[20px]">Financial Analysis and Strategies</h5>
+                <h5 className="mb-1 text-18 lg:text-[28px] mt-[20px] font-bold">Financial Analysis and Strategies</h5>
                 <p className="text-secondary/70 font-khula pr-2">
                   This finance course provides a comprehensive understanding of
                   financial analysis techniques and investment strategies.
@@ -437,7 +433,7 @@ function Course2() {
             <div className=" p-2 flexflex-col  gap-[20px]  rounded-lg">
               <img src={os} alt="img47" />
               <div className="flex flex-col justify-center">
-                <h5 className="mb-1 text-18 lg:text-[28px] mt-[20px]">Financial Analysis and Strategies</h5>
+                <h5 className="mb-1 text-18 lg:text-[28px] mt-[20px] font-bold">Financial Analysis and Strategies</h5>
                 <p className="text-secondary/70 font-khula pr-2">
                   This finance course provides a comprehensive understanding of
                   financial analysis techniques and investment strategies.
@@ -507,7 +503,7 @@ function Course2() {
             <div className=" p-2 flexflex-col  gap-[20px]  rounded-lg">
               <img src={os} alt="img55" />
               <div className="flex flex-col justify-center">
-                <h5 className="mb-1 text-18 lg:text-[28px] mt-[20px]">Financial Analysis and Strategies</h5>
+                <div className="mb-1 text-18 lg:text-[28px] mt-[20px] font-bold">Financial Analysis and Strategies</div>
                 <p className="text-secondary/70 font-khula pr-2">
                   This finance course provides a comprehensive understanding of
                   financial analysis techniques and investment strategies.

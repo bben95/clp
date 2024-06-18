@@ -17,69 +17,34 @@ function Test2() {
             about our services</div>
         </div>
         <div className="slider flex  sm:gap-[20px] lg:w-[67%] w-full mt-[60px] lg:mt-0">
-          <div className="lg:w-1/3 !w-full ">
-            <div className="bg-lightOlive p-3 rounded-xl">
-              <img src={quotes} alt="img1" className="mb-[12px]" />
-              <p className="text-secondary/60 lg:text-16 text-14">
-                I can't speak highly enough about the Finance Course I recently
-                completed.
-              </p>
-              <br/>
-              <p className="text-secondary/60 lg:text-16 text-14">It has been an incredibly enriching and eye-opening
-                journey that has transformed my understanding of finance and how
-                to manage my money effectively.From the outset, the course
-                structure was well-organized, and the content was presented in a
-                clear manner .</p>
-              <div className="border border-b-0 mt-4 mb-2 border-[#54808833]"></div>
-              <div className="flex justify-between">
-                <div className="flex">
-                  <img src={sanchita} alt="img2" className="mr-[12px]"/>
-                  <div>
-                    <p className="text-secondary/70 font-bold text-16 ">Sanchita Gupta</p>
-                    <span className="text-14 text-secondary/70 font-normal">Bcom Student</span>
-                  </div>
-                </div>
-                <div className="flex gap-1">
-                  <img src={star} alt="img3"/>
-                  <img src={star} alt="img4"/>
-                  <img src={star} alt="img5"/>
-                  <img src={star} alt="img6"/>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="lg:w-1/3 !w-full ">
-            <div className="bg-lightOlive p-3 rounded-xl">
-              <img src={quotes} alt="img45" className="mb-[12px]" />
-              <p className="text-secondary/60 lg:text-16 text-14">
-                I can't speak highly enough about the Finance Course I recently
-                completed.
-              </p>
-              <br/>
-              <p className="text-secondary/60 lg:text-16 text-14">It has been an incredibly enriching and eye-opening
-                journey that has transformed my understanding of finance and how
-                to manage my money effectively.From the outset, the course
-                structure was well-organized, and the content was presented in a
-                clear manner .</p>
-              <div className="border border-b-0 mt-4 mb-2 border-[#54808833]"></div>
-              <div className="flex justify-between">
-                <div className="flex">
-                  <img src={sanchita} alt="img46" className="mr-[12px]"/>
-                  <div>
-                    <p className="text-secondary/70 font-bold text-16 ">Sanchita Gupta</p>
-                    <span className="text-14 text-secondary/70 font-normal">Bcom Student</span>
-                  </div>
-                </div>
-                <div className="flex gap-1">
-                  <img src={star} alt="img47"/>
-                  <img src={star} alt="img48"/>
-                  <img src={star} alt="img49"/>
-                  <img src={star} alt="img50"/>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="lg:w-1/3 !w-full ">
+        <div className="lg:w-1/2 !w-full">
+  <div className="bg-lightOlive p-3 rounded-xl">
+    <img src={quotes} alt="img1" className="mb-[12px]" />
+    <p className="text-secondary/60 lg:text-16 text-14">
+      I can't speak highly enough about the Finance Course I recently completed.
+    </p>
+    <br/>
+    <p className="text-secondary/60 lg:text-16 text-14">
+      It has been an incredibly enriching and eye-opening journey that has transformed my understanding of finance and how to manage my money effectively. From the outset, the course structure was well-organized, and the content was presented in a clear manner.
+    </p>
+    <div className="border border-b-0 mt-4 mb-2 border-[#54808833]"></div>
+    <div className="flex justify-between">
+      <div className="flex">
+        <img src={sanchita} alt="img2" className="mr-[12px]" />
+        <div>
+          <p className="text-secondary/70 font-bold text-16">Sanchita Gupta</p>
+          <span className="text-14 text-secondary/70 font-normal">Bcom Student</span>
+        </div>
+      </div>
+      <div className="flex gap-1">
+        <img src={star} alt="img3" className="w-4 h-4 lg:w-5 lg:h-5" />
+        <img src={star} alt="img4" className="w-4 h-4 lg:w-5 lg:h-5" />
+        <img src={star} alt="img5" className="w-4 h-4 lg:w-5 lg:h-5" />
+      </div>
+    </div>
+  </div>
+</div>
+          <div className="lg:w-1/2 !w-full ">
             <div className="bg-lightOlive p-3 rounded-xl">
               <img src={quotes} className="mb-[12px]" />
               <p className="text-secondary/60 lg:text-16 text-14">
@@ -102,11 +67,10 @@ function Test2() {
                   </div>
                 </div>
                 <div className="flex gap-1">
-                  <img src={star} alt="img52"/>
-                  <img src={star} alt="img53"/>
-                  <img src={star} alt="img54"/>
-                  <img src={star} alt="img55"/>
-                </div>
+        <img src={star} alt="img3" className="w-4 h-4 lg:w-5 lg:h-5" />
+        <img src={star} alt="img4" className="w-4 h-4 lg:w-5 lg:h-5" />
+        <img src={star} alt="img5" className="w-4 h-4 lg:w-5 lg:h-5" />
+      </div>
               </div>
             </div>
           </div>

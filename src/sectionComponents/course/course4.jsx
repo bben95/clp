@@ -14,7 +14,7 @@ function Course4() {
           <div className="bg-primary4 lg:pt-[120px] lg:pb-[254px] pt-5 pb-[134px]">
             <div className="container flex lg:gap-[60px] gap-5 sm:gap-[20px] items-center sm:flex-row flex-col-reverse">
               <div className="lg:w-[50%] w-full flex flex-col items-start items-center">
-                <p className="text-purple lg:mb-3 mb-2 font-supreme font-bold">MASTERclassName</p>
+                <p className="text-purple lg:mb-3 mb-2 font-supreme font-bold">MASTERCLASS</p>
                 <div className="t4 text-white lg:mb-4 mb-2 text-center sm:text-start">
                   Learn Networking From Basics To Advance Level
                 </div>
@@ -30,14 +30,14 @@ function Course4() {
                   </div>
                 </div>
                 <p className="text-white/50 mb-4 sm:mb-1 font-supreme font-medium text-center sm:text-start lg:mt-4 px-1 lg:px-0">
-                  Enroll in our MasterclassName course and elevate your business
+                  Enroll in our Masterclass course and elevate your business
                   acumen with expert guidance, actionable techniques, and
                   real-world case studies.
                 </p>
                 <div className="flex gap-2">
                   <div className="flex gap-1">
                     <h5 className="text-yellow font-supreme font-bold">4.6</h5>
-                    <div className="flex gap-[2px]">
+                    <div className="flex gap-[2px] mr-4">
                       <img src={star} alt="" />
                       <img src={star} alt="" />
                       <img src={star} alt="" />

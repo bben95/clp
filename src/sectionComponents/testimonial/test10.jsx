@@ -24,7 +24,7 @@ function Test10() {
             </div>
           </div>
           <div className="hidden lg:block">
-            <div className="testimonial-slider mt-[40px] lg:mt-6">
+            <div className="testimonial-slider mt-[40px] lg:mt-6 grid grid-cols-2 gap-4">
               <div className="item">
                 <div className="bg-[#F9FAFB] px-4 py-4 rounded-[20px] h-full">
                   <img src={quotes} alt="" />
@@ -92,43 +92,9 @@ function Test10() {
                   </div>
                 </div>
               </div>
-              <div className="item">
-                <div className="bg-[#F9FAFB] px-4 py-4 rounded-[20px] h-full">
-                  <img src={quotes} alt="" />
-                  <div
-                    className="text-small lg:text-medium text-[#232423] mt-2 lg:my-3"
-                  >
-                    The Fantasy Guru You Need!
-                  </div>
-                  <div className="text-verysmall lg:text-base text-[#888888]">
-                    "I can't express how transformative my experience has been
-                    learning from this teacher. Their strategic guidance and
-                    player analysis have been game-changing. Before, I was
-                    struggling in my fantasy sports leagues, but now I'm
-                    consistently at the top of the standings."
-                  </div>
-                  <div className="flex items-center gap-[12px] mt-4 lg:mt-5">
-                    <img
-                      className="w-4 h-4 lg:w-5 lg:h-5"
-                      src={c3}
-                      alt=""
-                    />
-                    <div className="flex flex-col">
-                      <div className="text-verysmall lg:text-base font-semibold">
-                        Joseph Dmello
-                      </div>
-                      <div
-                        className="text-[10px] leading-[1.6] lg:text-verysmall text-[#888888]"
-                      >
-                        Fantasy Sport Player
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
-          <div className="grid gap-3 mt-[40px] lg:mt-6 lg:hidden">
+          <div className="grid gap-3 mt-[40px] lg:mt-6 lg:grid-cols-2 lg:gap-4 lg:hidden">
             <div className="item">
               <div className="bg-[#F9FAFB] px-4 py-4 rounded-[20px] h-full">
                 <img src={quotes} alt="" />
@@ -196,44 +162,9 @@ function Test10() {
                 </div>
               </div>
             </div>
-            <div className="item">
-              <div className="bg-[#F9FAFB] px-4 py-4 rounded-[20px] h-full">
-                <img src={quotes} alt="" />
-                <div
-                  className="text-small lg:text-medium text-[#232423] mt-2 lg:my-3"
-                >
-                  The Fantasy Guru You Need!
-                </div>
-                <div className="text-verysmall lg:text-base text-[#888888]">
-                  "I can't express how transformative my experience has been
-                  learning from this teacher. Their strategic guidance and
-                  player analysis have been game-changing. Before, I was
-                  struggling in my fantasy sports leagues, but now I'm
-                  consistently at the top of the standings."
-                </div>
-                <div className="flex items-center gap-[12px] mt-4 lg:mt-5">
-                  <img
-                    className="w-4 h-4 lg:w-5 lg:h-5"
-                    src={c3}
-                    alt=""
-                  />
-                  <div className="flex flex-col">
-                    <div className="text-verysmall lg:text-base font-semibold">
-                      Joseph Dmello
-                    </div>
-                    <div
-                      className="text-[10px] leading-[1.6] lg:text-verysmall text-[#888888]"
-                    >
-                      Fantasy Sport Player
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
-
     </main>
   );
 }

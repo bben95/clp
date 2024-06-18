@@ -5,20 +5,20 @@ import up from '../../asset/usp-pattern.png';
 function Table10() {
   return (
     <main>
-    <section className="lg:pt-[250px] pt-[200px]  relative">
+    <section className="relative">
       <img src={up} alt="img1" className="absolute lg:bottom-0 bottom-[40%] w-[275px]"/>
       <div className="container">
-        <div className="flex lg:gap-[136px]  gap-4 sm:flex-row flex-col">
-          <div className="lg:w-[45%] flex flex-col lg:gap-4 gap-2 z-10">
-            <h2 className="lg:text-[40px] text-[28px]">What makes us different from others</h2>
-            <h4 className="text-primary text-16 lg:text-24"> USPs</h4>
+        <div className="flex gap-4 sm:flex-row flex-col">
+          <div className="lg:w-[30%] flex flex-col lg:gap-4  z-10">
+            <h2 className="text-[40px] font-bold10">What makes us different from others</h2>
+            <h4 className="text-primary10 text-24"> //USPs</h4>
             <p className="font-sora text-16">
               Add this certificate to your CV or your resume or post it
               directly on LinkedIn to enhance your professional credibility
             </p>
           </div>
-          <div className="lg:w-[55%] z-10">
-          <table style={{ width: '100%' }}>
+          <div className="w-[20%] z-10">
+          <table style={{ width: '50%' }}>
 
               <thead>
                 <tr>
@@ -48,7 +48,7 @@ function Table10() {
                   <td><img alt="img10" src={verify} /></td>
                 </tr>
                 <tr>
-                  <td className="lg:px-[30px] text-start">Live Zoom classNamees</td>
+                  <td className="lg:px-[30px] text-start">Live Zoom classes</td>
                   <td><img alt="img11" src={verify} /></td>
                   <td><img alt="img12" src={not} /></td>
                   <td><img alt="img13" src={verify} /></td>

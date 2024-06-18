@@ -18,13 +18,13 @@ function About2() {
                   Finance Influencer, Entrepreneur and Investor
                 </p>
               </div>
-              <h2 className="text-32 md:text-64 font-semibold mr-1 lg:mr-0">Empowering Your Financial Future</h2>
-              <h6 className="font-normal mt-4">
+              <h2 className="text-48 font-semibold mr-1 lg:mr-0">Empowering Your Financial Future</h2>
+              <div className="text-24 font-normal mt-4">
                 Karan Singh is a seasoned value investor and a YouTuber with
                 over two million subscribers on his channel. His YouTube channel
                 is the biggest in the financial education domain and aims at
                 empowering investors and disseminating financial awareness.
-              </h6>
+              </div>
             </div>
           </div>
           <div className=" sm:row-span-2">
@@ -36,7 +36,7 @@ function About2() {
             </div>
           </div>
           <div className="flex items-end">
-            <div className="flex lg:gap-4 gap-3 items-center mt-[12px] lg:mt-0">
+            <div className="flex lg:gap-4 gap-3 items-center lg:mt-0">
               <div className="flex flex-col items-center">
                 <img loading="lazy" width="24" height="24" src={instagram} alt="instagram" />
                 <h3 className="text-primary mt-1">1M</h3>

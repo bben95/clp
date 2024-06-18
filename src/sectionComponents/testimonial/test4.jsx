@@ -9,7 +9,7 @@ function Test4() {
         <div className="container bg-blueGrey rounded-[40px] lg:!py-[80px] py-5 flex items-center sm:flex-row flex-col">
           <div className="lg:w-1/2 w-full">
             <div className="flex justify-center">
-              <div className="flex flex-wrap lg:ml-[100px] lg:gap-[90px] gap-[50px] flex-row">
+              <div className="flex flex-wrap ml-[20px] gap-[60px] flex-row">
                 <div className="w-[41%]">
                   <div className="t41 text-purple font-supreme font-medium">16+</div>
                   <div className=" t46 font-supreme font-medium text-center sm:text-start">detailed lessons included</div>

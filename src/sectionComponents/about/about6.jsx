@@ -13,7 +13,9 @@ function About6() {
               <div
                 className="text-secondary font-semibold font-melodrama text-32 lg:text-[56px] leading-[1.1] md:max-w-[544px]"
               >
+                <span className="mr-1">
                 Creating content and teaching for the past
+                </span>
                 <span className="text-primary">12&nbsp;years!</span>
               </div>
               <div

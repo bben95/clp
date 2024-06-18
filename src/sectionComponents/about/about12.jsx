@@ -17,12 +17,12 @@ function About12() {
           <div className="grid md:grid-cols-2 gap-4 lg:gap-8">
             <div className="block md:hidden">
               <div
-                className="font-heading stroke-text opacity-20 -mb-3 stroke-mask"
+                className="font-heading stroke-text mb-4 opacity-20 stroke-mask"
               >
                 ABOUT ME
               </div>
 
-              <h2 className="heading-medium mb-4 max-w-[550px]">
+              <h2 className="heading-medium mt-2 mb-4 max-w-[550px]">
                 Element of strategy and engagement to watching cricket matches.
               </h2>
             </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import ia from '../../asset/ipl-auction.png';
 import ar from '../../asset/arrow-up-right.svg';
 import cp from '../../asset/courses-pattern.png';
-import star from '../../asset/star.svg';
+import star from '../../asset/stars.svg';
 function Course10() {
 
   return (
@@ -11,7 +11,7 @@ function Course10() {
       <div className="container">
         <div className="flex lg:flex-row flex-col">
           <div className="t9">Become an IPL fantasy team expert.</div>
-          <span className="mt-[12px] text-primary lg:ml-3 lg:text-[24px] text-16 font-bold "> Courses
+          <span className="mt-[12px] text-primary10 ml-3 text-[24px]  font-bold "> //Courses
           </span>
         </div>
         <div className="border border-b-0 mt-3 lg:mb-[80px] mb-4"></div>
@@ -53,7 +53,7 @@ function Course10() {
               </div>
             </div>
             <button
-              className="bg-primary whitespace-nowrap lg:w-fit w-full justify-between rounded-full flex items-center px-4 py-[12px] text-14 text-white mt-5 font-sora">
+              className="bg-primary10 whitespace-nowrap lg:w-fit w-full justify-between rounded-full flex items-center px-4 py-[12px] text-14 text-white mt-5 font-sora">
               BUY THIS COURSE
               <img src={ar} alt="img2" className="ml-4" />
             </button>

@@ -13,7 +13,9 @@ function Test6() {
             <div
               className="text-center font-semibold font-melodrama text-32 lg:text-[56px] leading-[1.2] lg:leading-[1.1]"
             >
+              <span className="mr-1">
               What our customers
+              </span>
               <span className="text-primary6">say</span>
             </div>
             <div

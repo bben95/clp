@@ -8,17 +8,19 @@ function More6() {
           <div
             className="text-secondary text-center font-semibold font-melodrama text-32 lg:text-[56px] leading-[1.1]"
           >
+            <span className="mr-1">
             I can help you
+            </span>
             <span className="text-primary6">with</span>
           </div>
           <div
             className="text-secondary/70 md:max-w-[563px] text-center mx-auto mt-2 text-16 leading-[1.6]"
           >
-            Join our MasterclassName Courses for Finance and Stocks and take a
+            Join our Masterclass Courses for Finance and Stocks and take a
             decisive step towards achieving your financial goals.
           </div>
           <div
-            className="grid md:grid-cols-4 grid-cols-1 gap-[4px] mt-5 lg:mt-6 bg-secondary rounded-3xl px-1 lg:px-3 py-1 lg:py-3"
+            className="grid md:grid-cols-4 grid-cols-1 gap-[4px] mt-5 lg:mt-6 bg-secondary6 rounded-3xl px-1 lg:px-3 py-1 lg:py-3"
           >
             <div
               className="px-3 lg:pt-[132px] py-[27px] lg:pb-4 text-white rounded-[20px] help-cards"

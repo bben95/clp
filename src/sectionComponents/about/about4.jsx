@@ -20,13 +20,13 @@ function About4() {
           </div>
           <div className="lg:w-[60%] w-full lg:pl-[150px] flex flex-col lg:gap-3 gap-2 items-center sm:items-start">
             <p className="text-purple font-supreme font-bold">BUILDING THE BEST OUT THERE</p>
-            <h2 className="text-center sm:text-start">I’m Archisman, a business consultant coach</h2>
-            <h6 className="text-primary/50 font-supreme font-medium sm:text-start text-center">
+            <div className="t14 text-center sm:text-start">I’m Archisman, a business consultant coach</div>
+            <div className="t16 text-primary/50 font-supreme font-medium sm:text-start text-center">
               A Certified Business Coach and dedicated Entrepreneur. With a
               passion for guiding individuals and businesses towards their full
               potential, I specialize in offering valuable insights, strategies,
               and support that drive success.
-            </h6>
+            </div>
             <button className="bg-green lg:w-fit w-full  justify-center lg:py-[18px] py-[14px] px-[33px] rounded-[60px] text-white font-supreme font-medium flex  items-center">
               <img src={wa} alt="" className="mr-1"/>
               Text me! 914-532-7432
